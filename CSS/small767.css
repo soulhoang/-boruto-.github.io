@@ -1,0 +1,750 @@
+@charset "utf-8";
+/* CSS Document */
+
+#SHADOW {
+	transform:scaleX(1.5);
+	bottom:0;
+}
+#SLOGAN {
+	top:44.581875px;
+	text-align: right;
+	left:80.2953125px;
+}
+#slogan1 {
+	font-size: 17.9765625px;
+}
+#slogan2 {
+	font-size:29.9609375px;
+}
+
+#READSTORY {
+	top:131.8px;
+	left:239.6875px;
+	width: 119.8px;
+	height:30px;
+}
+#SRDSEL {
+	background-image: url(../images/HOME/saradaselect.png);
+	width: 139.02px;
+	height:248.7px;
+	bottom:18px;
+	left:174.146875px;
+}
+#MSKSEL {
+	background-image: url(../images/HOME/mitsukiselect.png);
+	width:231.3px;
+	height:276.2px;
+	bottom:0px;
+	right:136.39609375px;
+}
+#SRDLABEL {
+	width: 182.7px;
+	height:43.1px;
+	left:123.4390625px;
+	bottom:0px;
+}
+#MSKLABEL {
+	width: 191.1px;
+	height:42.5px;
+	right:140.81640625px;
+	bottom:0px;
+}
+#INTRO {
+	right:89.8828125px;
+	
+}
+#HEADINTROCONT {
+	
+	width: 100%;
+	height:100px;
+	position: absolute;
+	top:172.05px;
+	left:70px;
+	transform:rotate(-2.85deg);
+	
+}
+#CHARHEAD {
+	left:185.384375px;
+}
+#RASENGAN {
+	left:283.65625px;
+}
+#RASENGAN2 {
+	left:283.65625px;
+}
+#NAVILINE {
+	position: absolute;
+	height: 900px;
+	width:100px;
+	right:-14.03780964797914vw;
+	top:50px;
+}
+#ArcNo {
+	color: #12c7f0;
+	font-size: 41.9453125px;	
+	font-family: S4;
+	position:absolute;
+	right: -10.03780964797914vw;
+	top:-2vw;
+}
+
+/* CSS WORLD */
+
+#CHARHEADWORLD {
+    background-image: url(../images/WORLD/images/charheadworld_05.png);
+    width: 33.4375vw;
+    background-size: cover;
+    height: 35vw;
+    position: absolute;
+    top:11.875vw;
+    left:  7.890625vw;
+}
+#TIMELINECONT {
+	height: 41.9453125px;
+	width: 299.609375px;
+	position: absolute;
+	right:60.5625px;
+	top:-80.5625px;
+}
+#HISTITLE {
+	font-family: S4;
+	color:white;
+	font-size:29.9609375px;
+	position: absolute;
+	left:40.8125px;
+	top: -100px;
+}
+#HISCONTENT {
+	position: absolute;
+	top:120.71875px;
+	height: 299.609375px;
+	width: 55.113vw;
+	left:40.8125px;
+	color:rgba(200,200,200,1);
+	font-family: S4;
+	font-size:14.98046875px;
+	line-height: 23.96875px;
+	letter-spacing: 0.02em;
+}
+#WORLDLISTCONT {
+	position: absolute;
+	bottom:auto;
+    top: 55.3125vw;
+	height: 10.15625vw;
+	width: 100%;
+	left:0%;
+	transform:rotate(-2deg)translateX(0%);
+}
+#WORLDCHARFOOT {
+	background-image: url(../images/WORLD/images/minato_05.png);
+	background-size: cover;
+	width: 23.359375vw;
+	height: 29.0625vw;
+	position: absolute;
+	bottom:-16px;
+	left: 57.8125px;
+}
+.WORLDLIST {
+	height: 10.15625vw;
+	width: 10.15625vw;
+	position: absolute;
+	left:28.125vw;
+	background-image: url(../images/WORLD/images/world.png);
+	background-size: cover;
+	transform: scale(0.9);
+}
+#LIST1 {
+	transform: scale(1);
+}
+#LIST2 {
+	left:40.625vw;
+}
+#LIST3 {
+	left:53.90625vw;
+}
+#LIST4 {
+	left:67.1875vw;
+}
+#LIST5 {
+	left:80.46875vw;
+}
+.WORLDSYM {
+	position: absolute;
+	width: 10.15625vw;
+	height: 10.15625vw;
+	background-size: cover;
+	left:0.78125vw;
+	top:0.78125vw;
+}
+#NARUTOHOKAGE {
+	background-image: url(../images/WORLD/images/narutohokage_05.png);
+	width: 29.609375vw;
+	height: 38.203125vw;
+	position: absolute;
+	bottom:-0.78125vw;
+	right:15.078125vw;
+	z-index: 1;
+	filter:contrast(1.1);
+	background-size: cover;
+}
+#WORLDLABELCONT {
+	position: absolute;
+	top:3.90625vw;
+	width:  23.671875vw;
+	height: 100%;
+	left:0px;
+	text-align: right;
+	list-style: none;
+	font-family: S4;
+	font-size:1.953125vw;
+	letter-spacing: 0.1em;	
+	line-height: 3.90625vw;
+}
+#WORLDDATACONT {
+	position: absolute;
+	top:3.90625vw;
+	width: 35.25vw;
+	height: 100%;
+	left:24.21875vw;
+	text-align: left;
+	list-style: none;
+	font-family: S4;
+	font-size:1.953125vw;
+	letter-spacing: 0.1em;	
+	line-height: 3.90625vw;
+	color:white;
+}
+#WORLDSYMBOL {
+	background-image: url(../images/HOME/leafsym.png);
+	width: 15.625vw;
+	height:15.625vw;
+	bottom:9.375vw;
+	left:43.28125vw;
+	position: absolute;
+	transform:scale(1.95);
+	opacity:0.1;
+	background-size: cover;
+}
+#WORLDNAMEZ {
+  	top: -0.78125vw;
+	position: absolute;  
+    left: 33.59375vw;
+	transform:skew(-10deg);
+	text-shadow: 0.390625vw 0.390625vw 0.390625vw black, 0.390625vw 0.390625vw 0.390625vw black, 0.390625vw 0.390625vw 0.390625vw black;
+	font-size: 6.25vw;
+	font-family: MACHINE;
+	color: #76ab5f;
+	letter-spacing: 0.05em;
+	line-height: 7.8125vw;
+}
+#WORLDNAMEZ span {
+	color:white;
+	padding-left: 5.46875vw;
+}
+
+#WORLDNAMECONT {
+    width: 100%;
+    position: absolute;
+	height: 11.71875vw;
+   	left: 0px;
+  	bottom:11.71875vw;
+	transform:rotate(-2.85deg);
+}
+
+#CLOUDSYMBOL {
+	background-image: url(../images/CLOUD/cloudsym.png);
+	width: 15.625vw;
+	height:15.625vw;
+	bottom: 9.375vw;
+	left: 41.40625vw;
+	position: absolute;
+	transform:scale(1.95);
+	opacity:0.1;
+	background-size: cover;
+}
+#CLOUDCHARFOOT {
+	background-image: url(../images/CLOUD/Cloud_03.png);
+	background-size: cover;
+	width: 43.515625vw;
+	height: 32.96875vw;
+	position: absolute;
+	bottom:0vw;
+	left: 1.5625vw;
+	
+}
+#CLOUDHOKAGE {
+	background-image: url(../images/CLOUD/Cloud_04Kage.png);
+	background-size: cover;
+	width: 31.171875vw;
+	height: 38.671875vw;
+	position: absolute;
+	bottom:-0.78125vw;
+	right:8.90625vw;
+	z-index: 1;
+	filter:contrast(1.1);
+}
+#CLOUDNAMEZ {
+  	top: -0.78125vw;
+	position: absolute;  
+    left: 33.59375vw;
+	transform:skew(-10deg);
+	text-shadow: 0.390625vw 0.390625vw 0.390625vw black, 0.390625vw 0.390625vw 0.390625vw black, 0.390625vw 0.390625vw 0.390625vw black;
+	font-size: 6.25vw;
+	font-family: MACHINE;
+	color: #b8b7b6;
+	letter-spacing: 0.05em;
+	line-height: 7.8125vw;
+}
+#CLOUDNAMEZ span {
+	color:white;
+	padding-left: 5.46875vw;
+}
+#CHARHEADCLOUD {
+    background-image: url(../images/CLOUD/CloudHeadChar_05.png);
+    width: 33.4375vw;
+    background-size: cover;
+    height: 31.5625vw;
+    position: absolute;
+    top:14.921875vw;
+    left:  1.890625vw;
+}
+
+/*CSS OF MIST*/
+#HEADMIST {
+	height: 46.875vw;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	background-image:url(../images/MIST/MISTHEAD.png);
+	background-size: cover; 
+	z-index: 1;
+}
+#CHARHEADMIST {
+    background-image: url(../images/MIST/HEADCHARACTER.png);
+    width: 33.59375vw;
+    background-size: cover;
+    height: 35.9375vw;
+    position: absolute;
+    top:11.796875vw;
+    left: 3.90625vw;
+}
+#MISTNAMEZ {
+  	top: 1.171875vw;
+	position: absolute;  
+    left: 33.59375vw;
+	transform:skew(-10deg);
+	text-shadow:  0.390625vw  0.390625vw  0.390625vw black,  0.390625vw  0.390625vw  0.390625vw black,  0.390625vw  0.390625vw  0.390625vw black;
+	font-size: 6.25vw;
+	font-family: MACHINE;
+		color:#91cbfa;
+	letter-spacing: 0.05em;
+	line-height: 7.8125vw;
+}
+#MISTNAMEZ span {
+	color:white;
+	padding-left: 5.46875vw;
+}
+#MISTHOKAGE {
+	background-image: url(../images/MIST/KAGE.png);
+	width: 31.171875vw;
+	height: 38.671875vw;
+	position: absolute;
+	bottom:-0.78125vw;
+	right:8.90625vw;
+	z-index: 1;
+	filter:contrast(1.1);
+	background-size: cover;
+}
+
+#MISTSYMBOL {
+	background-image: url(../images/MIST/MISTSYM.png);
+	width: 15.625vw;
+	height:15.625vw;
+	bottom:9.375vw;
+	left: 46.40625vw;
+	position: absolute;
+	transform:scale(1.95);
+	opacity:0.5;
+	background-size: cover;
+}
+.threetopMIST{
+		color:#91cbfa;
+}
+.wactiveMI {
+	background:#91cbfa;
+}
+#BODYMIST {
+    top: -2.34375vw;
+    height: 80.640625vw;
+	background-image: url(../images/MIST/BODY.png);
+    background-size: cover;
+	filter:contrast(1.2);
+	
+}
+#FOOTERMIST {
+    top: -10.421875vw;
+	-webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+	clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+    background-image: url(../images/MIST/FOOTER.png);
+    background-size: cover;
+	width: 100vw;
+	height:25.78125vw;
+	filter:contrast(1.1);
+}
+#MISTCHARFOOT {
+	background-image: url(../images/MIST/FOOTERCHARACTER.png);
+	background-size: cover;
+	width: 51.015625vw;
+	height: 96.328125vw;
+	position: absolute;
+	bottom: -58.59375vw;
+	left: -3.90625vw;
+	transform: scale(.9);
+}
+/* CSS OF SAND */
+#HEADSAND {
+	height: 46.875vw;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	background-image: url(../images/SAND/Kazekage_Residence.png);
+	background-size: cover; 
+	background-position: center center;
+	z-index: 1;
+}
+#CHARHEADSAND {
+    background-image: url(../images/SAND/Sand_05.png);
+    width: 32.8125vw;
+    background-size: cover;
+    height: 39.21875vw;
+    position: absolute;
+    top:8.475vw;
+    left:  6.890625vw;
+}
+#SANDNAMEZ {
+  	top: -0.78125vw;
+	position: absolute;  
+    left: 33.59375vw;
+	transform:skew(-10deg);
+	text-shadow: 0.390625vw 0.390625vw 0.390625vw black, 0.390625vw 0.390625vw 0.390625vw black, 0.390625vw 0.390625vw 0.390625vw black;
+	font-size: 6.25vw;
+	font-family: MACHINE;
+	color: #eed655;
+	letter-spacing: 0.05em;
+	line-height: 7.8125vw;
+}
+#SANDNAMEZ span {
+	color:white;
+	padding-left: 5.46875vw;
+}
+
+#BODYSAND {
+    top: -2.34375vw;
+    height: 80.640625vw;
+	background-image: url(../images/SAND/Gaara_lost_control.png);
+    background-size: cover;
+	filter:contrast(1.2);
+	background-position: center center;
+}
+#SANDHOKAGE {
+	background-image: url(../images/SAND/SandKage.png);
+	background-size: cover;
+	width: 28.515625vw;
+	height: 40.390625vw;
+	position: absolute;
+	bottom:-0.78125vw;
+	right:9.90625vw;
+	z-index: 1;
+	filter:contrast(1.1);
+}
+#SANDSYMBOL {
+	background-image: url(../images/SAND/sandsym.png);
+	width: 15.625vw;
+	height:15.625vw;
+	bottom: 9.375vw;
+	left: 45.40625vw;
+	position: absolute;
+	transform:scale(1.95);
+	opacity:0.1;
+	background-size: cover;
+}
+
+.threetopSAND {
+	color:#eed655;
+}
+.threebotSAND {
+	color:#f6814e;
+}
+
+.wactiveSA {
+	background:#eed655;
+}
+#FOOTERSAND {
+    top:-10.421875vw;
+	-webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+	clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+    background-image: url(../images/SAND/Sand_02.png);
+    background-size: cover;
+	background-position: center center;
+	width:100vw;
+	height:25.78125vw;
+	filter:contrast(1.1);
+}
+
+#SANDCHARFOOT {
+	background-image: url(../images/SAND/SandFootChar_05.png);
+	background-size: cover;
+	width: 28.125vw;
+	height: 31.875vw;
+	position: absolute;
+	bottom:0vw;
+	left: 4.5625vw;
+	pointer-events: none;
+}
+
+#SANDSYMACTIVE {
+	background-image: url(../images/SAND/sandsymactive.png);
+}
+/* CSS OF CLOUD */
+
+#HEADCLOUD {
+	height: 46.875vw;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	background-image: url(../images/CLOUD/Kumogakure.png);
+	background-size: cover; 
+	background-position: center center;
+	z-index: 1;
+}
+#CHARHEADCLOUD {
+    background-image: url(../images/CLOUD/CloudHeadChar_05.png);
+    width: 33.4375vw;
+    background-size: cover;
+    height: 31.5625vw;
+    position: absolute;
+    top:14.921875vw;
+    left:  1.890625vw;
+}
+#CLOUDNAMEZ {
+  	top: -0.78125vw;
+	position: absolute;  
+    left: 33.59375vw;
+	transform:skew(-10deg);
+	text-shadow: 0.390625vw 0.390625vw 0.390625vw black, 0.390625vw 0.390625vw 0.390625vw black, 0.390625vw 0.390625vw 0.390625vw black;
+	font-size: 6.25vw;
+	font-family: MACHINE;
+	color: #b8b7b6;
+	letter-spacing: 0.05em;
+	line-height: 7.8125vw;
+}
+#CLOUDNAMEZ span {
+	color:white;
+	padding-left: 5.46875vw;
+}
+#BODYCLOUD {
+    top: -2.34375vw;
+    height: 80.640625vw;
+	background-image: url(../images/CLOUD/A_vs_Eight-Tails.png);
+    background-size: cover;
+	filter:contrast(1.1);
+	background-position: center center;
+}
+#CLOUDHOKAGE {
+	background-image: url(../images/CLOUD/Cloud_04Kage.png);
+	background-size: cover;
+	width: 31.171875vw;
+	height: 38.671875vw;
+	position: absolute;
+	bottom:-0.78125vw;
+	right:8.90625vw;
+	z-index: 1;
+	filter:contrast(1.1);
+}
+#CLOUDSYMBOL {
+	background-image: url(../images/CLOUD/cloudsym.png);
+	width: 15.625vw;
+	height:15.625vw;
+	bottom: 9.375vw;
+	left: 41.40625vw;
+	position: absolute;
+	transform:scale(1.95);
+	opacity:0.1;
+	background-size: cover;
+}
+.threetopCLOUD {
+	color:#bdbcbb;
+}
+.threebotCLOUD {
+	color:#f6814e;
+}
+.wactiveCL {
+	background:#6b6969;
+}
+#FOOTERCLOUD {
+    top:-10.421875vw;
+	-webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+	clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+    background-image: url(../images/CLOUD/Cloud_02.png);
+    background-size: cover;
+	background-position: center center;
+	width:100vw;
+	height:25.78125vw;
+	filter:contrast(1.1);
+}
+
+#CLOUDCHARFOOT {
+	background-image: url(../images/CLOUD/Cloud_03.png);
+	background-size: cover;
+	width: 43.515625vw;
+	height: 32.96875vw;
+	position: absolute;
+	bottom:0vw;
+	left: 1.5625vw;
+	pointer-events: none;
+}
+
+.STAGEACTIVE {
+	transform:scale(1.2)rotate(45deg);
+	background: white;
+}
+/* CSS OF STONE */
+#STONEHOKAGE {
+	background-image: url(../images/Stone/6.png);
+	background-size: cover;
+	width: 28.515625vw;
+	height: 40.390625vw;
+	position: absolute;
+	bottom:-0.78125vw;
+	right:9.90625vw;
+	z-index: 1;
+	filter:contrast(1.1);
+}
+#STONEFRAME {
+	height: 2000px;
+	width:1280px;
+}
+#HEADSTONE {
+	height: 46.875vw;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	background-image:url(../images/Stone/2_01.png);
+	background-size: cover; 
+	z-index: 1;
+}
+#CHARHEADSTONE {
+    background-image: url(../images/Stone/Stone_05.png);
+    width: 26.5625vw;
+    background-size: cover;
+    height: 36.71875vw;
+    position: absolute;
+    top:10.9375vw;
+    left: 3.90625vw;
+}
+#STONENAMEZ {
+  	top: -0.78125vw;
+	position: absolute;  
+    left: 27.59375vw;
+	transform:skew(-10deg);
+	text-shadow: 0.390625vw 0.390625vw 0.390625vw black, 0.390625vw 0.390625vw 0.390625vw black, 0.390625vw 0.390625vw 0.390625vw black;
+	font-size: 6.25vw;
+	font-family: MACHINE;
+	color: #CD6656;
+	letter-spacing: 0.05em;
+	line-height: 7.8125vw;
+}
+#STONENAMEZ span {
+	color:white;
+	padding-left: 5.46875vw;
+}
+
+#BODYSTONE {
+    top: -2.34375vw;
+    height: 80.640625vw;
+	background-image: url(../images/Stone/3_02.png);
+    background-size: cover;
+	filter:contrast(1.2);
+	background-position: center center;
+}
+
+#STONEHOKAGE {
+	background-image: url(../images/Stone/6.png);
+	width: 29.6875vw;
+	height: 40.625vw;
+	position: absolute;
+	bottom:-0.78125vw;
+	right:8.90625vw;
+	z-index: 1;
+	filter:contrast(1.1);
+}
+#STONESYMBOL {
+	background-image: url(../images/Stone/rocksym.png);
+	width: 15.625vw;
+	height:15.625vw;
+	bottom: 9.375vw;
+	left: 45.40625vw;
+	position: absolute;
+	transform:scale(1.95);
+	opacity:0.1;
+	background-size: cover;
+}
+
+.threetopSTONE {
+	color:#d26352;
+}
+.threebotSTONE {
+	color:#f58152;
+}
+
+.wactiveST {
+	background:#cd6656;
+}
+#FOOTERSTONE {
+   top:-10.421875vw;
+	-webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+	clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+    background-image: url(../images/Stone/4_04.png);
+    background-size: cover;
+	background-position: center center;
+	width:100vw;
+	height:25.78125vw;
+	filter:contrast(1.1);
+}
+#STONECHARFOOT {
+	background-image: url(../images/Stone/5_07.png);
+	background-size: cover;
+	width: 35.15625vw;
+	height: 30.234375vw;
+	position: absolute;
+	bottom:0px;
+	left: 1.5625vw;
+}
+
+#STONESYMACTIVE {
+	background-image: url(../images/Stone/AC.png);
+}
+.STAGEACTIVE {
+	transform:scale(1.2)rotate(45deg);
+	background: white;
+}
+/* CSS OF STỎRY */
+#CHARHEADStory {
+    background-image: url(../images/STORY/CHARACTERstory.png);
+    width: 552.24px;
+    background-size: cover;
+    height: 345.917px;
+    position: absolute;
+    bottom: 1.534px;
+    left: 100.127px;
+	}
+#TitleArc {
+   font-family: MACHINE;
+	font-size: 35.9453125px;
+	color: #ff559a;
+	position: absolute;  
+    left:50px;
+	transform:skew(-10deg);
+	text-shadow: -5px -5px 5px black, -5px -5px 5px black, -5px -5px 5px black;
+	text-align: center;
+	width: 400px;
+}
+#TitleArcCONT {
+	transform:rotate(-2.85deg)
+}

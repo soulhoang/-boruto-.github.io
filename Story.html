@@ -1,0 +1,623 @@
+<!doctype html>
+<html class="animated fadeIn">
+<head>
+<meta charset="UTF-8">
+<title>Story</title>
+<link rel="stylesheet" href="CSS/bootstrap-3.3.7.css">
+<link rel="stylesheet" href="CSS/animate.css">	
+<link rel="stylesheet" href="CSS/Main.css">	
+<link rel="stylesheet" media="(min-width: 1281px) and (max-width: 3000px)" href="CSS/large.css" />
+<link rel="stylesheet" media="(min-width: 768px) and (max-width: 1280px)" href="CSS/medium.css" />
+<link rel="stylesheet" media="(min-width: 480px) and (max-width: 767px)" href="CSS/small.css" />
+<link rel="stylesheet" media="(min-width: 767px) and (max-width: 767px)" href="CSS/small767.css" />
+<link rel="stylesheet" media="(min-width: 0px) and (max-width: 480px)" href="CSS/last.css" />
+<link rel="stylesheet" href="CSS/jquery-letterfx.css">
+
+
+<script src="JQ/jquery-3.1.1.min.js"></script>
+<script src="JQ/bootstrap-3.3.7.js"></script>
+<script src="GS/TweenMax.min.js"></script>
+<script src="JQ/jquery-letterfx.js"></script>
+<script src="JQ/tuxsudo.min.js"></script>
+</head>
+
+<body>
+
+<div id="StoryFRAME">
+
+	<div class="SECTION" id="HEADStory">
+
+
+		<div id="CHARHEADStory">
+			
+		</div>
+		
+			<div id="TitleArcCONT">
+				<div id="TitleArc"><span id="ArcName">ACADEMY EN</span><span id="Name">TRANCE</span></div>
+		</div>
+		
+		<div id="LOGO"></div>
+		
+		<div id="MENU">
+			<div id="CIRCLE">
+				<!--<div class="HEXSHADOW" id="HOMES"></div>-->
+			<div id="HOMEG" class="GROUP">	
+				<div class="HEX" id="HOME"></div>
+				<div class="MENUNAME" id="HOMENAME">HOME</div>
+			</div>	
+<!--				<div class="HEXSHADOW" id="CHARS"></div>-->
+			<div id="CHARG" class="GROUP">
+				<div class="HEX" id="CHAR"></div>
+				<div class="MENUNAME" id="CHARNAME">NINJA</div>
+			</div>	
+			
+			<div id="WORLDG" class="GROUP">
+				<div class="HEX" id="WORLD"></div>
+				<div class="MENUNAME" id="WORLDNAME">WORLD</div>
+			</div>
+			
+			<div id="STORYG" class="GROUP">
+				<div class="HEX" id="STORY"></div>
+				<div class="MENUNAME" id="STORYNAME">STORY</div>
+			</div>
+			
+			<div id="SMG" class="GROUP">
+				<div class="HEX" id="SITEMAP"></div>
+				<div class="MENUNAME" id="SMNAME">SITEMAP</div>
+			</div>
+				
+			</div>
+		</div>
+		<div id="MENUSMALL">
+			<div id="CIRCLE2">
+				<!--<div class="HEXSHADOW" id="HOMES"></div>-->
+			<div id="HOMEG2" class="GROUP2">	
+				<div class="HEX2" id="HOME2"></div>
+				<div class="MENUNAME2" id="HOMENAME2">HOME</div>
+			</div>	
+<!--				<div class="HEXSHADOW" id="CHARS"></div>-->
+		
+		
+			<div id="CHARG2" class="GROUP2">
+				<div class="HEX2" id="CHAR2"></div>
+				<div class="MENUNAME2" id="CHARNAME2">NINJA</div>
+			</div>	
+			
+			
+			<div id="WORLDG2" class="GROUP2">
+				<div class="HEX2" id="WORLD2"></div>
+				<div class="MENUNAME2" id="WORLDNAME2">WORLD</div>
+			</div>
+			
+			<div id="STORYG2" class="GROUP2">
+				<div class="HEX2" id="STORY2"></div>
+				<div class="MENUNAME2" id="STORYNAME2">STORY</div>
+			</div>
+			
+			<div id="SMG2" class="GROUP2">
+				<div class="HEX2" id="SITEMAP2"></div>
+				<div class="MENUNAME2" id="SMNAME2">SITEMAP</div>
+			</div>
+				
+			</div>
+		</div>
+	
+	</div>
+			
+			
+	<div class="SECTION" id="BODYStory">
+	<div id="StoryCONTAINER">
+	<div id="ArcNoCONT">
+				<div id="ArcNo"><span id="NumberAcr">Arc </span><span id="Number">1</span></div>
+		</div>
+		<div id="NAVILINE">
+		<div class="line1"></div>
+		<div class="line2"></div>
+		<div class="line3"></div>
+		<div class="line4"></div>
+		<div id="Arc1Active" class="TONHO"></div>
+		<div id="Arc1Hex" class="ArcHex">
+		<div id="Arc1Circle"></div>
+		</div>
+			<div id="Arc2Active"></div>
+		<div id="Arc2Hex" class="ArcHex">
+		<div id="Arc2Circle"></div>
+		</div>
+			<div id="Arc3Active"></div>
+		<div id="Arc3Hex" class="ArcHex">
+		<div id="Arc3Circle"></div>
+		</div>
+			<div id="Arc4Active"></div>
+		<div id="Arc4Hex" class="ArcHex">
+		<div id="Arc4Circle"></div>
+		</div>
+			<div id="Arc5Active"></div>
+		<div id="Arc5Hex" class="ArcHex">
+		<div id="Arc5Circle"></div>
+		</div>
+			</div>
+		<div id="Brushdot1"></div>
+		<div id="Chapter1pic1CONT">
+		       <div id="Chapter1pic1"></div>
+		</div>
+		<div id="Chapter1pic2CONT">
+		       <div id="Chapter1pic2"></div>
+		</div>
+		
+		<div id="Chapter1textCONT">
+		       <div id="Chapter1text">Several weeks after Nue's attack, Boruto notices his dōjutsu has stop activating</div>
+		</div>
+		<div id="Brushdot2"></div>
+		<div id="Chapter2picCONT">
+		    <div id="Chapter2pic"></div>
+		</div>
+		<div id="Chapter2pic2CONT">
+		    <div id="Chapter2pic2"></div>
+		</div>
+		<div id="Chapter2textCONT">
+		     <div id="Chapter2text">Ino–Shika–Chō group up together, followed by Boruto constructing a team with Mitsuki and Metal</div>
+		</div>
+		<div id="Brushdot3"></div>
+		
+		<div id="Chapter3pic1CONT">
+		<div id="Chapter3pic1"></div>
+		</div>
+		
+		<div id="Chapter3pic2CONT">
+		<div id="Chapter3pic2"></div>
+		</div>
+		<div id="Chapter3textCONT">
+		<div id="Chapter3text"> Kinshiki informs Momoshiki, leading to them preparing to  depart to Earth</div>
+		
+		</div>
+		
+		<div id="NAVISTORYCONT">
+			<div id="PREVARC"></div>
+			<div id="NEXTARC"></div>
+		</div>
+		</div>
+	</div>
+	<div class="SECTION" id="FOOTERStory">
+	  
+	
+	  <div id="FOOTERTEXT">Copyright © 2018 BORUTO Inc.</div>
+		
+	</div>
+	<div id="CharFoot"></div>
+		</div>	
+
+
+	
+<script>
+	$(document).ready(function() {
+		
+		
+			TweenMax.to("#CIRCLE",0,{transform:"rotate(135deg)"});
+			TweenMax.to(".GROUP",0,{transform:"rotate(-135deg)"});
+			TweenMax.to("#STORYG",0,{transform:"rotate(-135)scale(1.5)"});
+			$("#STORY").css({background:"rgba(255,85,154,1)"});
+			$("#STORYNAME").letterfx({"fx":"grow","backwards":true,"timing":100,"fx_duration":"0.4s","letter_end":"rewind","element_end":"stay"});
+			
+			TweenMax.to(".HEX2,.GROUP2",0,{width:"37.6px",height:"43px"});
+			TweenMax.to("#STORYG2",0,{transform:"scale(1.5)"});
+			TweenMax.to("#STORY2",0,{background:"rgba(255,85,154,1)"});
+
+			
+	//CODE DOI CON CHUOT//		
+			$("body,html").css('cursor','url(images/cursor.png),auto');
+		$("#BACK,.VILLAGE,.HEX,.MENUNAME,.TICK,#SKILL,#SKILL2,#SKILLNAME,#SKILLNAME2,#STORYCONTENT,#Arc1Hex,#Arc1Circle,#Arc2Hex,#Arc2Circle,#Arc3Hex,#Arc3Circle,#Arc4Hex,#Arc4Circle,#Arc5Hex,#Arc5Circle,.GROUP2,.MENUNAME2,.HEX2,#PREVARC,#NEXTARC").css('cursor','url(images/ninja2.png),auto')	
+		
+					var mX, mY;
+		$(this).mousemove(function(e) {
+			 mX = e.pageX;
+			 mY = e.pageY;
+		})
+			var A = mX;
+			var B = mY;
+		
+
+		function RAN(Min,Max) {
+			return Math.floor(Math.random()*(Max-Min+1) +Min);
+		}
+		
+		setInterval(function() {
+			var size = RAN(10,40);
+			var C = "rgb("+RAN(0,255)+","+RAN(0,255)+","+RAN(0,255)+")";
+			var W = H = size;
+			var L = RAN(mX-size,mX+size);
+			var T = RAN(mY-size,mY+size);
+			
+			var min = 1;
+			var max = 6;
+			var i = Math.floor(Math.random() * (max - min + 1)) + min;
+			
+			var PATH = "url(images/C" + i + ".png";
+			
+			$("<div>").addClass("RC").appendTo("body").css({"background-image": PATH,width:W,height:H,top:T,left:L}).one("animationend",function() {
+				$(this).remove();
+			})
+			
+		},50)
+		
+		//CODE DOI CON CHUOT//	
+		
+	//	$(window).bind("load resize",function() {
+			
+	if($(window).width() > 767) {
+				if($(window).width() > 1280 ) {
+			
+			TweenMax.to(".HEX,.GROUP",0,{width:"63.6px",height:"72.6px"});
+					function RESETMENU() {
+			TweenMax.to(".GROUP",0,{width:"63.6px",height:"72.6px"});
+			TweenMax.to(".HEX",0,{width:"63.6px",height:"72.6px",background:"rgba(130,130,130,1)"});
+			TweenMax.to(".MENUNAME",0,{fontSize:"25px"});
+		}
+		}	
+		
+		else if($(window).width() > 767 && $(window).width() <= 1280) {
+			TweenMax.to(".HEX,.GROUP",0,{width:"4.9vw",height:"5.6vw"});
+			function RESETMENU() {
+			TweenMax.to(".GROUP",0,{width:"4.9vw",height:"5.6vw"});
+			TweenMax.to(".HEX",0,{width:"4.9vw",height:"5.6vw",background:"rgba(130,130,130,1)"});
+			TweenMax.to(".MENUNAME",0,{fontSize:"1.95vw"});
+		}
+		}
+
+		function HOVER() {
+		$(".GROUP").hover(function() {
+			$(this).find(".HEX").css({background:"rgba(54,109,192,1)"});
+		},function() {
+			$(this).find(".HEX").css({background:"rgba(130,130,130,1)"});
+		})
+		}
+		HOVER();
+		function STORYHOVERACTIVE() {
+		$("#STORYG").hover(function() {
+			$("#STORY").css({background:"rgba(255,85,154,1)"})
+		},function() {
+			$("#STORY").css({background:"rgba(255,85,154,1)"})
+		})	
+		}
+		STORYHOVERACTIVE();
+			
+			TweenMax.to("#CIRCLE",0,{transform:"rotate(135deg)"});
+			TweenMax.to(".GROUP",0,{transform:"rotate(-135deg)"});
+			TweenMax.to("#STORYG",0,{transform:"rotate(-135deg)scale(1.5)"});
+			$("#STORY").css({background:"rgba(255,85,154,1)"});	
+	
+		$("#HOMEG").click(function() {		
+			RESETMENU();
+			TweenMax.to("#CIRCLE",0.5,{transform:"rotate(0deg)"});
+			TweenMax.to(".GROUP",0.5,{transform:"rotate(0deg)"});
+			TweenMax.to(this,0.5,{transform:"rotate(0deg)scale(1.5)"});
+			TweenMax.to("#HOME",0.5,{background:"rgba(255,85,154,1)"});
+			$(this).delay(500).promise().done(function() {
+				
+				window.location.href = "Home.html";
+			})
+		})
+		
+		$("#CHARG").click(function() {		
+			RESETMENU();
+			TweenMax.to("#CIRCLE",0.5,{transform:"rotate(45deg)"});
+			TweenMax.to(".GROUP",0.5,{transform:"rotate(-45deg)"});
+			TweenMax.to(this,0.5,{transform:"rotate(-45deg)scale(1.5)"});
+			TweenMax.to("#CHAR",0.5,{background:"rgba(255,85,154,1)"});
+			$(this).delay(500).promise().done(function() {
+				
+				window.location.href = "Ninja.html";
+			})
+		})
+		
+		$("#WORLDG").click(function() {		
+			RESETMENU();
+			TweenMax.to("#CIRCLE",0.5,{transform:"rotate(90deg)"});
+			TweenMax.to(".GROUP",0.5,{transform:"rotate(-90deg)"});
+			TweenMax.to(this,0.5,{transform:"rotate(-90deg)scale(1.5)"});
+			TweenMax.to("#WORLD",0.5,{background:"rgba(255,85,154,1)"});
+			$(this).delay(500).promise().done(function() {
+				
+				window.location.href = "World.html";
+			})
+		})
+		
+/*		$("#STORYG").click(function() {		
+			RESETMENU();
+			TweenMax.to("#CIRCLE",0.5,{transform:"rotate(135deg)"});
+			TweenMax.to(".GROUP",0.5,{transform:"rotate(-135deg)"});
+			TweenMax.to(this,0.5,{transform:"rotate(-135deg)scale(1.5)"});
+			TweenMax.to("#STORY",0.5,{background:"rgba(255,85,154,1)"});
+		})*/
+		
+		$("#SMG").click(function() {		
+			RESETMENU();
+			TweenMax.to("#CIRCLE",0.5,{transform:"rotate(135deg)"});
+			TweenMax.to(".GROUP",0.5,{transform:"rotate(-135deg)"});
+			TweenMax.to(this,0.5,{transform:"rotate(-135deg)scale(1.5)"});
+			TweenMax.to("#SITEMAP",0.5,{background:"rgba(255,85,154,1)"});
+			$(this).delay(500).promise().done(function() {
+				
+				window.location.href = "Sitemap.html";
+			})
+		})
+		}
+	else if ($(window).width() <= 767 && $(window).width() >= 0) {
+					TweenMax.to(".HEX2,.GROUP2",0,{width:"37.6px",height:"43px"});
+			TweenMax.to("#STORYG2",0,{transform:"scale(1.5)"});
+			TweenMax.to("#STORY2",0,{background:"rgba(255,85,154,1)"});
+			
+			function RESETMENUMID() {
+			TweenMax.to(".GROUP2",0.3,{transform:"scale(1)"});
+			TweenMax.to(".HEX2",0.3,{background:"rgba(130,130,130,1)"});
+			}
+			
+			
+			$("#CHARG2").click(function() {		
+			RESETMENUMID();
+			TweenMax.to(this,0.3,{transform:"scale(1.5)"});
+			TweenMax.to("#CHAR2",0.3,{background:"rgba(255,85,154,1)"});
+			$(this).delay(300).promise().done(function() {
+				window.location.href = "Ninja.html";
+			})	
+		})
+			$("#SMG2").click(function() {		
+			RESETMENUMID();
+			TweenMax.to(this,0.3,{transform:"scale(1.5)"});
+			TweenMax.to("#SITEMAP2",0.3,{background:"rgba(255,85,154,1)"});
+			$(this).delay(300).promise().done(function() {
+				window.location.href = "Sitemap.html";
+			})
+			
+		})
+			$("#HOMEG2").click(function() {		
+			RESETMENUMID();
+			TweenMax.to(this,0.3,{transform:"scale(1.5)"});
+			TweenMax.to("#HOME2",0.3,{background:"rgba(255,85,154,1)"});
+			$(this).delay(300).promise().done(function() {
+				window.location.href = "Home.html";
+			})	
+		})
+			$("#WORLDG2").click(function() {		
+			RESETMENUMID();
+			TweenMax.to(this,0.3,{transform:"scale(1.5)"});
+			TweenMax.to("#WORLD2",0.3,{background:"rgba(255,85,154,1)"});
+			$(this).delay(300).promise().done(function() {
+				window.location.href = "World.html";
+			})
+			
+		})
+		}
+	//	})
+		
+		$("#Arc2Hex").hover(function(){
+			$("#Arc2Active").addClass("TONHOHOVER");
+		},function() {
+			$("#Arc2Active").removeClass("TONHOHOVER");
+		});
+		$("#Arc1Hex").hover(function(){
+			$("#Arc1Active").addClass("TONHOHOVER");
+		},function() {
+			$("#Arc1Active").removeClass("TONHOHOVER");
+		});
+		$("#Arc3Hex").hover(function(){
+			$("#Arc3Active").addClass("TONHOHOVER");
+		},function() {
+			$("#Arc3Active").removeClass("TONHOHOVER");
+		});
+		$("#Arc4Hex").hover(function(){
+			$("#Arc4Active").addClass("TONHOHOVER");
+		},function() {
+			$("#Arc4Active").removeClass("TONHOHOVER");
+		});
+		$("#Arc5Hex").hover(function(){
+			$("#Arc5Active").addClass("TONHOHOVER");
+		},function() {
+			$("#Arc5Active").removeClass("TONHOHOVER");
+		});
+		$("#Arc1Hex").hover(function(){
+			$("#Arc1Active").addClass("TONHOHOVER");
+		},function() {
+			$("#Arc1Active").removeClass("TONHOHOVER");
+		});
+		
+	
+		
+		$("#Arc1Hex").click(function(){
+			k = 0;
+			$("#Chapter1pic1").css({"background-image":"url(images/STORY/chap1.1%20.png"});
+			$("#Chapter1pic2").css({"background-image":"url(images/STORY/chap1.2.png"});
+			$("#Chapter1pic2").css({display:"block",opacity:1});	
+			$("#Chapter1text").text("Several weeks after Nue's attack, Boruto notices his dōjutsu has stop activating");
+	        $("#Name").text("TRANCE");
+			$("#ArcName").text("ACADEMY EN");
+		    $("#Number").text("1");
+			$("#CHARHEADStory").css({"background-image":"url(images/STORY/CHARACTERstory.png"});
+			$("#BODYStory").css({"background-image":"url(images/STORY/BodyStory.png"});
+			$("#CharFoot").css({"background-image":"url(images/STORY/StoryBoruto.png"});
+			
+			$("#Chapter2pic").css({"background-image":"url(images/STORY/Chapter2.png"});
+			$("#Chapter2pic2").css({"background-image":"url(images/STORY/chap2pic2.png"});
+			$("#Chapter2pic2").css({display:"block",opacity:1});
+			$("#Chapter2text").text(" Ino–Shika–Chō group up together, followed by Boruto constructing a team with Mitsuki and Metal");
+			$("#Chapter3pic1").css({"background-image":"url(images/STORY/Chapter3.1.png"});		
+	      	$("#Chapter3pic2").css({"background-image":"url(images/STORY/Chapter3.2.png"});
+			$("#Chapter3pic2").css({display:"block",opacity:1});
+			$("#Chapter3text").text("Kinshiki informs Momoshiki, leading to them preparing to  depart to Earth");
+			$("#Arc1Active,#Arc2Active,#Arc3Active,#Arc4Active,#Arc5Active").removeClass("TONHO");
+			
+			$("#Arc1Active").addClass("TONHO");
+			
+			$("#PREVARC").hide();
+			$("#NEXTARC").show();
+		  })
+		
+			$("#Arc2Hex").click(function(){
+			
+			k = 1;
+				
+			$("#Chapter1pic1").css({"background-image":"url(images/STORY/chap1.3.png"});
+			$("#Chapter1pic2").css({"background-image":"url(images/STORY/Arc2chap1pic2.png"});
+				$("#Chapter1pic2").css({display:"block",opacity:1});
+			$("#Chapter1text").text(" Sasuke appears to be returning to Konohagakure");
+			$("#Name").text("UCHIHA");	
+	        $("#ArcName").text("SADARA ");
+		    $("#Number").text(" 2");
+			$("#CHARHEADStory").css({"background-image":"url(images/STORY/HeadArc2.png"});	
+			$("#BODYStory").css({"background-image":"url(images/STORY/BodyArc2.png"});
+			$("#CharFoot").css({"background-image":"url(images/STORY/Arc2chibi.png"});
+			
+			$("#Chapter2pic").css({"background-image":"url(images/STORY/chapter2.1.png"});
+		    $("#Chapter2pic2").css({"background-image":"url(images/STORY/chap2.2.png"});
+			$("#Chapter2pic2").css({display:"block",opacity:1});	
+			$("#Chapter2text").text(" Just as Naruto leaves, Boruto arrives together with Mitsuki, with the intent of bringing Naruto his lunch");
+			$("#Chapter3pic1").css({"background-image":"url(images/STORY/chap3.3.png"});		
+	      	$("#Chapter3pic2").css({display:"none",opacity:0});	
+			$("#Chapter3text").text("Sasuke, Sakura, and Sarada are finally able to take a proper portrait as a family");	
+			$("#Arc1Active,#Arc2Active,#Arc3Active,#Arc4Active,#Arc5Active").removeClass("TONHO");
+			
+			$("#Arc2Active").addClass("TONHO");
+				$("#PREVARC").show();
+			$("#NEXTARC").show();
+		  })
+			$("#Arc3Hex").click(function(){
+				
+			k = 2;	
+		   $("#Name").text("TRIP");	
+	        $("#ArcName").text("SCHOOL ");
+		    $("#Number").text("3");
+			$("#CHARHEADStory").css({"background-image":"url(images/STORY/HeadArc3.png"});
+			$("#BODYStory").css({"background-image":"url(images/STORY/BodyArc3.png"});
+			$("#CharFoot").css({"background-image":"url(images/STORY/Arc3chibi.png"});
+				
+			$("#Chapter1pic1").css({"background-image":"url(images/STORY/Chap1.4.png"});
+		    $("#Chapter1pic2").css({"background-image":"url(images/STORY/chap1.5.png"});
+				$("#Chapter1pic2").css({display:"block",opacity:1});
+			$("#Chapter1text").text("On the day of the trip, Boruto packs for it and part ways with his family, before meeting his class and Anko at the village gate");
+		    $("#Chapter2pic").css({"background-image":"url(images/STORY/Chap2.3.png"});
+			 $("#Chapter2pic2").css({"background-image":"url(images/STORY/chap2.4.png"});
+		    $("#Chapter2pic2").css({display:"block",opacity:1});
+			$("#Chapter2text").text("The next day, Kagura meets with Chōjūrō, which Tsurushi reports to Shizuma, and in return is attacked");
+			$("#Chapter3pic1").css({"background-image":"url(images/STORY/chap3.4.png"});
+			$("#Chapter3pic2").css({display:"none",opacity:0});	
+			$("#Chapter3text").text("Wanting to kill the Mizukage, Shizuma erects a barrier around them all");	
+				$("#Arc1Active,#Arc2Active,#Arc3Active,#Arc4Active,#Arc5Active").removeClass("TONHO");
+			$("#Arc3Active").addClass("TONHO");
+				
+				$("#PREVARC").show();
+			$("#NEXTARC").show();
+		})
+		$("#Arc4Hex").click(function(){
+			
+			k = 3;
+		    $("#Name").text("AMS");	
+	        $("#ArcName").text("GRADUATION EX");
+		    $("#Number").text("4");
+			$("#CHARHEADStory").css({"background-image":"url(images/STORY/HeadArc4.png"});
+			$("#BODYStory").css({"background-image":"url(images/STORY/BodyArc4.png"});
+			$("#CharFoot").css({"background-image":"url(images/STORY/Arc4chibi.png"});
+			
+			$("#Chapter1pic1").css({"background-image":"url(images/STORY/chap1.6.png"});
+		    $("#Chapter1pic2").css({"background-image":"url(images/STORY/chap1.7.png"});
+			$("#Chapter1pic2").css({display:"block",opacity:1});
+			$("#Chapter1text").text("Boruto finds his classmates are generally concerned with upcoming graduation exams, leaving them no time to hang out");
+		    $("#Chapter2pic").css({"background-image":"url(images/STORY/Chap2.5.png"});
+			$("#Chapter2pic2").css({display:"none",opacity:0});
+			$("#Chapter2text").text("Boruto is unconcerned, and Kakashi arrives, revealing himself to be the exam's proctor");
+			$("#Chapter3pic1").css({"background-image":"url(images/STORY/chap3.5.png"});
+			$("#Chapter3pic2").css({display:"none",opacity:0});	
+			$("#Chapter3text").text("Boruto's influence on his classmates to have made them unsuitable to become shinobi");	
+			$("#Arc1Active,#Arc2Active,#Arc3Active,#Arc4Active,#Arc5Active").removeClass("TONHO");
+			$("#Arc4Active").addClass("TONHO");
+			
+				$("#PREVARC").show();
+			$("#NEXTARC").show();
+		})
+		$("#Arc5Hex").click(function(){
+			
+			k = 4;
+		   $("#Name").text("MISSION");	
+	        $("#ArcName").text("GENIN ");
+		    $("#Number").text("5");
+			$("#CHARHEADStory").css({"background-image":"url(images/STORY/HeadArc5.png"});
+			$("#BODYStory").css({"background-image":"url(images/STORY/BodyArc5.png"});
+			$("#CharFoot").css({"background-image":"url(images/STORY/Arc5chibi.png"});
+			
+			$("#Chapter1pic1").css({"background-image":"url(images/STORY/chap1.8.png"});
+		    $("#Chapter1pic2").css({"background-image":"url(images/STORY/Arc5Chap1pic2.png"});
+			$("#Chapter1text").text("Boruto joins his team on his way to the Hokage's office, where they're to be assigned their first mission");
+		    $("#Chapter2pic").css({"background-image":"url(images/STORY/Chap2.6.png"});
+			$("#Chapter2pic2").css({display:"none",opacity:0});
+			$("#Chapter2text").text("Team Konohamaru plans on how to rescue Kiri. Iori delivers Kiri to Hidari, and is killed by Ashimaru");
+			$("#Chapter3pic1").css({"background-image":"url(images/STORY/chap3.6.png"});
+			$("#Chapter3pic2").css({"background-image":"url(images/STORY/chap3.7.png"});
+			$("#Chapter3pic2").css({display:"block",opacity:1});
+			$("#Chapter3text").text("Team Konohamaru finishes a mission of capturing a runaway pet");	
+			$("#Arc1Active,#Arc2Active,#Arc3Active,#Arc4Active,#Arc5Active").removeClass("TONHO");
+			$("#Arc5Active").addClass("TONHO");
+			
+			$("#PREVARC").show();
+			$("#NEXTARC").hide();
+			
+		})
+		
+			$(".ArcHex").click(function() {
+			TweenMax.to("#Chapter1pic1,#Chapter2pic2,#Chapter3pic1",0.25,{transform:"translateX(-100px)rotate(-10deg)",filter:"saturate(0)"})
+			TweenMax.to("#Chapter2pic,#Chapter1pic2,#Chapter3pic2",0.25,{transform:"translateX(100px)rotate(10deg)",filter:"saturate(0)"});
+				
+			TweenMax.to("#Chapter2pic,#Chapter1pic2,#Chapter3pic2",0.25,{delay:0.25,transform:"translateX(0px)",filter:"saturate(1)"});
+			TweenMax.to("#Chapter1pic1,#Chapter2pic2,#Chapter3pic1",0.25,{delay:0.25,transform:"translateX(0px)",filter:"saturate(1)"})
+			$("#Chapter1text").letterfx({"fx":"spin fade","backwards":true,"timing":15,"fx_duration":"0.5s","letter_end":"restore","element_end":"stay"});
+			$("#Chapter2text").letterfx({"fx":"spin fade","backwards":true,"timing":15,"fx_duration":"0.5s","letter_end":"restore","element_end":"stay"});
+			$("#Chapter3text").letterfx({"fx":"spin fade","backwards":true,"timing":15,"fx_duration":"0.5s","letter_end":"restore","element_end":"stay"});
+			$("#Number").letterfx({"fx":"swirl","backwards":false,"timing":100,"fx_duration":"0.5s","letter_end":"stay","element_end":"stay"});
+				
+			
+		})
+			
+		var k = 0;
+		
+	$("#NEXTARC").click(function() {
+k = k + 1;
+	  $(".ArcHex:eq("+k+")").trigger("click");
+		
+		$("html,body").animate({scrollTop:
+		$("#TitleArc").offset().top},500);
+		if (k == 4) {
+			$("#NEXTARC").hide();
+		}
+		else {
+			$("#PREVARC").show();
+		}
+	})
+	
+
+	
+	$("#PREVARC").click(function() {
+k = k - 1;	
+	  $(".ArcHex:eq("+k+")").trigger("click");
+		$("html,body").animate({scrollTop:
+		$("#TitleArc").offset().top},500);
+		if (k == 0) {
+			$("#PREVARC").hide();
+		}
+		else {
+			$("#NEXTARC").show();
+		}
+	})
+	
+	$("#PREVARC").hover(function() {
+		$(this).css({"background-image":"url(images/HOME/back2hover.png",opacity:1});
+	},function() {
+		$(this).css({"background-image":"url(images/HOME/back2.png",opacity:0.5});
+	})
+	
+	$("#NEXTARC").hover(function() {
+		$(this).css({"background-image":"url(images/HOME/next2hover.png"});
+	},function() {
+		$(this).css({"background-image":"url(images/HOME/next2.png"});
+	})
+	})
+	
+	</script>
+</body>
+</html>

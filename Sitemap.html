@@ -1,0 +1,515 @@
+<!----><!doctype html>
+<html class="animated fadeIn">
+<head>
+<meta charset="UTF-8">
+<title>Sitemap</title>
+<link rel="stylesheet" href="CSS/animate.css">
+<link rel="stylesheet" href="CSS/Main.css">
+<link rel="stylesheet" media="(min-width: 1281px) and (max-width: 3000px)" href="CSS/large.css" />
+<link rel="stylesheet" media="(min-width: 768px) and (max-width: 1280px)" href="CSS/medium.css" />
+<link rel="stylesheet" media="(min-width: 480px) and (max-width: 767px)" href="CSS/small.css" />
+<link rel="stylesheet" media="(min-width: 767px) and (max-width: 767px)" href="CSS/small767.css" />
+<link rel="stylesheet" media="(min-width: 0px) and (max-width: 480px)" href="CSS/last.css" />
+<link rel="stylesheet" href="CSS/jquery-letterfx.css">
+
+<script src="JQ/jquery-3.1.1.min.js"></script>
+<script src="GS/TweenMax.min.js"></script>
+<script src="JQ/jquery-letterfx.js"></script>
+<script src="JQ/tuxsudo.min.js"></script>
+</head>
+
+<body>
+<div id="SMFRAME">
+
+    <div id="LOGO"></div>
+    <div class="ROAD"></div>
+     <div class="ROAD"></div>
+      <div class="ROAD2"></div>
+    <div id="NARCIRCLE1" class="NARCIRCLE"></div>
+     <div id="NARCIRCLE2" class="NARCIRCLE"></div>
+     <div id="NARCIRCLE3" class="NARCIRCLE"></div>
+      <div id="NARCIRCLE4" class="NARCIRCLE"></div>
+       <div id="NARCIRCLE5" class="NARCIRCLE"></div>
+    <div id="BGSM"></div>
+    <div id="LINESM"></div> 
+    <div id="NARUTORUN">
+   </div>
+    <div id="SMCONTAINER">
+    <div id="LINKCONTAINER">
+    	<div class="LINKSMALL" id="SMLINKSMALL">SITEMAP</div>
+    	<div class="LINKSMALL" id="HOMELINKSMALL">HOME</div>
+    	<div class="LINKSMALL" id="NINJALINKSMALL">NINJA</div>
+    	<div class="LINKSMALL" id="WORLDLINKSMALL">WORLD</div>
+    	<div class="LINKSMALL" id="STORYLINKSMALL">STORY</div>
+    </div>   
+     
+   
+   <div id="SMICONSMALL" class="ICONSMALL PUMPSMALL3"></div>
+   <div id="HOMEICONSMALL" class="ICONSMALL PUMPSMALL"></div>
+   <div id="NINJAICONSMALL" class="ICONSMALL PUMPSMALL2"></div>
+   <div id="WORLDICONSMALL" class="ICONSMALL PUMPSMALL3"></div>
+   <div id="STORYICONSMALL" class="ICONSMALL PUMPSMALL"></div>
+   
+	<a id="VIPLINK" href="Sitemap.html"><div id="CLICKTOGO">CLICK TO GO</div></a>
+   
+   <div id="SITEMAPICON" class="NAVIICON"></div>
+	<a href="Sitemap.html"><div id="SMLINK" class="NAVITEXT"></div></a>
+   <div id="NINJAICON" class="NAVIICON"></div>
+   <a href="Ninja.html"><div id="NJLINK" class="NAVITEXT"></div></a>
+   <div id="WORLDICON" class="NAVIICON"></div>
+	<a href="World.html"><div id="WOLINK" class="NAVITEXT"></div></a>
+	  <div id="STORYICON" class="NAVIICON"></div>
+	<a href="Story.html"><div id="STLINK" class="NAVITEXT"></div></a>
+	  <div id="HOMEICON" class="NAVIICON"></div>
+	<a href="Home.html"><div id="HOLINK" class="NAVITEXT"></div></a>
+	</div>
+	</div>
+<script>
+	$(document).ready(function() {
+		
+		TweenMax.to(".NAVIICON,.NAVITEXT",0,{opacity:0,y:50});
+		TweenMax.to("#SITEMAPICON,#SMLINK",0,{opacity:1,y:0,zIndex:3});
+		
+		TweenMax.to("#SITEMAPICON,#SMLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+		TweenMax.to("#NARCIRCLE1",0,{zIndex:1});
+		$("#NARCIRCLE1").css({"background-image":"url(images/SM/circleactive.gif)"});
+	//	TweenMax.to("#HOMEICON,#HOLINK",0,{opacity:1,y:0});
+		
+		/*	TweenMax.to("#CIRCLE",0,{transform:"rotate(135deg)"});
+			TweenMax.to(".GROUP",0,{transform:"rotate(-135deg)"});
+			TweenMax.to("#SMG",0,{transform:"rotate(-135)scale(1.5)"});
+			$("#SITEMAP").css({background:"rgba(255,85,154,1)"});
+			$("#SMNAME").letterfx({"fx":"grow","backwards":true,"timing":100,"fx_duration":"0.4s","letter_end":"rewind","element_end":"stay"});
+		*/
+				$("body,html").css('cursor','url(images/cursor.png),auto');
+		$(".NARCIRCLE,.NAVITEXT,.LINKSMALL,#CLICKTOGO").css('cursor','url(images/ninja2.png),auto')	
+				
+			
+	//CODE DOI CON CHUOT//		
+		
+		
+					var mX, mY;
+		$(this).mousemove(function(e) {
+			 mX = e.pageX;
+			 mY = e.pageY;
+		})
+			var A = mX;
+			var B = mY;
+		
+
+		function RAN(Min,Max) {
+			return Math.floor(Math.random()*(Max-Min+1) +Min);
+		}
+		
+		setInterval(function() {
+			var size = RAN(10,40);
+			var C = "rgb("+RAN(0,255)+","+RAN(0,255)+","+RAN(0,255)+")";
+			var W = H = size;
+			var L = RAN(mX-size,mX+size);
+			var T = RAN(mY-size,mY+size);
+			
+			var min = 1;
+			var max = 6;
+			var i = Math.floor(Math.random() * (max - min + 1)) + min;
+			
+			var PATH = "url(images/C" + i + ".png";
+			
+			$("<div>").addClass("RC").appendTo("body").css({"background-image": PATH,width:W,height:H,top:T,left:L}).one("animationend",function() {
+				$(this).remove();
+			})
+			
+		},50)
+		
+		$("#HOLINK").hover(function() {
+			$(this).css({"background-image":"url(images/SM/images/HOMETEXT_hover.png)"});
+			$("#HOMEICON").addClass("PUMP");
+			
+		},function() {
+			$(this).css({"background-image":"url(images/SM/images/HOMETEXT_05.png)"});
+			$("#HOMEICON").removeClass("PUMP");
+		})
+		
+		$("#NJLINK").hover(function() {
+			$(this).css({"background-image":"url(images/SM/images/NJTEXT_hover.png)"});
+			$("#NINJAICON").addClass("PUMP2");
+		},function() {
+			$(this).css({"background-image":"url(images/SM/images/NJTEXT_05.png)"});
+			$("#NINJAICON").removeClass("PUMP2");
+		})
+		
+		$("#WOLINK").hover(function() {
+			$(this).css({"background-image":"url(images/SM/images/WORLDTEXT_hover.png)"});
+			$("#WORLDICON").addClass("PUMP");
+		},function() {
+			$(this).css({"background-image":"url(images/SM/images/WORLDTEXT_05.png)"});
+			$("#WORLDICON").removeClass("PUMP");
+		})
+		
+		$("#STLINK").hover(function() {
+			$(this).css({"background-image":"url(images/SM/images/STORYTEXT_hover.png)"});
+			$("#STORYICON").addClass("PUMP2");
+		},function() {
+			$(this).css({"background-image":"url(images/SM/images/STORYTEXT_05.png)"});
+			$("#STORYICON").removeClass("PUMP2");
+		})
+		
+		$("#SMLINK").hover(function() {
+			$(this).css({"background-image":"url(images/SM/images/SMLINK_hover.png)"});
+			$("#SITEMAPICON").addClass("PUMP3");
+		},function() {
+			$(this).css({"background-image":"url(images/SM/images/SMLINK_05.png)"});
+			$("#SITEMAPICON").removeClass("PUMP3");
+		})
+		
+		//CODE DOI CON CHUOT//	
+		$(".NARCIRCLE").click(function() {
+			
+			TweenMax.to(".NAVIICON,.NAVITEXT",0.5,{opacity:0,y:50,pointerEvents:"none",zIndex:1});
+			TweenMax.to(".NARCIRCLE",0,{zIndex:3});
+			$(".NARCIRCLE").css({"background-image":"url(images/SM/circle.gif)"});
+			$(this).css({"background-image":"url(images/SM/circleactive.gif)"});
+		})
+		
+	//	$(window).bind("load resize",function() {
+			
+			
+		if($(window).width() >= 1280 ) {
+			$("#NARCIRCLE1").click(function() {
+			TweenMax.to("#NARUTORUN",0,{transform:"translateX(-600px)translateY(-100px)scale(0.8)rotateY(180deg)"})	
+			TweenMax.to("#NARUTORUN",1,{transform:"translateX(0px)translateY(0px)scale(1)rotateY(180deg)"})	
+			TweenMax.to("#SITEMAPICON,#SMLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+			TweenMax.to(this,0,{zIndex:1});
+			$("#NARCIRCLE2").click(function() {
+
+			TweenMax.to("#NARUTORUN",0,{transform:"translateX(0px)translateY(0px)scale(1)rotateY(0deg)"})		
+			TweenMax.to("#NARUTORUN",1,{transform:"translateX(-600px)translateY(-100px)scale(0.8)rotateY(0deg)"})
+			TweenMax.to("#NINJAICON,#NJLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+			TweenMax.to(this,0,{zIndex:1});
+			})
+		})
+		
+		
+		$("#NARCIRCLE2").click(function() {
+
+			TweenMax.to("#NARUTORUN",0,{transform:"translateX(0px)translateY(0px)scale(1)rotateY(0deg)"})		
+			TweenMax.to("#NARUTORUN",1,{transform:"translateX(-600px)translateY(-100px)scale(0.8)rotateY(0deg)"})
+			TweenMax.to("#NINJAICON,#NJLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+			TweenMax.to(this,0,{zIndex:1});
+			
+			$("#NARCIRCLE3").click(function() {
+				
+			TweenMax.to(".NAVIICON,.NAVITEXT",0.5,{opacity:0,y:50,pointerEvents:"none",zIndex:1});
+			TweenMax.to(".NARCIRCLE",0,{zIndex:3});
+				
+			TweenMax.to("#NARUTORUN",0,{transform:"translateX(-600px)translateY(-100px)scale(0.8)rotateY(180deg)"})	
+			TweenMax.to("#NARUTORUN",1,{transform:"translateX(-100px)translateY(-350px)scale(0.5)rotateY(180deg)"})
+			TweenMax.to("#WORLDICON,#WOLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+			TweenMax.to(this,0,{zIndex:1});
+				$("#NARCIRCLE4").click(function() {
+					TweenMax.to("#NARUTORUN",0,{transform:"translateX(-150px)translateY(-350px)scale(0.5)rotateY(0deg)"})	
+					TweenMax.to("#NARUTORUN",1,{transform:"translateX(-500px)translateY(-450px)scale(0.5)rotateY(0deg)"})
+					TweenMax.to("#STORYICON,#STLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+					TweenMax.to(this,0,{zIndex:1});
+							$("#NARCIRCLE5").click(function() {
+								TweenMax.to("#NARUTORUN",0,{transform:"translateX(-500px)translateY(-450px)scale(0.4)rotateY(180deg)"})	
+								TweenMax.to("#NARUTORUN",1,{transform:"translateX(50px)translateY(-550px)scale(0.4)rotateY(180deg)"})
+						TweenMax.to("#HOMEICON,#HOLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+						TweenMax.to(this,0,{zIndex:1});
+	
+							})
+				})
+			})
+			
+			$("#NARCIRCLE1").click(function() {
+			TweenMax.to("#NARUTORUN",0,{transform:"translateX(-600px)translateY(-100px)scale(0.8)rotateY(180deg)"})	
+			TweenMax.to("#NARUTORUN",1,{transform:"translateX(0px)translateY(0px)scale(1)rotateY(180deg)"})	
+			TweenMax.to("#SITEMAPICON,#SMLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+			TweenMax.to(this,0,{zIndex:1});
+			})
+			
+		})
+		
+		$("#NARCIRCLE3").click(function() {
+			
+			TweenMax.to("#NARUTORUN",0,{transform:"translateX(0px)translateY(0px)scale(1)rotateY(180deg)"})		
+			TweenMax.to("#NARUTORUN",1,{transform:"translateX(-100px)translateY(-350px)scale(0.5)rotateY(180deg)"})
+			TweenMax.to("#WORLDICON,#WOLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+			TweenMax.to(this,0,{zIndex:1});
+			$("#NARCIRCLE4").click(function() {
+					TweenMax.to("#NARUTORUN",0,{transform:"translateX(-150px)translateY(-350px)scale(0.5)rotateY(0deg)"})	
+					TweenMax.to("#NARUTORUN",1,{transform:"translateX(-500px)translateY(-450px)scale(0.5)rotateY(0deg)"})
+					TweenMax.to("#STORYICON,#STLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+					TweenMax.to(this,0,{zIndex:1});
+							$("#NARCIRCLE5").click(function() {
+								TweenMax.to("#NARUTORUN",0,{transform:"translateX(-500px)translateY(-450px)scale(0.4)rotateY(180deg)"})	
+								TweenMax.to("#NARUTORUN",1,{transform:"translateX(50px)translateY(-550px)scale(0.4)rotateY(180deg)"})
+						TweenMax.to("#HOMEICON,#HOLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+						TweenMax.to(this,0,{zIndex:1});
+	
+							})
+				})
+			$("#NARCIRCLE2").click(function() {
+			TweenMax.to("#NARUTORUN",0,{transform:"translateX(-100px)translateY(-350px)scale(0.5)rotateY(0deg)"})	
+			TweenMax.to("#NARUTORUN",1,{transform:"translateX(-600px)translateY(-100px)scale(0.8)rotateY(0deg)"})	
+			TweenMax.to("#NINJAICON,#NJLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+			TweenMax.to(this,0,{zIndex:1});
+				
+			})
+		})
+		
+		$("#NARCIRCLE4").click(function() {
+					TweenMax.to("#NARUTORUN",0,{transform:"translateX(0px)translateY(0px)scale(1)rotateY(0deg)"})		
+					TweenMax.to("#NARUTORUN",1,{transform:"translateX(-500px)translateY(-450px)scale(0.5)rotateY(0deg)"})
+					TweenMax.to("#STORYICON,#STLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+					TweenMax.to(this,0,{zIndex:1});
+							$("#NARCIRCLE5").click(function() {
+								TweenMax.to("#NARUTORUN",0,{transform:"translateX(-500px)translateY(-450px)scale(0.4)rotateY(180deg)"})	
+								TweenMax.to("#NARUTORUN",1,{transform:"translateX(50px)translateY(-550px)scale(0.4)rotateY(180deg)"})
+						TweenMax.to("#HOMEICON,#HOLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+						TweenMax.to(this,0,{zIndex:1});
+	
+							})
+		$("#NARCIRCLE3").click(function() {
+			TweenMax.to("#NARUTORUN",0,{transform:"translateX(-500px)translateY(-450px)scale(0.5)rotateY(180deg)"})	
+			TweenMax.to("#NARUTORUN",1,{transform:"translateX(-100px)translateY(-350px)scale(0.5)rotateY(180deg)"})	
+			TweenMax.to("#WORLDICON,#WOLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+			TweenMax.to(this,0,{zIndex:1});
+				
+			})					
+							
+		})
+		
+		$("#NARCIRCLE5").click(function() {
+								TweenMax.to("#NARUTORUN",0,{transform:"translateX(0px)translateY(0px)scale(1)rotateY(180deg)"})	
+								TweenMax.to("#NARUTORUN",1,{transform:"translateX(50px)translateY(-550px)scale(0.4)rotateY(180deg)"})
+						TweenMax.to("#HOMEICON,#HOLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+						TweenMax.to(this,0,{zIndex:1});
+			
+			$("#NARCIRCLE4").click(function() {
+			TweenMax.to("#NARUTORUN",0,{transform:"translateX(50px)translateY(-550px)scale(0.4)rotateY(0deg)"})	
+			TweenMax.to("#NARUTORUN",1,{transform:"translateX(-500px)translateY(-450px)scale(0.5)rotateY(0deg)"})	
+			TweenMax.to("#STORYICON,#STLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+			TweenMax.to(this,0,{zIndex:1});
+				
+			})
+			
+		})
+			
+		}
+		if ($(window).width() < 1280 && $(window).width() > 767) {
+		
+			$("#NARCIRCLE1").click(function() {
+			TweenMax.to("#NARUTORUN",0,{transform:"translateX(-46.875vw)translateY(-7.8125vw)scale(0.8)rotateY(180deg)"})	
+			TweenMax.to("#NARUTORUN",1,{transform:"translateX(0vw)translateY(0vw)scale(1)rotateY(180deg)"})	
+			TweenMax.to("#SITEMAPICON,#SMLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+			TweenMax.to(this,0,{zIndex:1});
+			$("#NARCIRCLE2").click(function() {
+
+			TweenMax.to("#NARUTORUN",0,{transform:"translateX(0vw)translateY(0vw)scale(1)rotateY(0deg)"})		
+			TweenMax.to("#NARUTORUN",1,{transform:"translateX(-46.875vw)translateY(-7.8125vw)scale(0.8)rotateY(0deg)"})
+			TweenMax.to("#NINJAICON,#NJLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+			TweenMax.to(this,0,{zIndex:1});
+			})
+		})
+		
+		
+		$("#NARCIRCLE2").click(function() {
+
+			TweenMax.to("#NARUTORUN",0,{transform:"translateX(0vw)translateY(0vw)scale(1)rotateY(0deg)"})		
+			TweenMax.to("#NARUTORUN",1,{transform:"translateX(-46.875vw)translateY(-7.8125vw)scale(0.8)rotateY(0deg)"})
+			TweenMax.to("#NINJAICON,#NJLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+			TweenMax.to(this,0,{zIndex:1});
+			
+			$("#NARCIRCLE3").click(function() {
+				
+			TweenMax.to(".NAVIICON,.NAVITEXT",0.5,{opacity:0,y:50,pointerEvents:"none",zIndex:1});
+			TweenMax.to(".NARCIRCLE",0,{zIndex:3});
+				
+			TweenMax.to("#NARUTORUN",0,{transform:"translateX(-46.875vw)translateY(-7.8125vw)scale(0.8)rotateY(180deg)"})	
+			TweenMax.to("#NARUTORUN",1,{transform:"translateX(-7.8125vw)translateY(-27.34375vw)scale(0.5)rotateY(180deg)"})
+			TweenMax.to("#WORLDICON,#WOLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+			TweenMax.to(this,0,{zIndex:1});
+				$("#NARCIRCLE4").click(function() {
+					TweenMax.to("#NARUTORUN",0,{transform:"translateX(-11.71875vw)translateY(-27.34375vw)scale(0.5)rotateY(0deg)"})	
+					TweenMax.to("#NARUTORUN",1,{transform:"translateX(-39.0625vw)translateY(-35.15625vw)scale(0.5)rotateY(0deg)"})
+					TweenMax.to("#STORYICON,#STLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+					TweenMax.to(this,0,{zIndex:1});
+							$("#NARCIRCLE5").click(function() {
+								TweenMax.to("#NARUTORUN",0,{transform:"translateX(-39.0625vw)translateY(-35.15625vw)scale(0.4)rotateY(180deg)"})	
+								TweenMax.to("#NARUTORUN",1,{transform:"translateX(3.90625vw)translateY(-42.96875vw)scale(0.4)rotateY(180deg)"})
+						TweenMax.to("#HOMEICON,#HOLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+						TweenMax.to(this,0,{zIndex:1});
+	
+							})
+				})
+			})
+			
+			$("#NARCIRCLE1").click(function() {
+			TweenMax.to("#NARUTORUN",0,{transform:"translateX(-46.875vw)translateY(-7.8125vw)scale(0.8)rotateY(180deg)"})	
+			TweenMax.to("#NARUTORUN",1,{transform:"translateX(0vw)translateY(0vw)scale(1)rotateY(180deg)"})	
+			TweenMax.to("#SITEMAPICON,#SMLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+			TweenMax.to(this,0,{zIndex:1});
+			})
+			
+		})
+		
+		$("#NARCIRCLE3").click(function() {
+			
+			TweenMax.to("#NARUTORUN",0,{transform:"translateX(0vw)translateY(0vw)scale(1)rotateY(180deg)"})		
+			TweenMax.to("#NARUTORUN",1,{transform:"translateX(-7.8125vw)translateY(-27.34375vw)scale(0.5)rotateY(180deg)"})
+			TweenMax.to("#WORLDICON,#WOLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+			TweenMax.to(this,0,{zIndex:1});
+			$("#NARCIRCLE4").click(function() {
+					TweenMax.to("#NARUTORUN",0,{transform:"translateX(-11.71875vw)translateY(-27.34375vw)scale(0.5)rotateY(0deg)"})	
+					TweenMax.to("#NARUTORUN",1,{transform:"translateX(-39.0625vw)translateY(-35.15625vw)scale(0.5)rotateY(0deg)"})
+					TweenMax.to("#STORYICON,#STLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+					TweenMax.to(this,0,{zIndex:1});
+							$("#NARCIRCLE5").click(function() {
+								TweenMax.to("#NARUTORUN",0,{transform:"translateX(-39.0625vw)translateY(-35.15625vw)scale(0.4)rotateY(180deg)"})	
+								TweenMax.to("#NARUTORUN",1,{transform:"translateX(3.90625vw)translateY(-42.96875vw)scale(0.4)rotateY(180deg)"})
+						TweenMax.to("#HOMEICON,#HOLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+						TweenMax.to(this,0,{zIndex:1});
+	
+							})
+				})
+			$("#NARCIRCLE2").click(function() {
+			TweenMax.to("#NARUTORUN",0,{transform:"translateX(-7.8125vw)translateY(-27.34375vw)scale(0.5)rotateY(0deg)"})	
+			TweenMax.to("#NARUTORUN",1,{transform:"translateX(-46.875vw)translateY(-7.8125vw)scale(0.8)rotateY(0deg)"})	
+			TweenMax.to("#NINJAICON,#NJLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+			TweenMax.to(this,0,{zIndex:1});
+				
+			})
+		})
+		
+		$("#NARCIRCLE4").click(function() {
+					TweenMax.to("#NARUTORUN",0,{transform:"translateX(0vw)translateY(0vw)scale(1)rotateY(0deg)"})		
+					TweenMax.to("#NARUTORUN",1,{transform:"translateX(-39.0625vw)translateY(-35.15625vw)scale(0.5)rotateY(0deg)"})
+					TweenMax.to("#STORYICON,#STLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+					TweenMax.to(this,0,{zIndex:1});
+							$("#NARCIRCLE5").click(function() {
+								TweenMax.to("#NARUTORUN",0,{transform:"translateX(-39.0625vw)translateY(-35.15625vw)scale(0.4)rotateY(180deg)"})	
+								TweenMax.to("#NARUTORUN",1,{transform:"translateX(3.90625vw)translateY(-42.96875vw)scale(0.4)rotateY(180deg)"})
+						TweenMax.to("#HOMEICON,#HOLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+						TweenMax.to(this,0,{zIndex:1});
+	
+							})
+		$("#NARCIRCLE3").click(function() {
+			TweenMax.to("#NARUTORUN",0,{transform:"translateX(-39.0625vw)translateY(-35.15625vw)scale(0.5)rotateY(180deg)"})	
+			TweenMax.to("#NARUTORUN",1,{transform:"translateX(-7.8125vw)translateY(-27.34375vw)scale(0.5)rotateY(180deg)"})	
+			TweenMax.to("#WORLDICON,#WOLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+			TweenMax.to(this,0,{zIndex:1});
+				
+			})					
+							
+		})
+		
+		$("#NARCIRCLE5").click(function() {
+								TweenMax.to("#NARUTORUN",0,{transform:"translateX(0vw)translateY(0vw)scale(1)rotateY(180deg)"})	
+								TweenMax.to("#NARUTORUN",1,{transform:"translateX(3.90625vw)translateY(-42.96875vw)scale(0.4)rotateY(180deg)"})
+						TweenMax.to("#HOMEICON,#HOLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+						TweenMax.to(this,0,{zIndex:1});
+			
+			$("#NARCIRCLE4").click(function() {
+			TweenMax.to("#NARUTORUN",0,{transform:"translateX(3.90625vw)translateY(-42.96875vw)scale(0.4)rotateY(0deg)"})	
+			TweenMax.to("#NARUTORUN",1,{transform:"translateX(-39.0625vw)translateY(-35.15625vw)scale(0.5)rotateY(0deg)"})	
+			TweenMax.to("#STORYICON,#STLINK",0.5,{opacity:1,y:0,pointerEvents:"auto",zIndex:3});
+			TweenMax.to(this,0,{zIndex:1});
+				
+			})
+			
+		})
+			
+			
+			
+		}
+			
+		if ($(window).width() <= 767 && $(window).width() >= 0) {
+			
+		TweenMax.to(".ICONSMALL",0,{opacity:0});	
+		TweenMax.to("#SMICONSMALL",0,{opacity:1});	
+		
+		$(".LINKSMALL").click(function() {
+		TweenMax.to(".LINKSMALL",0.5,{color:"rgba(255,255,255,1)",textShadow:"none"});	
+		TweenMax.to(this,0.5,{color:"rgba(255,85,154,1)",textShadow:"-1px 0px 5px black, -1px 0px 5px black, -1px 0px 5px black, -1px 0px 5px black"});	
+		TweenMax.to("#NARUTORUN",0,{transform:"rotateY(-180deg)"})
+		$("#CLICKTOGO").letterfx({"fx":"fly-top","backwards":true,"timing":50,"fx_duration":"0.4s","letter_end":"rewind","element_end":"stay"});
+		})	
+		
+		$("#STORYLINKSMALL").click(function() {	
+		$("#VIPLINK").attr("href","Story.html");	
+		TweenMax.to("#LINKCONTAINER",1,{transform:"translateX(-300px)"});
+		TweenMax.to("#BGSM",1,{delay:0.5,transform:"translateX(-514px)"});
+		$("#SMLINKSMALL,#HOMELINKSMALL,#NINJALINKSMALL,#WORLDLINKSMALL").click(function(){
+				TweenMax.to("#NARUTORUN",0,{transform:"rotateY(0)"})
+			})
+		TweenMax.to(".ICONSMALL",0,{opacity:0});	
+		TweenMax.to("#STORYICONSMALL",0.5,{opacity:1});
+		})
+		
+		$("#WORLDLINKSMALL").click(function() {
+		$("#VIPLINK").attr("href","World.html");	
+		TweenMax.to("#LINKCONTAINER",1,{transform:"translateX(-300px)"});
+		TweenMax.to("#BGSM",1,{delay:0.5,transform:"translateX(-385.5px)"});
+		$("#SMLINKSMALL,#HOMELINKSMALL,#NINJALINKSMALL").click(function(){
+				TweenMax.to("#NARUTORUN",0,{transform:"rotateY(0)"})
+			})	
+		$("#STORYSMALL").click(function(){
+				TweenMax.to("#NARUTORUN",0,{transform:"rotateY(-180deg)"})
+			})
+		TweenMax.to(".ICONSMALL",0,{opacity:0});	
+		TweenMax.to("#WORLDICONSMALL",0.5,{opacity:1});	
+		})
+		
+		$("#NINJALINKSMALL").click(function() {
+		$("#VIPLINK").attr("href","Ninja.html");	
+		TweenMax.to("#LINKCONTAINER",1,{transform:"translateX(-200px)"});
+		TweenMax.to("#BGSM",1,{delay:0.5,transform:"translateX(-257px)"});
+		$("#SMLINKSMALL,#HOMELINKSMALL").click(function(){
+				TweenMax.to("#NARUTORUN",0,{transform:"rotateY(0)"})
+			})
+		$("#WORLDLINKSMALL,#STORYLINKSMALL").click(function(){
+				TweenMax.to("#NARUTORUN",0,{transform:"rotateY(-180deg)"})
+			})
+		TweenMax.to(".ICONSMALL",0,{opacity:0});	
+		TweenMax.to("#NINJAICONSMALL",0.5,{opacity:1});	
+		})
+		$("#HOMELINKSMALL").click(function() {
+		$("#VIPLINK").attr("href","Home.html");	
+		TweenMax.to("#LINKCONTAINER",1,{transform:"translateX(-100px)"});
+		TweenMax.to("#BGSM",1,{delay:0.5,transform:"translateX(-128.5px)"});
+			$("#SMLINKSMALL").click(function(){
+				TweenMax.to("#NARUTORUN",0,{transform:"rotateY(0)"})
+			})
+			$("#NINJALINKSMALL,#WORLDLINKSMALL,#STORYLINKSMALL").click(function(){
+				TweenMax.to("#NARUTORUN",0,{transform:"rotateY(-180deg)"})
+			})
+		TweenMax.to(".ICONSMALL",0,{opacity:0});	
+		TweenMax.to("#HOMEICONSMALL",0.5,{opacity:1});		
+		})
+		
+		$("#SMLINKSMALL").click(function() {
+		$("#VIPLINK").attr("href","Sitemap.html");	
+		TweenMax.to("#LINKCONTAINER",1,{transform:"translateX(0px)"});
+		TweenMax.to("#BGSM",1,{delay:0.5,transform:"translateX(0px)"});
+			$("#NINJALINKSMALL,#WORLDLINKSMALL,#STORYLINKSMALL,#HOMELINKSMALL").click(function(){
+				TweenMax.to("#NARUTORUN",0,{transform:"rotateY(-180deg)"})
+			})
+		TweenMax.to(".ICONSMALL",0,{opacity:0});	
+		TweenMax.to("#SMICONSMALL",0.5,{opacity:1});		
+		})
+		}	
+	//	})
+		
+		
+		
+		
+		TweenMax.to(".PUFF",1,{opacity:1});
+			TweenMax.to(".PUFF",1,{delay:1,opacity:0});	
+
+		
+		TweenMax.to(".NAVIICON",0,{pointerEvents:"none"});
+	})
+	
+	</script>
+</body>
+</html>

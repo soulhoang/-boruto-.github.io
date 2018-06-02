@@ -1,0 +1,486 @@
+<!doctype html>
+<html class="animated fadeIn">
+<head>
+<meta charset="UTF-8">
+<title>World</title>
+
+<link rel="stylesheet" href="CSS/animate.css">	
+<link rel="stylesheet" href="CSS/Main.css">	
+<link rel="stylesheet" media="(min-width: 1281px) and (max-width: 3000px)" href="CSS/large.css" />
+<link rel="stylesheet" media="(min-width: 768px) and (max-width: 1280px)" href="CSS/medium.css" />
+<link rel="stylesheet" media="(min-width: 480px) and (max-width: 767px)" href="CSS/small.css" />
+<link rel="stylesheet" media="(min-width: 767px) and (max-width: 767px)" href="CSS/small767.css" />
+<link rel="stylesheet" media="(min-width: 0px) and (max-width: 480px)" href="CSS/last.css" />
+<link rel="stylesheet" href="CSS/jquery-letterfx.css">
+
+<script src="JQ/jquery-3.1.1.min.js"></script>
+<script src="GS/TweenMax.min.js"></script>
+<script src="JQ/jquery-letterfx.js"></script>
+<script src="JQ/tuxsudo.min.js"></script>
+</head>
+
+<body>
+
+<div id="WORLDFRAME">
+	<div class="SECTION" id="HEADBODYWORLD">
+	<div class="SECTION" id="HEADWORLD">
+	
+		<div id="VIDEO2">
+			<video id="VID2" autoplay loop muted src="videos/WORLD VIDS/leaf.mp4"></video>
+		</div>
+
+		<div id="CHARHEADWORLD">
+			
+		</div>
+		
+		<div id="WORLDNAMECONT">
+				<div id="WORLDNAMEZ">LEAF<br><span>VILLAGE</span></div>
+		</div>
+		
+		<div id="LOGO"></div>
+		
+		<div id="MENU">
+			<div id="CIRCLE">
+				<!--<div class="HEXSHADOW" id="HOMES"></div>-->
+			<div id="HOMEG" class="GROUP">	
+				<div class="HEX" id="HOME"></div>
+				<div class="MENUNAME" id="HOMENAME">HOME</div>
+			</div>	
+<!--				<div class="HEXSHADOW" id="CHARS"></div>-->
+			<div id="CHARG" class="GROUP">
+				<div class="HEX" id="CHAR"></div>
+				<div class="MENUNAME" id="CHARNAME">NINJA</div>
+			</div>	
+			
+			<div id="WORLDG" class="GROUP">
+				<div class="HEX" id="WORLD"></div>
+				<div class="MENUNAME" id="WORLDNAME">WORLD</div>
+			</div>
+			
+			<div id="STORYG" class="GROUP">
+				<div class="HEX" id="STORY"></div>
+				<div class="MENUNAME" id="STORYNAME">STORY</div>
+			</div>
+			
+			<div id="SMG" class="GROUP">
+				<div class="HEX" id="SITEMAP"></div>
+				<div class="MENUNAME" id="SMNAME">SITEMAP</div>
+			</div>
+				
+			</div>
+		</div>
+		<div id="MENUSMALL">
+			<div id="CIRCLE2">
+				<!--<div class="HEXSHADOW" id="HOMES"></div>-->
+			<div id="HOMEG2" class="GROUP2">	
+				<div class="HEX2" id="HOME2"></div>
+				<div class="MENUNAME2" id="HOMENAME2">HOME</div>
+			</div>	
+<!--				<div class="HEXSHADOW" id="CHARS"></div>-->
+		
+		
+			<div id="CHARG2" class="GROUP2">
+				<div class="HEX2" id="CHAR2"></div>
+				<div class="MENUNAME2" id="CHARNAME2">NINJA</div>
+			</div>	
+			
+			
+			<div id="WORLDG2" class="GROUP2">
+				<div class="HEX2" id="WORLD2"></div>
+				<div class="MENUNAME2" id="WORLDNAME2">WORLD</div>
+			</div>
+			
+			<div id="STORYG2" class="GROUP2">
+				<div class="HEX2" id="STORY2"></div>
+				<div class="MENUNAME2" id="STORYNAME2">STORY</div>
+			</div>
+			
+			<div id="SMG2" class="GROUP2">
+				<div class="HEX2" id="SITEMAP2"></div>
+				<div class="MENUNAME2" id="SMNAME2">SITEMAP</div>
+			</div>
+				
+			</div>
+		</div>
+	
+	</div>
+	<div id="NARUTOHOKAGE"></div>
+	
+	<div id="WORLDSYMBOL"></div>	
+	<div id="BODY1CONT">
+		<div id="WORLDLABELCONT">
+			<li class="threetop">Name<span>:</span></li>
+			<li class="threetop">Leader<span>:</span></li>
+			<li class="threetop">Country<span>:</span></li>
+			<li class="threebot">Population<span>:</span></li>
+			<li class="threebot">Military<span>:</span></li>
+			<li class="threebot">Economy<span>:</span></li>
+		</div>
+		<div id="WORLDDATACONT">
+			<li>Hidden Leaf Village</li>
+			<li>Uzumaki Naruto (Hokage)</li>
+			<li>Land of Fire</li>
+			
+			<div id="POPDATACONT">
+				<div class="STATREC wactive" id="REC1"></div>
+				<div class="STATREC wactive" id="REC2"></div>
+				<div class="STATREC wactive" id="REC3"></div>
+				<div class="STATREC wactive" id="REC4"></div>
+				<div class="STATREC wactive" id="REC5"></div>
+			</div>
+			<div id="MILDATACONT">
+				<div class="STATREC wactive" id="REC6"></div>
+				<div class="STATREC wactive" id="REC7"></div>
+				<div class="STATREC wactive" id="REC8"></div>
+				<div class="STATREC" id="REC9"></div>
+				<div class="STATREC" id="REC10"></div>
+			</div>
+			<div id="ECODATACONT">
+				<div class="STATREC wactive" id="REC11"></div>
+				<div class="STATREC wactive" id="REC12"></div>
+				<div class="STATREC" id="REC13"></div>
+				<div class="STATREC" id="REC14"></div>
+				<div class="STATREC" id="REC15"></div>
+			</div>
+		</div>
+	</div>
+	</div>		
+			
+	<div class="SECTION" id="BODYWORLD">
+		<div id="#WorldCONTAINER">
+		<div id="HISTITLECONT">
+			<div id="HISTITLE"><span id="HISDROP">N</span><span>ine Tails Attacks</span></div>
+			<div id="TIMELINECONT">
+				<div id="TLLINE"></div>
+				
+				<div class="HISSTAGE STAGEACTIVE" id="STAGE2"></div>
+				<div class="HISSTAGE" id="STAGE3"></div>
+				<div class="HISSTAGE" id="STAGE4"></div>
+				<div class="HISSTAGE" id="STAGE5"></div>
+			</div>
+		</div>
+		
+		<div id="HISCONTENT">
+			<span>Soon after Minato became the Fourth Hokage. A masked man kidnapped the Nine-Tails' Uzumaki-host and removed it from her body, which he then used to attack Konoha.</span><br><br>
+<span>Minato was able to defeat the man, but the Nine-Tails proved more difficult. Left with few options, Minato gave his life to seal the Nine-Tails into the body of his newborn son, Naruto Uzumaki.</span>
+		</div>
+		
+		<div id="HISTORY">
+			H<br>I<br>S<br>T<br>O<br>R<br>Y
+		</div>
+		<div id="WORLDLISTCONT">
+			<div class="WORLDLIST" id="LIST1">
+				<div class="WORLDSYM" id="LEAFSYMACTIVE"></div>
+			</div>
+			<div class="WORLDLIST" id="LIST2">
+				<a href="Sand.html"><div class="WORLDSYM" id="SANDSYM"></div></a>
+			</div>
+			<div class="WORLDLIST" id="LIST3">
+				<a href="Mist.html"><div class="WORLDSYM" id="MISTSYM"></div></a>
+			</div>
+			<div class="WORLDLIST" id="LIST4">
+				<a href="Cloud.html"><div class="WORLDSYM" id="CLOUDSYM"></div></a>
+			</div>
+			<div class="WORLDLIST" id="LIST5">
+				<a href="Stone.html"><div class="WORLDSYM" id="ROCKSYM"></div></a>
+			</div>
+		</div>
+			</div>
+	</div>
+	<div class="SECTION" id="FOOTERWORLD">
+	  
+	 
+	
+		
+	</div>
+	<div id="WORLDCHARFOOT"></div>
+	 <div id="WORLDSHADE"></div>
+	   <div id="FOOTERTEXT">Copyright © 2018 BORUTO Inc.</div>
+		</div>
+
+<script>
+	$(document).ready(function() {
+		
+				TweenMax.to("#LIST1",0,{transform:"scale(1)"});
+			TweenMax.to(".WORLDSYM",0,{opacity:0.5,transform:"scale(0.9)"});
+		TweenMax.to("#LEAFSYMACTIVE",0,{opacity:1,transform:"scale(1)"});
+		
+		function HISHOVER() {
+			$(".HISSTAGE").hover(function() {
+				TweenMax.to(this,0.1,{background:"rgba(112,194,104,1)"})
+			},function() {
+				TweenMax.to(this,0.1,{background:"rgba(0,0,0,1)"});
+			})
+		}
+		HISHOVER();
+		$("#STAGE2").off("mouseenter mouseleave");	
+		
+			$("#STAGE3").click(function() {		
+				$("#BODYWORLD").css({"background-image":"url(images/WORLD/images/Uchiha.png)"})
+				$("#HISCONTENT span:eq(0)").text("After peace talks failed, Danzo Shimura ordered Itachi to wipe out his clan in exchange for being allowed to spare his younger brother, Sasuke.");
+				
+				$("#HISCONTENT span:eq(1)").text("Itachi, with assistance from Tobi, did as instructed, but staged events to seem as though he acted alone and for selfish purposes so that Sasuke would someday take vengeance against him for what he did to their family.");
+				
+				$("#HISTITLE span:eq(0)").text("U");
+				
+				$("#HISTITLE span:eq(1)").text("chiha Clan Downfall");	
+				$("#WORLDCHARFOOT").css({"background-image":"url(images/WORLD/images/Uchiha2.png)"})	
+				$("#FOOTERWORLD").css({"background-image":"url(images/WORLD/images/Uchiha3.png)"})		
+			})
+			
+			$("#STAGE2").click(function() {		
+				$("#BODYWORLD").css({"background-image":"url(images/WORLD/images/9tails_02.png)"})
+				$("#HISCONTENT span:eq(0)").text("Soon after Minato became the Fourth Hokage. A masked man kidnapped the Nine-Tails' Uzumaki-host and removed it from her body, which he then used to attack Konoha.");
+				
+				$("#HISCONTENT span:eq(1)").text("Minato was able to defeat the man, but the Nine-Tails proved more difficult. Left with few options, Minato gave his life to seal the Nine-Tails into the body of his newborn son, Naruto Uzumaki.");
+				
+				$("#HISTITLE span:eq(0)").text("N");
+				
+				$("#HISTITLE span:eq(1)").text("ine Tails Attacks");	
+				$("#WORLDCHARFOOT").css({"background-image":"url(images/WORLD/images/minato_05.png)"})	
+				$("#FOOTERWORLD").css({"background-image":"url(images/WORLD/images/9tailsfoot_02.png)"})		
+			})
+			
+			$("#STAGE4").click(function() {		
+				$("#BODYWORLD").css({"background-image":"url(images/WORLD/images/destroy.png)"})
+				$("#HISCONTENT span:eq(0)").text("More than three years after the failed Konoha Crush, the Six Paths of Pain of Akatsuki attack Konoha in an effort to capture Naruto.");
+				
+				$("#HISCONTENT span:eq(1)").text("Naruto returns to Konoha shortly afterwards and defeats Pain before confronting Nagato, the man behind Pain. After Naruto convinces him that his actions were wrong, Nagato gives his life to revive everyone that died during the invasion.");
+				
+				$("#HISTITLE span:eq(0)").text("P");
+				
+				$("#HISTITLE span:eq(1)").text("ain's Assault");	
+				$("#WORLDCHARFOOT").css({"background-image":"url(images/WORLD/images/destroy2.png)"})	
+				$("#FOOTERWORLD").css({"background-image":"url(images/WORLD/images/destroy3.png)"})		
+			})
+			
+			$("#STAGE5").click(function() {		
+				$("#BODYWORLD").css({"background-image":"url(images/WORLD/images/tsunade.png)"})
+				$("#HISCONTENT span:eq(0)").text("Danzo is killed shortly after the Alliance is agreed upon, but Tsunade wakes from her coma in time to start overseeing the war efforts.");
+				
+				$("#HISCONTENT span:eq(1)").text("Despite still being under construction, Konoha is used as a haven for refugees fleeing countries where much of the fighting is expected to take place.");
+				
+				$("#HISTITLE span:eq(0)").text("F");
+				
+				$("#HISTITLE span:eq(1)").text("ourth Shinobi War");	
+				$("#WORLDCHARFOOT").css({"background-image":"url(images/WORLD/images/tsunade2.png)"})	
+				$("#FOOTERWORLD").css({"background-image":"url(images/WORLD/images/tsunade3.png)"})		
+			})
+			
+			
+			$(".HISSTAGE").click(function() {
+				TweenMax.to(".HISSTAGE",0.3,{background:"rgba(0,0,0,1)",transform:"rotate(45deg)"});
+				TweenMax.to(this,0.3,{background:"rgba(255,255,255,1)",transform:"scale(1.2)rotate(45deg)"})
+				HISHOVER();
+				$(this).off("mouseenter mouseleave");
+				
+			})
+			
+		$(".WORLDSYM").hover(function() {
+				TweenMax.to(this,0.3,{opacity:1,transform:"scale(1)"});
+		},function() {
+				TweenMax.to(this,0.3,{opacity:0.5,transform:"scale(0.9)"});
+		})
+		
+		$("#LEAFSYMACTIVE").off("mouseenter mouseleave")
+		
+			TweenMax.to("#CIRCLE",0,{transform:"rotate(90deg)"});
+			TweenMax.to(".GROUP",0,{transform:"rotate(-90deg)"});
+			TweenMax.to("#WORLDG",0,{transform:"rotate(-90)scale(1.5)"});
+			$("#WORLD").css({background:"rgba(255,85,154,1)"});
+			$("#WORLDNAME").letterfx({"fx":"grow","backwards":true,"timing":100,"fx_duration":"0.4s","letter_end":"rewind","element_end":"stay"});
+			
+			TweenMax.to(".HEX2,.GROUP2",0,{width:"37.6px",height:"43px"});
+			TweenMax.to("#WORLDG2",0,{transform:"scale(1.5)"});
+			TweenMax.to("#WORLD2",0,{background:"rgba(255,85,154,1)"});
+		
+			//CODE DOI CON CHUOT//		
+			$("body,html").css('cursor','url(images/cursor.png),auto');
+		$(".HEX,.MENUNAME,.HISSTAGE,.WORLDSYM,.HEX2,.MENUNAME2,.GROUP2").css('cursor','url(images/ninja2.png),auto');	
+		
+					var mX, mY;
+		$(this).mousemove(function(e) {
+			 mX = e.pageX;
+			 mY = e.pageY;
+		})
+			var A = mX;
+			var B = mY;
+		
+
+		function RAN(Min,Max) {
+			return Math.floor(Math.random()*(Max-Min+1) +Min);
+		}
+		
+		setInterval(function() {
+			var size = RAN(10,40);
+			var C = "rgb("+RAN(0,255)+","+RAN(0,255)+","+RAN(0,255)+")";
+			var W = H = size;
+			var L = RAN(mX-size,mX+size);
+			var T = RAN(mY-size,mY+size);
+			
+			var min = 1;
+			var max = 6;
+			var i = Math.floor(Math.random() * (max - min + 1)) + min;
+			
+			var PATH = "url(images/C" + i + ".png";
+			
+			$("<div>").addClass("RC").appendTo("body").css({"background-image": PATH,width:W,height:H,top:T,left:L}).one("animationend",function() {
+				$(this).remove();
+			})
+			
+		},50)
+		
+		//CODE DOI CON CHUOT//	
+		
+	//	$(window).bind("load resize",function() {
+			
+	if($(window).width() > 767) {
+				if($(window).width() > 1280 ) {
+			
+			TweenMax.to(".HEX,.GROUP",0,{width:"63.6px",height:"72.6px"});
+					function RESETMENU() {
+			TweenMax.to(".GROUP",0,{width:"63.6px",height:"72.6px"});
+			TweenMax.to(".HEX",0,{width:"63.6px",height:"72.6px",background:"rgba(130,130,130,1)"});
+			TweenMax.to(".MENUNAME",0,{fontSize:"25px"});
+		}
+		}	
+		
+		else if($(window).width() > 767 && $(window).width() <= 1280) {
+			TweenMax.to(".HEX,.GROUP",0,{width:"4.9vw",height:"5.6vw"});
+			function RESETMENU() {
+			TweenMax.to(".GROUP",0,{width:"4.9vw",height:"5.6vw"});
+			TweenMax.to(".HEX",0,{width:"4.9vw",height:"5.6vw",background:"rgba(130,130,130,1)"});
+			TweenMax.to(".MENUNAME",0,{fontSize:"1.95vw"});
+		}
+		}
+
+		function HOVER() {
+		$(".GROUP").hover(function() {
+			$(this).find(".HEX").css({background:"rgba(54,109,192,1)"});
+		},function() {
+			$(this).find(".HEX").css({background:"rgba(130,130,130,1)"});
+		})
+		}
+		HOVER();
+		function WORLDHOVERACTIVE() {
+		$("#WORLDG").hover(function() {
+			$("#WORLD").css({background:"rgba(255,85,154,1)"})
+		},function() {
+			$("#WORLD").css({background:"rgba(255,85,154,1)"})
+		})	
+		}
+		WORLDHOVERACTIVE();
+			
+			TweenMax.to("#CIRCLE",0,{transform:"rotate(90deg)"});
+			TweenMax.to(".GROUP",0,{transform:"rotate(-90deg)"});
+			TweenMax.to("#WORLDG",0,{transform:"rotate(-90deg)scale(1.5)"});
+			$("WORLD").css({background:"rgba(255,85,154,1)"});	
+	
+		$("#HOMEG").click(function() {		
+			RESETMENU();
+			TweenMax.to("#CIRCLE",0.5,{transform:"rotate(0deg)"});
+			TweenMax.to(".GROUP",0.5,{transform:"rotate(0deg)"});
+			TweenMax.to(this,0.5,{transform:"rotate(0deg)scale(1.5)"});
+			TweenMax.to("#HOME",0.5,{background:"rgba(255,85,154,1)"});
+			$(this).delay(500).promise().done(function() {
+				
+				window.location.href = "Home.html";
+			})
+		})
+		
+		$("#STORYG").click(function() {		
+			RESETMENU();
+			TweenMax.to("#CIRCLE",0.5,{transform:"rotate(135deg)"});
+			TweenMax.to(".GROUP",0.5,{transform:"rotate(-135deg)"});
+			TweenMax.to(this,0.5,{transform:"rotate(-135deg)scale(1.5)"});
+			TweenMax.to("#STORY",0.5,{background:"rgba(255,85,154,1)"});
+			$(this).delay(500).promise().done(function() {
+				
+				window.location.href = "Story.html";
+			})
+		})
+		
+		$("#SMG").click(function() {		
+			RESETMENU();
+			TweenMax.to("#CIRCLE",0.5,{transform:"rotate(135deg)"});
+			TweenMax.to(".GROUP",0.5,{transform:"rotate(-135deg)"});
+			TweenMax.to(this,0.5,{transform:"rotate(-135deg)scale(1.5)"});
+			TweenMax.to("#SITEMAP",0.5,{background:"rgba(255,85,154,1)"});
+			$(this).delay(500).promise().done(function() {
+				
+				window.location.href = "Sitemap.html";
+			})
+		})
+		
+/*		$("#STORYG").click(function() {		
+			RESETMENU();
+			TweenMax.to("#CIRCLE",0.5,{transform:"rotate(135deg)"});
+			TweenMax.to(".GROUP",0.5,{transform:"rotate(-135deg)"});
+			TweenMax.to(this,0.5,{transform:"rotate(-135deg)scale(1.5)"});
+			TweenMax.to("#STORY",0.5,{background:"rgba(255,85,154,1)"});
+		})*/
+		
+		$("#CHARG").click(function() {		
+			RESETMENU();
+			TweenMax.to("#CIRCLE",0.5,{transform:"rotate(45deg)"});
+			TweenMax.to(".GROUP",0.5,{transform:"rotate(-45deg)"});
+			TweenMax.to(this,0.5,{transform:"rotate(-45deg)scale(1.5)"});
+			TweenMax.to("#CHAR",0.5,{background:"rgba(255,85,154,1)"});
+			$(this).delay(500).promise().done(function() {
+				
+				window.location.href = "Ninja.html";
+			})
+		})
+		}
+	else if ($(window).width() <= 767 && $(window).width() >= 0) {
+					TweenMax.to(".HEX2,.GROUP2",0,{width:"37.6px",height:"43px"});
+			TweenMax.to("#WORLDG2",0,{transform:"scale(1.5)"});
+			TweenMax.to("#WORLD2",0,{background:"rgba(255,85,154,1)"});
+			
+			function RESETMENUMID() {
+			TweenMax.to(".GROUP2",0.3,{transform:"scale(1)"});
+			TweenMax.to(".HEX2",0.3,{background:"rgba(130,130,130,1)"});
+			}
+			
+			
+			$("#STORYG2").click(function() {		
+			RESETMENUMID();
+			TweenMax.to(this,0.3,{transform:"scale(1.5)"});
+			TweenMax.to("#STORY2",0.3,{background:"rgba(255,85,154,1)"});
+			$(this).delay(300).promise().done(function() {
+				window.location.href = "Story.html";
+			})	
+		})
+			$("#CHARG2").click(function() {		
+			RESETMENUMID();
+			TweenMax.to(this,0.3,{transform:"scale(1.5)"});
+			TweenMax.to("#CHAR2",0.3,{background:"rgba(255,85,154,1)"});
+			$(this).delay(300).promise().done(function() {
+				window.location.href = "Ninja.html";
+			})
+			
+		})
+			$("#HOMEG2").click(function() {		
+			RESETMENUMID();
+			TweenMax.to(this,0.3,{transform:"scale(1.5)"});
+			TweenMax.to("#HOME2",0.3,{background:"rgba(255,85,154,1)"});
+			$(this).delay(300).promise().done(function() {
+				window.location.href = "Home.html";
+			})	
+		})
+			$("#SMG2").click(function() {		
+			RESETMENUMID();
+			TweenMax.to(this,0.3,{transform:"scale(1.5)"});
+			TweenMax.to("#SITEMAP2",0.3,{background:"rgba(255,85,154,1)"});
+			$(this).delay(300).promise().done(function() {
+				window.location.href = "Sitemap.html";
+			})
+			
+		})
+		}
+	//	})
+	})
+	
+	</script>
+</body>
+</html>

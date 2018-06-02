@@ -1,0 +1,143 @@
+.letterfx-container{}
+
+.letterfx{
+    display:inline-block;
+    margin:0;
+    padding:0;
+    transition: all 1s; -ms-transition: all 1s; -webkit-transition: all 1s;
+}
+
+/* Spin FX */
+.letterfx-spin-before{
+    transform:rotate(360deg); -ms-transform:rotate(360deg); -webkit-transform:rotate(360deg);
+}
+
+.letterfx-spin-after{
+    transform:none;
+}
+
+/* Fade FX */
+.letterfx-fade-before{
+  visibility: hidden;
+  opacity: 0;
+}
+.letterfx-fade-after{
+	visibility: visible;
+  opacity: 1;
+}
+/* Skew FX */
+.letterfx-skew-before{
+
+transform:skewX(95deg)scaleY(3);-ms-transform:skewX(95deg)scaleY(3);-webkit-transform:skewX(95deg)scaleY(3);
+}
+.letterfx-skew-after{
+
+  transforn:none;
+}
+
+/* Skew2 FX */
+.letterfx-skew2-before{
+
+transform:skewX(-90deg);-ms-transform:skewX(-90deg);-webkit-transform:skewX(-90deg);
+}
+.letterfx-skew2-after{
+
+  transforn:none;
+}
+
+
+/* Grow FX */
+.letterfx-grow-before{
+    transform:scale(0,0); -ms-transform:scale(0,0); -webkit-transform:scale(0,0);
+}
+
+.letterfx-grow-after{
+    transform:none;
+}
+
+/* Zoom FX */
+.letterfx-zoom-before{
+    transform:scale(2,2); -ms-transform:scale(2,2); -webkit-transform:scale(2,2);
+}
+
+.letterfx-zoom-after{
+    transform:none;
+}
+
+
+/* Smear FX */
+.letterfx-smear-before{
+    color: transparent;
+    text-shadow:-1px -1px 25px transparent;
+}
+
+.letterfx-smear-after{
+    color:inherit;
+    text-shadow:0 0 #333;
+
+}
+
+/* Fall FX */
+.letterfx-fall-before
+{
+    visibility: hidden;
+    transform:scale(3,3); -ms-transform:scale(3,3); -webkit-transform:scale(3,3);
+}
+
+.letterfx-fall-after{
+    transform:scale(1,1); -ms-transform:scale(1,1); -webkit-transform:scale(1,1);
+    text-shadow:0;
+}
+
+/* Swirl FX */
+.letterfx-swirl-before
+{
+      visibility: hidden;
+    transform:scale(3,3) rotate(3600deg); -ms-transform:scale(3,3) rotate(3600deg); -webkit-transform:scale(3,3) rotate(3600deg);
+}
+
+.letterfx-swirl-after{
+    transform:none;
+}
+
+
+/* Wave FX */
+.letterfx-wave-container .letterfx
+{
+    position:relative;
+}
+
+.letterfx-wave-before
+{
+    bottom:0;
+}
+
+.letterfx-wave-after{
+    bottom:15px;
+}
+
+
+
+/* FLY FX */
+.letterfx-fly-left-container .letterfx,
+.letterfx-fly-right-container .letterfx,
+.letterfx-fly-top-container .letterfx,
+.letterfx-fly-bottom-container .letterfx
+{
+    position:relative;
+}
+
+.letterfx-fly-left-before{ left:-50em; }
+.letterfx-fly-left-after{ left:0; }
+
+.letterfx-fly-right-before{ right:-50em; }
+.letterfx-fly-right-after{ right:0; }
+
+.letterfx-fly-top-before{ top:-20em; }
+.letterfx-fly-top-after{ top:0; }
+
+.letterfx-fly-bottom-before{ bottom:-20em; }
+.letterfx-fly-bottom-after{ bottom:0; }
+
+
+

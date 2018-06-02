@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'S4';
+  src: url('FOT-ReggaeStdB.woff') format('woff'),
+       url('FOT-ReggaeStdB.ttf') format('truetype'),
+       url('FOT-ReggaeStdB.svg#FOT-ReggaeStdB') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'S4fonts';
+  src: url('S4fonts.eot');
+  src: url('S4fonts.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

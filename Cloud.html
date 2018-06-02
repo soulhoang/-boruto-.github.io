@@ -1,0 +1,467 @@
+<!doctype html>
+<html class="animated fadeIn">
+<head>
+<meta charset="UTF-8">
+<title>Cloud</title>
+
+<link rel="stylesheet" href="CSS/animate.css">	
+<link rel="stylesheet" href="CSS/Main.css">	
+<link rel="stylesheet" media="(min-width: 1281px) and (max-width: 3000px)" href="CSS/large.css" />
+<link rel="stylesheet" media="(min-width: 768px) and (max-width: 1280px)" href="CSS/medium.css" />
+<link rel="stylesheet" media="(min-width: 480px) and (max-width: 767px)" href="CSS/small.css" />
+<link rel="stylesheet" media="(min-width: 767px) and (max-width: 767px)" href="CSS/small767.css" />
+<link rel="stylesheet" media="(min-width: 0px) and (max-width: 480px)" href="CSS/last.css" />
+<link rel="stylesheet" href="CSS/jquery-letterfx.css">
+
+<script src="JQ/jquery-3.1.1.min.js"></script>
+<script src="GS/TweenMax.min.js"></script>
+<script src="JQ/jquery-letterfx.js"></script>
+<script src="JQ/tuxsudo.min.js"></script>
+</head>
+
+<body>
+
+<div id="WORLDFRAME">
+	<div class="SECTION" id="HEADBODYWORLD">
+	
+	<div class="SECTION" id="HEADCLOUD">
+		<div id="VIDEO2">
+			<video id="VID2" autoplay loop muted src="videos/WORLD VIDS/cloud.mp4"></video>
+		</div>
+		<div id="CHARHEADCLOUD">
+			
+		</div>
+		
+		<div id="WORLDNAMECONT">
+				<div id="CLOUDNAMEZ">CLOUD<br><span>VILLAGE</span></div>
+		</div>
+		
+		<div id="LOGO"></div>
+		
+		<div id="MENU">
+			<div id="CIRCLE">
+				<!--<div class="HEXSHADOW" id="HOMES"></div>-->
+			<div id="HOMEG" class="GROUP">	
+				<div class="HEX" id="HOME"></div>
+				<div class="MENUNAME" id="HOMENAME">HOME</div>
+			</div>	
+<!--				<div class="HEXSHADOW" id="CHARS"></div>-->
+			<div id="CHARG" class="GROUP">
+				<div class="HEX" id="CHAR"></div>
+				<div class="MENUNAME" id="CHARNAME">NINJA</div>
+			</div>	
+			
+			<div id="WORLDG" class="GROUP">
+				<div class="HEX" id="WORLD"></div>
+				<div class="MENUNAME" id="WORLDNAME">WORLD</div>
+			</div>
+			
+			<div id="STORYG" class="GROUP">
+				<div class="HEX" id="STORY"></div>
+				<div class="MENUNAME" id="STORYNAME">STORY</div>
+			</div>
+			
+			<div id="SMG" class="GROUP">
+				<div class="HEX" id="SITEMAP"></div>
+				<div class="MENUNAME" id="SMNAME">SITEMAP</div>
+			</div>
+				
+			</div>
+		</div>
+		<div id="MENUSMALL">
+			<div id="CIRCLE2">
+				<!--<div class="HEXSHADOW" id="HOMES"></div>-->
+			<div id="HOMEG2" class="GROUP2">	
+				<div class="HEX2" id="HOME2"></div>
+				<div class="MENUNAME2" id="HOMENAME2">HOME</div>
+			</div>	
+<!--				<div class="HEXSHADOW" id="CHARS"></div>-->
+		
+		
+			<div id="CHARG2" class="GROUP2">
+				<div class="HEX2" id="CHAR2"></div>
+				<div class="MENUNAME2" id="CHARNAME2">NINJA</div>
+			</div>	
+			
+			
+			<div id="WORLDG2" class="GROUP2">
+				<div class="HEX2" id="WORLD2"></div>
+				<div class="MENUNAME2" id="WORLDNAME2">WORLD</div>
+			</div>
+			
+			<div id="STORYG2" class="GROUP2">
+				<div class="HEX2" id="STORY2"></div>
+				<div class="MENUNAME2" id="STORYNAME2">STORY</div>
+			</div>
+			
+			<div id="SMG2" class="GROUP2">
+				<div class="HEX2" id="SITEMAP2"></div>
+				<div class="MENUNAME2" id="SMNAME2">SITEMAP</div>
+			</div>
+				
+			</div>
+		</div>
+	
+	</div>
+	<div id="CLOUDHOKAGE"></div>
+	
+	<div id="CLOUDSYMBOL"></div>	
+	<div id="BODY1CONT">
+		<div id="WORLDLABELCONT">
+			<li class="threetopCLOUD">Name<span>:</span></li>
+			<li class="threetopCLOUD">Leader<span>:</span></li>
+			<li class="threetopCLOUD">Country<span>:</span></li>
+			<li class="threebot">Population<span>:</span></li>
+			<li class="threebot">Military<span>:</span></li>
+			<li class="threebot">Economy<span>:</span></li>
+		</div>
+		<div id="WORLDDATACONT">
+			<li>Hidden Cloud Village</li>
+			<li>Darul (Raikage)</li>
+			<li>Land of Lightning</li>
+			
+			<div id="POPDATACONT">
+				<div class="STATREC wactiveCL" id="REC1"></div>
+				<div class="STATREC wactiveCL" id="REC2"></div>
+				<div class="STATREC wactiveCL " id="REC3"></div>
+				<div class="STATREC" id="REC4"></div>
+				<div class="STATREC" id="REC5"></div>
+			</div>
+			<div id="MILDATACONT">
+				<div class="STATREC wactiveCL" id="REC6"></div>
+				<div class="STATREC wactiveCL" id="REC7"></div>
+				<div class="STATREC wactiveCL" id="REC8"></div>
+				<div class="STATREC wactiveCL" id="REC9"></div>
+				<div class="STATREC" id="REC10"></div>
+			</div>
+			<div id="ECODATACONT">
+				<div class="STATREC wactiveCL" id="REC11"></div>
+				<div class="STATREC wactiveCL" id="REC12"></div>
+				<div class="STATREC wactiveCL" id="REC13"></div>
+				<div class="STATREC wactiveCL" id="REC14"></div>
+				<div class="STATREC" id="REC15"></div>
+			</div>
+		</div>
+	</div>
+	</div>		
+			
+	<div class="SECTION" id="BODYCLOUD">
+		<div id="#WorldCONTAINER">
+		<div id="HISTITLECONT">
+			<div id="HISTITLE"><span id="HISDROP">E</span><span>ight Tails Capture</span></div>
+			<div id="TIMELINECONT">
+				<div id="TLLINE"></div>
+	
+		
+				<div class="HISSTAGE" id="STAGE3"></div>
+				<div class="HISSTAGE STAGEACTIVE" id="STAGE4"></div>
+				<div class="HISSTAGE" id="STAGE5"></div>
+		
+			</div>
+		</div>
+		
+		<div id="HISCONTENT">
+		<span>The Eight Tails routinely rampaged through the village when its jinchuriki could not longer contain it. Because the Eight-Tails was too valuable to destroy, many were killed trying to seal it.</span><br><br>
+		<span>The Eight-Tails' most recent jinchuriki, Killer B, as well as the jinchuriki of the Two-Tails, Yugito Nii, have been able to successfully control their beasts, leaving both highly valued by the village.</span></div>
+
+		<div id="HISTORY">
+			H<br>I<br>S<br>T<br>O<br>R<br>Y
+		</div>
+		<div id="WORLDLISTCONT">
+			<div class="WORLDLIST" id="LIST1">
+				<a href="World.html"><div class="WORLDSYM" id="LEAFSYM"></div></a>
+			</div>
+			<div class="WORLDLIST" id="LIST2">
+				<a href="Sand.html"><div class="WORLDSYM" id="SANDSYM"></div></a>
+			</div>
+			<div class="WORLDLIST" id="LIST3">
+				<a href="Mist.html"><div class="WORLDSYM" id="MISTSYM"></div></a>
+			</div>
+			<div class="WORLDLIST" id="LIST4">
+				<div class="WORLDSYM" id="CLOUDSYMACTIVE"></div>
+			</div>
+			<div class="WORLDLIST" id="LIST5">
+				<a href="Stone.html"><div class="WORLDSYM" id="ROCKSYM"></div></a>
+			</div>
+		</div>
+			</div>
+	</div>
+	<div class="SECTION" id="FOOTERCLOUD">
+
+	</div>
+	<div id="CLOUDCHARFOOT"></div>
+	 <div id="WORLDSHADE"></div>
+	  <div id="FOOTERTEXT">Copyright © 2018 BORUTO Inc.</div>
+		</div>
+
+<script>
+	$(document).ready(function() {
+		TweenMax.to("#LIST4",0,{transform:"scale(1)"});
+			TweenMax.to(".WORLDSYM",0,{opacity:0.5,transform:"scale(0.9)"});
+		TweenMax.to("#CLOUDSYMACTIVE",0,{opacity:1,transform:"scale(1)"});
+		
+		function HISHOVER() {
+			$(".HISSTAGE").hover(function() {
+				TweenMax.to(this,0.1,{background:"#b8b7b6"})
+			},function() {
+				TweenMax.to(this,0.1,{background:"rgba(0,0,0,1)"});
+			})
+		}
+		HISHOVER();
+		$("#STAGE4").off("mouseenter mouseleave");	
+			
+			$(".HISSTAGE").click(function() {
+				TweenMax.to(".HISSTAGE",0.3,{background:"rgba(0,0,0,1)",transform:"rotate(45deg)"});
+				TweenMax.to(this,0.3,{background:"rgba(255,255,255,1)",transform:"scale(1.2)rotate(45deg)"})
+				HISHOVER();
+				$(this).off("mouseenter mouseleave");
+				
+			})
+			
+			$("#STAGE3").click(function() {		
+				$("#BODYCLOUD").css({"background-image":"url(images/CLOUD/Kushina.png)"})
+				$("#HISCONTENT span:eq(0)").text("Kumo secretly does not demilitarise so that no other village can ever have an upperhand when hostilities inevitably resume. Kumo's efforts to amass power often entail stealing secrets and kidnapping shinobi from other villages.");
+				
+				$("#HISCONTENT span:eq(1)").text("Several years before the Third Shinobi World War, Kumo shinobi kidnapped Kushina Uzumaki from Konoha in order to study her unique chakra, but were foiled by Minato Namikaze.");
+				
+				$("#HISTITLE span:eq(0)").text("K");
+				
+				$("#HISTITLE span:eq(1)").text("ushina Kidnapping");	
+				$("#CLOUDCHARFOOT").css({"background-image":"url(images/CLOUD/Kushina2.png)"})
+				$("#FOOTERCLOUD").css({"background-image":"url(images/CLOUD/Kushina3.png)"})		
+			})
+			
+			$("#STAGE4").click(function() {		
+				$("#BODYCLOUD").css({"background-image":"url(images/CLOUD/A_vs_Eight-Tails.png)"})
+				$("#HISCONTENT span:eq(0)").text("The Eight Tails routinely rampaged through the village when its jinchuriki could not longer contain it. Because the Eight-Tails was too valuable to destroy, many were killed trying to seal it.");
+				
+				$("#HISCONTENT span:eq(1)").text("The Eight-Tails' most recent jinchuriki, Killer B, as well as the jinchuriki of the Two-Tails, Yugito Nii, have been able to successfully control their beasts, leaving both highly valued by the village.");
+				
+				$("#HISTITLE span:eq(0)").text("E");
+				
+				$("#HISTITLE span:eq(1)").text("ight Tails Capture");
+				$("#CLOUDCHARFOOT").css({"background-image":"url(images/CLOUD/Cloud_03.png)"})
+				$("#FOOTERCLOUD").css({"background-image":"url(images/CLOUD/Cloud_02.png)"})	
+			})
+			
+			$("#STAGE5").click(function() {		
+				$("#BODYCLOUD").css({"background-image":"url(images/CLOUD/Fourth.png)"})
+				$("#HISCONTENT span:eq(0)").text("Although suspicious of the other villages due to their histories with Akatsuki, Akatsuki's declaration of the Fourth Shinobi World War (and news that B only pretended to be captured) convinces the Raikage to join the Allied Shinobi Forces.");
+				
+				$("#HISCONTENT span:eq(1)").text("He is appointed its Supreme Commander and Kumo is selected for the Allied Shinobi Forces' Headquarters, making it a target for Akatsuki's counter-offensive.");
+				
+				$("#HISTITLE span:eq(0)").text("F");
+				
+				$("#HISTITLE span:eq(1)").text("ourth Shinobi War");
+				$("#CLOUDCHARFOOT").css({"background-image":"url(images/CLOUD/Fourth2.png)"})
+				$("#FOOTERCLOUD").css({"background-image":"url(images/CLOUD/Fourth3.png)"})	
+			})
+			
+		$(".WORLDSYM").hover(function() {
+				TweenMax.to(this,0.3,{opacity:1,transform:"scale(1)"});
+		},function() {
+				TweenMax.to(this,0.3,{opacity:0.5,transform:"scale(0.9)"});
+		})
+		
+		$("#CLOUDSYMACTIVE").off("mouseenter mouseleave")
+		
+			TweenMax.to("#CIRCLE",0,{transform:"rotate(90deg)"});
+			TweenMax.to(".GROUP",0,{transform:"rotate(-90deg)"});
+			TweenMax.to("#WORLDG",0,{transform:"rotate(-90)scale(1.5)"});
+			$("#WORLD").css({background:"rgba(255,85,154,1)"});
+			$("#WORLDNAME").letterfx({"fx":"grow","backwards":true,"timing":100,"fx_duration":"0.4s","letter_end":"rewind","element_end":"stay"});
+			
+			TweenMax.to(".HEX2,.GROUP2",0,{width:"37.6px",height:"43px"});
+			TweenMax.to("#WORLDG2",0,{transform:"scale(1.5)"});
+			TweenMax.to("#WORLD2",0,{background:"rgba(255,85,154,1)"});
+		
+			//CODE DOI CON CHUOT//		
+			$("body,html").css('cursor','url(images/cursor.png),auto');
+		$(".HEX,.MENUNAME,.HISSTAGE,.WORLDSYM,.HEX2,.MENUNAME2,.GROUP2").css('cursor','url(images/ninja2.png),auto');	
+		
+					var mX, mY;
+		$(this).mousemove(function(e) {
+			 mX = e.pageX;
+			 mY = e.pageY;
+		})
+			var A = mX;
+			var B = mY;
+		
+
+		function RAN(Min,Max) {
+			return Math.floor(Math.random()*(Max-Min+1) +Min);
+		}
+		
+		setInterval(function() {
+			var size = RAN(10,40);
+			var C = "rgb("+RAN(0,255)+","+RAN(0,255)+","+RAN(0,255)+")";
+			var W = H = size;
+			var L = RAN(mX-size,mX+size);
+			var T = RAN(mY-size,mY+size);
+			
+			var min = 1;
+			var max = 6;
+			var i = Math.floor(Math.random() * (max - min + 1)) + min;
+			
+			var PATH = "url(images/C" + i + ".png";
+			
+			$("<div>").addClass("RC").appendTo("body").css({"background-image": PATH,width:W,height:H,top:T,left:L}).one("animationend",function() {
+				$(this).remove();
+			})
+			
+		},50)
+		
+		//CODE DOI CON CHUOT//	
+		
+	//	$(window).bind("load resize",function() {
+			
+	if($(window).width() > 767) {
+				if($(window).width() > 1280 ) {
+			
+			TweenMax.to(".HEX,.GROUP",0,{width:"63.6px",height:"72.6px"});
+					function RESETMENU() {
+			TweenMax.to(".GROUP",0,{width:"63.6px",height:"72.6px"});
+			TweenMax.to(".HEX",0,{width:"63.6px",height:"72.6px",background:"rgba(130,130,130,1)"});
+			TweenMax.to(".MENUNAME",0,{fontSize:"25px"});
+		}
+		}	
+		
+		else if($(window).width() > 767 && $(window).width() <= 1280) {
+			TweenMax.to(".HEX,.GROUP",0,{width:"4.9vw",height:"5.6vw"});
+			function RESETMENU() {
+			TweenMax.to(".GROUP",0,{width:"4.9vw",height:"5.6vw"});
+			TweenMax.to(".HEX",0,{width:"4.9vw",height:"5.6vw",background:"rgba(130,130,130,1)"});
+			TweenMax.to(".MENUNAME",0,{fontSize:"1.95vw"});
+		}
+		}
+
+		function HOVER() {
+		$(".GROUP").hover(function() {
+			$(this).find(".HEX").css({background:"rgba(54,109,192,1)"});
+		},function() {
+			$(this).find(".HEX").css({background:"rgba(130,130,130,1)"});
+		})
+		}
+		HOVER();
+		function WORLDHOVERACTIVE() {
+		$("#WORLDG").hover(function() {
+			$("#WORLD").css({background:"rgba(255,85,154,1)"})
+		},function() {
+			$("#WORLD").css({background:"rgba(255,85,154,1)"})
+		})	
+		}
+		WORLDHOVERACTIVE();
+			
+			TweenMax.to("#CIRCLE",0,{transform:"rotate(90deg)"});
+			TweenMax.to(".GROUP",0,{transform:"rotate(-90deg)"});
+			TweenMax.to("#WORLDG",0,{transform:"rotate(-90deg)scale(1.5)"});
+			$("WORLD").css({background:"rgba(255,85,154,1)"});	
+	
+		$("#HOMEG").click(function() {		
+			RESETMENU();
+			TweenMax.to("#CIRCLE",0.5,{transform:"rotate(0deg)"});
+			TweenMax.to(".GROUP",0.5,{transform:"rotate(0deg)"});
+			TweenMax.to(this,0.5,{transform:"rotate(0deg)scale(1.5)"});
+			TweenMax.to("#HOME",0.5,{background:"rgba(255,85,154,1)"});
+			$(this).delay(500).promise().done(function() {
+				
+				window.location.href = "Home.html";
+			})
+		})
+		
+		$("#STORYG").click(function() {		
+			RESETMENU();
+			TweenMax.to("#CIRCLE",0.5,{transform:"rotate(135deg)"});
+			TweenMax.to(".GROUP",0.5,{transform:"rotate(-135deg)"});
+			TweenMax.to(this,0.5,{transform:"rotate(-135deg)scale(1.5)"});
+			TweenMax.to("#STORY",0.5,{background:"rgba(255,85,154,1)"});
+			$(this).delay(500).promise().done(function() {
+				
+				window.location.href = "Story.html";
+			})
+		})
+		
+		$("#SMG").click(function() {		
+			RESETMENU();
+			TweenMax.to("#CIRCLE",0.5,{transform:"rotate(135deg)"});
+			TweenMax.to(".GROUP",0.5,{transform:"rotate(-135deg)"});
+			TweenMax.to(this,0.5,{transform:"rotate(-135deg)scale(1.5)"});
+			TweenMax.to("#SITEMAP",0.5,{background:"rgba(255,85,154,1)"});
+			$(this).delay(500).promise().done(function() {
+				
+				window.location.href = "Sitemap.html";
+			})
+		})
+		
+/*		$("#STORYG").click(function() {		
+			RESETMENU();
+			TweenMax.to("#CIRCLE",0.5,{transform:"rotate(135deg)"});
+			TweenMax.to(".GROUP",0.5,{transform:"rotate(-135deg)"});
+			TweenMax.to(this,0.5,{transform:"rotate(-135deg)scale(1.5)"});
+			TweenMax.to("#STORY",0.5,{background:"rgba(255,85,154,1)"});
+		})*/
+		
+		$("#CHARG").click(function() {		
+			RESETMENU();
+			TweenMax.to("#CIRCLE",0.5,{transform:"rotate(45deg)"});
+			TweenMax.to(".GROUP",0.5,{transform:"rotate(-45deg)"});
+			TweenMax.to(this,0.5,{transform:"rotate(-45deg)scale(1.5)"});
+			TweenMax.to("#CHAR",0.5,{background:"rgba(255,85,154,1)"});
+			$(this).delay(500).promise().done(function() {
+				
+				window.location.href = "Ninja.html";
+			})
+		})
+		}
+	else if ($(window).width() <= 767 && $(window).width() >= 0) {
+					TweenMax.to(".HEX2,.GROUP2",0,{width:"37.6px",height:"43px"});
+			TweenMax.to("#WORLDG2",0,{transform:"scale(1.5)"});
+			TweenMax.to("#WORLD2",0,{background:"rgba(255,85,154,1)"});
+			
+			function RESETMENUMID() {
+			TweenMax.to(".GROUP2",0.3,{transform:"scale(1)"});
+			TweenMax.to(".HEX2",0.3,{background:"rgba(130,130,130,1)"});
+			}
+			
+			
+			$("#STORYG2").click(function() {		
+			RESETMENUMID();
+			TweenMax.to(this,0.3,{transform:"scale(1.5)"});
+			TweenMax.to("#STORY2",0.3,{background:"rgba(255,85,154,1)"});
+			$(this).delay(300).promise().done(function() {
+				window.location.href = "Story.html";
+			})	
+		})
+			$("#CHARG2").click(function() {		
+			RESETMENUMID();
+			TweenMax.to(this,0.3,{transform:"scale(1.5)"});
+			TweenMax.to("#CHAR2",0.3,{background:"rgba(255,85,154,1)"});
+			$(this).delay(300).promise().done(function() {
+				window.location.href = "Ninja.html";
+			})
+			
+		})
+			$("#HOMEG2").click(function() {		
+			RESETMENUMID();
+			TweenMax.to(this,0.3,{transform:"scale(1.5)"});
+			TweenMax.to("#HOME2",0.3,{background:"rgba(255,85,154,1)"});
+			$(this).delay(300).promise().done(function() {
+				window.location.href = "Home.html";
+			})	
+		})
+			$("#SMG2").click(function() {		
+			RESETMENUMID();
+			TweenMax.to(this,0.3,{transform:"scale(1.5)"});
+			TweenMax.to("#SITEMAP2",0.3,{background:"rgba(255,85,154,1)"});
+			$(this).delay(300).promise().done(function() {
+				window.location.href = "Sitemap.html";
+			})
+			
+		})
+		}
+	//	})
+	})
+	
+	</script>
+</body>
+</html>

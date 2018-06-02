@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'NINJA';
+  src: url('NinjaNaruto.woff') format('woff'),
+       url('NinjaNaruto.ttf') format('truetype'),
+       url('NinjaNaruto.svg#NinjaNaruto') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'njnaruto';
+  src: url('njnaruto.eot');
+  src: url('njnaruto.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

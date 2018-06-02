@@ -1,0 +1,273 @@
+<!doctype html>
+<html class="animated fadeIn">
+<head>
+<meta charset="UTF-8">
+<title>Intro</title>
+
+<link rel="stylesheet" href="CSS/animate.css">	
+<link rel="stylesheet" href="CSS/Main.css">	
+<link rel="stylesheet" media="(min-width: 1281px) and (max-width: 3000px)" href="CSS/large.css" />
+<link rel="stylesheet" media="(min-width: 768px) and (max-width: 1280px)" href="CSS/medium.css" />
+<link rel="stylesheet" media="(min-width: 480px) and (max-width: 767px)" href="CSS/small.css" />
+<link rel="stylesheet" media="(min-width: 767px) and (max-width: 767px)" href="CSS/small767.css" />
+<link rel="stylesheet" media="(min-width: 0px) and (max-width: 480px)" href="CSS/last.css" />
+<link rel="stylesheet" href="CSS/jquery-letterfx.css">
+
+<script src="JQ/jquery-3.1.1.min.js"></script>
+<script src="GS/TweenMax.min.js"></script>
+<script src="JQ/jquery-letterfx.js"></script>
+<script src="JQ/tuxsudo.min.js"></script>
+</head>
+
+<body>
+
+<div id="INTROFRAME">
+<div class="INTROCHARFRAME" id="NARFRAME">
+	<div id="UZUMAKI"></div>
+	<div id="NARUTOZNAME"></div>
+	<div id="NARUTOZVID">
+		<video id="NARZVID" muted src="videos/INTRO VIDS/naruto.mp4"></video>
+		
+	</div>
+	<div id="NARUTOINTRO"></div>
+	<video id="NARZVIDEFFEX" muted src="videos/INTRO VIDS/boreffex.mp4"></video>
+	<div id="NARUTOFAMESHAD"></div>
+	<div id="NARUTOFAMECONT"></div>
+	<div id="NARUTOFAMETEXT"></div>
+</div>
+
+<div class="INTROCHARFRAME" id="SASFRAME">
+	<div id="UCHIHA"></div>
+	<div id="SASUKEZNAME"></div>
+	<div id="SASUKEZVID">
+		<video id="SASZVID" muted src="videos/INTRO VIDS/sasuke.mp4"></video>
+	</div>
+	
+	<div id="SASUKEINTRO"></div>
+	<video id="SASZVIDEFFEX" muted src="videos/INTRO VIDS/saseffex.mp4"></video>
+	<div id="SASUKEFAMESHAD"></div>
+	<div id="SASUKEFAMECONT"></div>
+	<div id="SASUKEFAMETEXT"></div>
+</div>
+
+<div class="INTROCHARFRAME" id="BORFRAME">
+	<div id="BOLT"></div>
+	<div id="BORUTOZNAME"></div>
+	<div id="BORUTOZVID">
+		<video id="BORZVID" muted src="videos/INTRO VIDS/boruto.mp4"></video>
+		
+	</div>
+	<div id="BORUTOINTRO"></div>
+	<video id="BORZVIDEFFEX" muted src="videos/INTRO VIDS/prozeffex.mp4"></video>
+	<div id="BORUTOFAMESHAD"></div>
+	<div id="BORUTOFAMECONT"></div>
+	<div id="BORUTOFAMETEXT"></div>
+	</div>
+	<div class="INTROCHARFRAME" id="GOFRAME">
+	<div id="INTROLINE1"></div>
+	<div id="INTROLINE2"></div>
+	<div id="EXPLOREZ"><span id="EXP">EXP</span><span id="LORE">LORE</span></div>
+	<div id="kawaki"></div>
+	<div id="narutoz"></div>
+	<div id="sasukez"></div>
+	<div id="borutoz"></div>
+	
+	<div id="LOGOINTRO"></div>
+	
+	</div>
+	
+	<div class="INTROCHARFRAME" id="TESTFRAME">
+		<video id="KAMUI" muted src="videos/INTRO VIDS/kamuifake.mp4"></video>
+		<video id="KAMUIS" muted src="videos/INTRO VIDS/kamui2.mp4"></video>
+		
+	</div>
+	
+	<div class="INTROCHARFRAME" id="KAKASHIFRAME">
+		<div id="SHARINGAN"></div>
+		<div class="KAMUIFAKE"></div>
+		<div class="KAMUIFAKE"></div>
+	</div>
+</div>
+
+<script>
+	$(document).ready(function() {
+		TweenMax.killAll();
+		$("#KAMUI").css({"background-image":""});
+		TweenMax.to(".KAMUIFAKE",0, {scale:1.5,opacity:0});
+
+		
+		TweenMax.to("#NARUTOZNAME",0.5,{delay:0.2,transform:"translateX(-100px)"})
+		TweenMax.to("#NARUTOZNAME",5,{delay:0.7,transform:"translateX(-115px)"})
+		TweenMax.to("#NARUTOINTRO",3,{transform:"translateX(20px)"})
+		TweenMax.to("#UZUMAKI",2,{transform:"translateY(-30px)"})
+		TweenMax.to("#NARUTOFAMECONT,#NARUTOFAMESHAD,#NARUTOFAMETEXT",0.2,{delay:0.5,transform:"translateX(700px)"})
+		TweenMax.to("#NARUTOFAMESHAD",3,{delay:0.9,transform:"translateX(690px)translateY(-10px)"})
+		TweenMax.to("#NARUTOFAMETEXT",0.1,{delay:0.7,opacity:1})
+		TweenMax.to("#NARUTOFAMETEXT",3,{delay:1.2,transform:"scale(1.05)translateX(670px)"})
+		
+		TweenMax.to("#NARUTOFAMETEXT,#NARUTOFAMECONT,#NARUTOFAMESHAD",0.3,{delay:2,transform:"translateX(0px)"})
+		TweenMax.to("#NARUTOZNAME",0.3,{delay:2,transform:"translateX(-1000px)"})
+		TweenMax.to("#UZUMAKI",0.3,{delay:2,transform:"translateY(-700px)"})
+		TweenMax.to("#NARUTOINTRO",0.3,{delay:2,transform:"translateX(20px)scale(0.7)",transformOrigin:"bottom right"})
+		TweenMax.to("#NARZVID",0.5,{delay:2,opacity:1,transform:"scale(1)",ease:Elastic.easeOut.config(5,0.2)});
+		TweenMax.to("#NARZVIDEFFEX",0.5,{delay:2,opacity:0.7,transform:"scale(1)",ease:Elastic.easeOut.config(5,0.2)});
+		
+		$("#NARZVID").delay(2000).promise().done(function() {
+			$("#NARZVID").get(0).play();
+			$("#NARZVIDEFFEX").get(0).play();
+		})
+		
+		TweenMax.to("#NARFRAME",0.2,{delay:5,opacity:0});
+		TweenMax.to("#SASFRAME",0.2,{delay:5,opacity:1});
+		
+		TweenMax.to("#SASUKEZNAME",0.5,{delay:5.2,transform:"translateX(100px)"})
+		TweenMax.to("#SASUKEZNAME",2,{delay:5.7,transform:"translateX(115px)"})
+		TweenMax.to("#SASUKEINTRO",3,{delay:5,transform:"translateX(-20px)"})
+		TweenMax.to("#UCHIHA",2,{delay:5,transform:"translateY(-30px)"})
+		TweenMax.to("#SASUKEFAMECONT,#SASUKEFAMESHAD,#SASUKEFAMETEXT",0.2,{delay:5.5,transform:"translateX(-700px)"})
+		TweenMax.to("#SASUKEFAMESHAD",3,{delay:5.9,transform:"translateX(-690px)translateY(-10px)"})
+		TweenMax.to("#SASUKEFAMETEXT",0.1,{delay:5.7,opacity:1})
+		TweenMax.to("#SASUKEFAMETEXT",2,{delay:6.2,transform:"scale(1.05)translateX(-670px)"})
+		
+		TweenMax.to("#SASUKEFAMETEXT,#SASUKEFAMECONT,#SASUKEFAMESHAD",0.3,{delay:7,transform:"translateX(0px)"})
+		TweenMax.to("#SASUKEZNAME",0.3,{delay:7,transform:"translateX(1000px)"})
+		TweenMax.to("#UCHIHA",0.3,{delay:7,transform:"translateY(-700px)"})
+		TweenMax.to("#SASUKEINTRO",0.3,{delay:7,transform:"translateX(-20px)scale(0.7)",transformOrigin:"bottom left"})
+		TweenMax.to("#SASZVID",0.5,{delay:7,opacity:1,transform:"scale(1)",ease:Elastic.easeOut.config(5,0.2)});
+		TweenMax.to("#SASZVIDEFFEX",0.5,{delay:7,opacity:0.7,transform:"scale(1)",ease:Elastic.easeOut.config(5,0.2)});
+		
+		$("#SASZVID").delay(7000).promise().done(function() {
+			$("#SASZVID").get(0).play();
+			$("#SASZVIDEFFEX").get(0).play();
+		})
+		
+		TweenMax.to("#SASFRAME",0.2,{delay:10,opacity:0});
+		TweenMax.to("#BORFRAME",0.2,{delay:10,opacity:1});
+		
+		TweenMax.to("#BORUTOZNAME",0.5,{delay:10.2,transform:"translateX(-100px)"})
+		TweenMax.to("#BORUTOZNAME",5,{delay:10.7,transform:"translateX(-115px)"})
+		TweenMax.to("#BORUTOINTRO",3,{delay:10,transform:"translateX(20px)"})
+		TweenMax.to("#BOLT",2,{delay:10,transform:"translateY(-30px)"})
+		TweenMax.to("#BORUTOFAMECONT,#BORUTOFAMESHAD,#BORUTOFAMETEXT",0.2,{delay:10.5,transform:"translateX(700px)"})
+		TweenMax.to("#BORUTOFAMESHAD",3,{delay:10.9,transform:"translateX(690px)translateY(-10px)"})
+		TweenMax.to("#BORUTOFAMETEXT",0.1,{delay:10.7,opacity:1})
+		TweenMax.to("#BORUTOFAMETEXT",3,{delay:11.2,transform:"scale(1.05)translateX(670px)"})
+		
+		TweenMax.to("#BORUTOFAMETEXT,#BORUTOFAMECONT,#BORUTOFAMESHAD",0.3,{delay:12,transform:"translateX(0px)"})
+		TweenMax.to("#BORUTOZNAME",0.3,{delay:12,transform:"translateX(-1000px)"})
+		TweenMax.to("#BOLT",0.3,{delay:12,transform:"translateY(-700px)"})
+		TweenMax.to("#BORUTOINTRO",0.3,{delay:12,transform:"translateX(20px)scale(0.7)",transformOrigin:"bottom right"})
+		TweenMax.to("#BORZVID",0.5,{delay:12,opacity:1,transform:"scale(1)",ease:Elastic.easeOut.config(5,0.2)});
+		TweenMax.to("#BORZVIDEFFEX",0.5,{delay:12,opacity:0.5,transform:"scale(1)",ease:Elastic.easeOut.config(5,0.2)});
+		
+		$("#BORZVID").delay(12000).promise().done(function() {
+			$("#BORZVID").get(0).play();
+			$("#BORZVIDEFFEX").get(0).play();
+		})
+		
+		TweenMax.to("#BORFRAME",0.2,{delay:15,opacity:0});
+		TweenMax.to("#GOFRAME",0.2,{delay:15,opacity:1});
+		
+		TweenMax.to("#borutoz",1,{delay:15,transform:"translateX(500px)",ease:Elastic.easeOut.config(2.5,0.4)});
+		TweenMax.to("#narutoz",1,{delay:15.5,transform:"scale(1)rotate(0deg)",transformOrigin:"right bottom",ease:Elastic.easeOut.config(1,0.5),opacity:1});
+		TweenMax.to("#sasukez",1,{delay:15.7,transform:"scale(1)rotate(0deg)",transformOrigin:"left bottom",ease:Elastic.easeOut.config(1,0.8),opacity:1});
+		TweenMax.to("#kawaki",0.5,{delay:15.9,transform:"translateY(0px)"});
+		TweenMax.to("#kawaki",1.5,{delay:15.9,opacity:1});
+		TweenMax.to("#INTROLINE1",0.5,{delay:16,transform:"translateX(0px)rotate(-12deg)"})
+		TweenMax.to("#INTROLINE2",0.5,{delay:16,transform:"translateX(0px)rotate(-12deg)"})
+		TweenMax.to("#LOGOINTRO",0.5,{delay:16,transform:"translateX(0px)",ease:Elastic.easeOut.config(1,0.5)})
+	
+		
+		$("#EXP").delay(16000).promise().done(function() {
+			$(this).letterfx({"fx":"fly-top","backwards":false,"timing":100,"fx_duration":"0.4s","letter_end":"stay","element_end":"stay"});
+			$("#EXPLOREZ").css({pointerEvents:"auto"});
+		})
+		TweenMax.to("#EXP",0.2,{delay:16,opacity:1})
+		
+		$("#LORE").delay(16000).promise().done(function() {
+			$(this).letterfx({"fx":"fly-bottom","backwards":false,"timing":100,"fx_duration":"0.4s","letter_end":"stay","element_end":"stay"});
+		})
+		TweenMax.to("#LORE",0.2,{delay:16,opacity:1})
+		
+		
+		
+		$("#EXPLOREZ").mouseover(function() {
+			$("#LORE,#EXP").letterfx({"fx":"grow","backwards":true,"timing":100,"fx_duration":"0.4s","letter_end":"rewind","element_end":"stay"});
+			TweenMax.to("#INTROLINE1",0.7,{transform:"translateX(-30px)rotate(-12deg)"})
+			TweenMax.to("#INTROLINE2",0.7,{transform:"translateX(30px)rotate(-12deg)"})
+			
+		}
+		)
+		
+			$("#EXPLOREZ").mouseout(function() {
+			TweenMax.to("#INTROLINE1",0.3,{transform:"translateX(0px)rotate(-12deg)"})
+			TweenMax.to("#INTROLINE2",0.3,{transform:"translateX(0px)rotate(-12deg)"})
+		}
+		)
+			
+		$("#EXPLOREZ").click(function() {
+			TweenMax.killAll();
+			TweenMax.to("#GOFRAME",0.2,{delay:0.2,opacity:0});
+			TweenMax.to("#TESTFRAME",0.2,{opacity:1});
+			$("#KAMUIS").get(0).play();
+			$("#KAMUI").get(0).play();
+		TweenMax.to("#TESTFRAME",0.5,{delay:1,opacity:0});
+			TweenMax.to("#KAKASHIFRAME",0.5,{delay:1,opacity:1});
+			TweenMax.to("#KAMUIS",3,{scale:2});
+		TweenMax.to(".KAMUIFAKE",0,{delay:1,opacity:1,zIndex:2});
+		TweenMax.to(".KAMUIFAKE",2,{delay:1,scale:0,rotation:360,opacity:0});
+			
+				$(window).delay(2200).promise().done(function() {
+				window.location.href = "Home in law.html";
+			})
+		})
+		
+		//	$("#SRDVID").on('ended',function(){
+		//	$("#SRDVID").get(0).pause();	
+		//	$(this).hide(0);
+			
+    	//	$("#SRDVID2").get(0).play();
+		//	});
+		
+			//CODE DOI CON CHUOT//		
+			$("body,html").css('cursor','url(images/cursor.png),auto');
+		$("#EXPLOREZ").css('cursor','url(images/ninja2.png),auto');	
+		
+					var mX, mY;
+		$(this).mousemove(function(e) {
+			 mX = e.pageX;
+			 mY = e.pageY;
+		})
+			var A = mX;
+			var B = mY;
+		
+
+		function RAN(Min,Max) {
+			return Math.floor(Math.random()*(Max-Min+1) +Min);
+		}
+		
+		setInterval(function() {
+			var size = RAN(10,40);
+			var C = "rgb("+RAN(0,255)+","+RAN(0,255)+","+RAN(0,255)+")";
+			var W = H = size;
+			var L = RAN(mX-size,mX+size);
+			var T = RAN(mY-size,mY+size);
+			
+			var min = 1;
+			var max = 6;
+			var i = Math.floor(Math.random() * (max - min + 1)) + min;
+			
+			var PATH = "url(images/C" + i + ".png";
+			
+			$("<div>").addClass("RC").appendTo("body").css({"background-image": PATH,width:W,height:H,top:T,left:L}).one("animationend",function() {
+				$(this).remove();
+			})
+			
+		},50)
+		
+		
+	})
+	
+	</script>
+</body>
+</html>

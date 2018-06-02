@@ -1,0 +1,3629 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: black;
+}
+#HFRAME {
+	height: 1854px;
+}
+#HEAD {
+	height: 600px;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	background-image: url(../images/HOME/HEADBG.png);
+	background-size: cover;	
+}
+#BODY1 {
+	top:-68px;
+	height: 600px;
+}
+
+#BODY2 {	
+	height: 380px;
+	top:-99.3px;
+	transform:rotate(1.15deg);
+	width: 110%;
+	left:-5%;
+	background:rgba(200,200,200,1);
+}
+#SLIDERCONT {
+	position: absolute;
+	top:0;
+	left:0;
+	width:2090px;
+	height:100%;
+}
+.VILLAGE {
+	position: absolute;
+	top:0;
+	width:426px;
+	height:380px;
+	transform:skew(-10deg);
+	box-shadow:  0 0 0px 10px rgba(0,0,0,0.5) inset;
+	overflow: hidden;
+}
+#ROCK {
+	left:0;
+}
+#LEAF {
+	left:416px;
+}
+.real {
+	position: absolute;
+	width: 120%;
+	height: 120%;
+	top:-50px;
+	left:-60px;
+	transform:skew(10deg);
+	filter:saturate(0.8)contrast(1.2)brightness(0.85);
+}
+.sym {
+	position: absolute;
+	width: 200px;
+	height:200px;
+	left:27%;
+	top:20%;
+	background-size: cover;
+	transform:skew(10deg)scale(0.8);
+	opacity: 0;
+}
+.vilname {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-size:40px;
+	letter-spacing: 0.05em;
+	color:white;
+	font-family: S4;
+	bottom:60px;
+	transform:skew(10deg);
+	padding-left: 20px;
+	opacity: 0;
+}
+#rocksym {
+	background-image: url(../images/HOME/rocksym.png);
+}
+#leafsym {
+	background-image: url(../images/HOME/leafsym.png);
+}
+#cloudsym {
+	background-image: url(../images/HOME/cloudsym.png);
+}
+#rainsym {
+	background-image: url(../images/HOME/mistsym.png);
+}
+#sandsym {
+	background-image: url(../images/HOME/sandsym.png);
+}
+#rock {
+	background-image: url(../images/HOME/Rock.png);
+}
+#leaf {
+	background-image: url(../images/HOME/Leaf.png);
+}
+#cloud {
+	background-image: url(../images/HOME/Cloud.png);
+}
+#rain {
+	background-image: url(../images/HOME/Rain.png);
+}
+#sand {
+	background-image: url(../images/HOME/Sand.png);
+}
+.boxshadow {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	box-shadow:  0 0 0px 11px rgba(0,0,0,0.5) inset;
+}
+#CLOUD {
+	left:832px;
+	
+}
+#RAIN {
+	left:1248px;
+	background: orange;
+}
+#SAND {
+	left:1664px;
+	background: blue;
+}
+
+#FOOTER {
+	top:-121.3px;
+	height: 395.3px;
+}
+#FOOTERTEXT {
+	font-size:15px;
+}
+
+#CHARHEAD {
+	background-image: url(../images/HOME/headchar.png);
+	width: 346.4px;
+	background-size: cover;
+	height: 462.4px;
+	position: absolute;
+	bottom:15px;
+	left:56px;
+	
+}
+#RASENGAN {
+	width:70px;
+	height:70px;
+	position: absolute;
+	bottom:110px;
+	left:370px;
+	overflow: hidden;
+	border-radius: 50%;
+	transform:scale(1.4);
+	mix-blend-mode:screen;
+	
+}
+#RASENGAN2 {
+	width:70px;
+	height:70px;
+	position: absolute;
+	bottom:110px;
+	left:370px;
+	overflow: hidden;
+	border-radius: 50%;
+	transform:scale(1.2);
+	mix-blend-mode:screen;
+	opacity: 0.5;
+	
+}
+#RSG {
+	position: absolute;
+	top:0;
+	left:-25px;
+	height:100%;
+	opacity: 0.8;
+	filter:contrast(1.2);	
+}
+#RSG2 {
+	position: absolute;
+	top:0;
+	left:-25px;
+	height:100%;
+	opacity: 1;
+	filter:contrast(1.2);	
+}
+#LOGO {
+	background-image: url(../images/HOME/logo.png);
+	width: 214px;
+	height:61px;
+	top:20px;
+	left:25px;
+	transform:scale(0.9);
+	transform-origin: top left;
+	position: absolute;
+}
+#MENU {
+	width: 408px;
+	height: 369px;
+	position: absolute;
+	top:75px;
+	right:13vw;
+	transform: scale(0.9);
+}
+#CIRCLE {
+	background-image: url(../images/HOME/circle.png);
+	position: absolute;
+	width:348px;
+	height:348px;
+	top:0;
+	left:42px;	
+}
+.HEX {
+	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	position: absolute;
+	height:121px;
+	width: 106px;
+	
+	transform-origin: center center;
+}
+.GROUP {
+	position: absolute;
+	height:121px;
+	width: 106px;
+	transform-origin: center center;
+}
+#CHARG {
+	bottom:17px;
+	left:20px;
+	height:72.6px;
+	width:63.6px;
+}
+#WORLDG {
+	height:72.6px;
+	width:63.6px;
+	bottom:-35px;
+	left:142.2px;
+}
+#STORYG {
+	bottom:17px;
+	left:264.4px;
+	height:72.6px;
+	width:63.6px;
+}
+#SMG {
+	bottom:138px;
+	left:314.4px;
+	height:72.6px;
+	width:63.6px;
+}
+#HOMEG {
+	bottom:138px;
+	left:-30px;
+	height:72.6px;
+	width:63.6px;
+	transform:rotate(0deg)scale(1.5);
+}
+.HEXSHADOW {
+	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	position: absolute;
+	height:121px;
+	width: 106px;
+	background: black;
+	opacity: 0.5;
+}
+
+
+#CHARNAME {
+	font-size:25px;
+	top:34.5%;
+	left:-50px;
+}
+
+/*UPDATE*/
+#WORLD,#STORY,#CHAR,#SITEMAP,#HOME {
+	height:72.6px;
+	width:63.6px;
+	background: rgba(100,100,100,1);
+	top:0;
+	right:0;
+}
+
+#WORLDNAME {
+	font-size:25px;
+	top:34.5%;
+	left:-50px;
+}
+
+#STORYNAME {
+	font-size:25px;
+	top:34.5%;
+	left:-35px;
+}
+#SMNAME {
+	font-size:25px;
+	top:34.5%;
+	left:-30px;
+	width: 130px;
+}
+#HOMENAME {
+	font-size:25px;
+	top:34.5%;
+	left:-30px;
+	width: 130px;
+}
+
+#HOMES {
+	top:115px;
+	left:-28px;
+}
+
+.MENUNAME {
+	position: absolute;
+	font-family: NINJA;
+	color:white;
+	font-size:40px;
+	letter-spacing: 0.1em;
+	text-shadow: 10px 15px 0px rgba(0,0,0,0.3);
+
+	transform-origin: bottom left;
+}
+#BORUTOA {
+	position: absolute;
+	background-image: url(../images/HOME/borutoadult_04.png);
+	background-size:cover;
+	width:657.9px;
+	height:425.7px;
+	bottom:0px;
+	right:0;
+	z-index: 2;
+}
+#BORUTOKID {
+	position: absolute;
+	background-image: url(../images/HOME/borutokid_08.png);
+	background-size: cover;
+	width:203px;
+	height:380px;
+	bottom:-20px;
+	right:380px;
+	opacity:0.7;
+}
+#SLOGAN {
+	top:74.4px;	
+}
+#slogan1 {
+	font-size:30px;
+}
+#slogan2 {
+	font-size:50px;
+}
+.CHARSELECT {
+	background-size: cover;
+	position: absolute;
+}
+#SRDSEL {
+	background-image: url(../images/HOME/saradaselect.png);
+	width: 232px;
+	height:415px;
+	bottom:30px;
+	left:324px;
+}
+#MSKSEL {
+	background-image: url(../images/HOME/mitsukiselect.png);
+	width:386px;
+	height:461px;
+	bottom:0px;
+	right:261px;
+}
+.TICK {
+	border-radius: 50%;
+	position: absolute;
+	width:54px;
+	height:54px;
+	background: white;
+	
+}
+.TICKSM {
+	border-radius: 50%;
+	position: relative;
+	margin: 7px auto;
+	width:40px;
+	height:40px;
+	transition: all 0.3s;
+
+}
+.TICK:hover .TICKSM{
+	transform:scale(0);
+}
+#SRDTICK {
+	left:230px;
+	bottom:200px;
+}
+#MSKTICK {
+	right:230px;
+	bottom:190px;
+}
+#SRDSM {
+background: rgba(204,45,125,1);
+}
+#MSKSM {
+background: rgba(62,119,175,1);
+}
+
+.CHARNAMECONT {
+	width: 100%;
+	height: 80px;
+	background:transparent;
+	position: absolute;
+	left:0px;
+	bottom: 70px;
+	transform:rotate(1.15deg);
+}
+.CHARNAMELABLE {
+	position: absolute;
+	background-size: cover;
+	
+}
+#SRDLABEL {
+	background-image: url(../images/HOME/saradaname.png);
+	width: 305px;
+	height:72px;
+	left:206px;
+	bottom:0px;
+}
+#MSKLABEL {
+	background-image: url(../images/HOME/mitsukiname.png);
+	width: 319px;
+	height:71px;
+	right:235px;
+	bottom:0px;
+}
+#VS {
+	background-image: url(../images/HOME/source2.gif);
+	background-size:180% 170%;
+	background-position:45%;
+	position: absolute;
+	width:376px;
+	height:506px;
+	left:429px;
+	top:100px;
+	opacity: 1;
+	mix-blend-mode:normal;
+	transform:scale(0.6);
+	transform-origin: center center;
+	-webkit-mask-image: url(../images/HOME/VS.png);
+ 	 mask-image: url(../images/HOME/VS.png);
+	-webkit-mask-size: 100% 100%;
+}
+#INTRO {
+	position: absolute;
+	background-image: url(../images/HOME/intro.png);
+	width:490px;
+	height:47px;
+	background-size: cover;
+	top:0;
+	right:150px;
+	
+}
+#INTROCONT {
+	width: 100%;
+	height: 80px;
+	position: absolute;
+	left:0px;
+	top:60px;
+}
+.SEAL {
+	position: absolute;
+	background-image: url(../images/HOME/seal.png);
+	width: 314px;
+	height: 324px;
+	mix-blend-mode:overlay;
+	opacity: 0;
+}
+#SRDSEAL {
+	left:239px;
+	bottom:130px;
+}
+#MSKSEAL {
+	right:246px;
+	bottom:150px;
+}
+.COMBATSTAGE {
+	width: 100%;
+	position: absolute;
+	top:0px;
+	left:0px;
+	height: 600px;
+	-webkit-clip-path: polygon(0 11%, 100% 0, 100% 100%, 0% 95%);
+	clip-path: polygon(0 11%, 100% 0, 100% 100%, 0% 95%);
+}
+.SELECTSTAGE {
+	width: 100%;
+	position: absolute;
+	top:0px;
+	left:0px;
+	height: 600px;
+	background: transparent;
+	background-image: url(../images/HOME/BODY1BG.png);
+	background-size: cover;
+}
+#SARADAVID,#SARADAVID2,#SARADAVID3,#SARADAVID4 {
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+}
+#SRDVID,#SRDVID2,#SRDVID3,#SRDVID4 {
+	position: absolute;
+	top:-100px;
+	left:0px;
+	width: 1290px;
+}
+#SKILLCONT {
+	position: absolute;
+	bottom:0px;
+	width: 100%;
+	height:300px;
+	transform:rotate(1.15deg);
+	background:transparent;
+}
+#NAMECONT {
+	position: absolute;
+	top:0px;
+	width: 100%;
+	height:200px;
+	transform:rotate(-2.85deg);
+}
+
+#BRUSHLINE {
+	position: absolute;
+	background-image: url(../images/HOME/art.png);
+	width:499px;
+	height:17px;
+	background-size: cover;
+	right:-100px;
+	bottom:300px;
+	opacity: 0.9;
+}
+#SKILL {
+	background-image: url(../images/HOME/skill.png);
+	width:75px;
+	height:82px;
+	position: absolute;
+	right:284px;
+	bottom:70px;
+	
+}
+#SKILL2 {
+	background-image: url(../images/HOME/skill.png);
+	width:75px;
+	height:82px;
+	position: absolute;
+	right:350px;
+	bottom:170px;
+	
+}
+#SKILLNAME,#SKILLNAME2 {
+	position: absolute;
+	width: 300px;
+	left:30px;
+	font-family: S4;
+	color:black;
+	letter-spacing: 0.05em;
+	font-size:20px;
+	top:22px;
+	
+}
+#SKILLNAME2 {
+	width: 380px;
+}
+#ART {
+	position: absolute;
+	right:20px;
+	font-family: S4;
+	color:black;
+	letter-spacing: 0.05em;
+	font-size:50px;
+	bottom:320px;
+	opacity: 0.6;
+}
+#CHARCOMBATNAME {
+	position: absolute;
+	left:50px;
+	top:50px;
+	font-family: S4;
+	color:black;
+	letter-spacing: 0.05em;
+	font-size:50px;
+	opacity: 0.6;
+}
+#LIGHTNING {
+	background-image: url(../images/HOME/LIGHTNING.gif);
+	width:110px;
+	height:110px;
+	position: absolute;
+	top:430px;
+	right:270px;
+	background-size: cover;
+	mix-blend-mode:screen;
+	pointer-events: none;
+}
+#FIRE {
+	background-image: url(../images/HOME/FIRE.gif);
+	width:120px;
+	height:120px;
+	position: absolute;
+	top:320px;
+	right:330px;
+	background-size: cover;
+	mix-blend-mode:screen;
+	pointer-events: none;
+}
+#DROPCAP {
+	font-size:70px;
+}
+#BACK {
+	position: absolute;
+	background-image: url(../images/HOME/back.png);
+	background-size: cover;
+	width:300px;
+	height:133px;
+	bottom:50px;
+	left:0px;
+	transform:scale(0.5);
+	
+}
+
+#READSTORY {
+	position: absolute;
+	top:220px;
+	left:400px;
+	z-index: 11;
+	width: 200px;
+	height:50px;
+}
+#BRUSHDOT {
+	background-image: url(../images/HOME/brushdot.png);
+	width:222px;
+	height:258px;
+	position: absolute;
+	top:-75px;
+	left:-50px;
+	transform:scale(0.65);
+}
+#STORYCONTENT {
+	position: absolute;
+	top:40px;
+	left:35px;
+	height:50px;
+	line-height: 50px;
+	font-family: MACHINE;
+	font-size: 27px;
+	letter-spacing: 0.05em;
+	color:black;
+}
+#STORYCONTENT span {
+	color:white;
+}
+#HEADINTROCONT {
+	
+	width: 100%;
+	height:100px;
+	position: absolute;
+	top:350px;
+	left:370px;
+	transform:rotate(-2.85deg);
+}
+#HEADINTRO {
+	color:white;
+	font-family: S4;
+	font-size:40px;
+	text-shadow:  0 0 10px black,0 0 10px black,0 0 10px black,0 0 10px black,0 0 10px black;
+}
+#SEQUEL{
+	
+}
+#NAR {
+	left:-10px;
+	font-family: MACHINE;
+	font-size:60px;
+	color:rgba(255,85,154,1);
+	text-shadow:  0 0 5px black,0 0 5px black,0 0 5px black,0 0 5px black;
+}
+#THIRD {
+	top:150px;
+	left:-20px;
+	font-size:20px;
+	color:white;
+	font-family: S4;	
+	text-shadow:  0 0 5px black,0 0 5px black,0 0 5px black,0 0 5px black;
+	
+}
+
+
+/*UPDATE*/
+
+#MENU {
+	top:35px;
+	right:100px;
+}
+#CHARHEAD {
+	left:76px;
+	bottom:0px;
+}
+#RASENGAN {
+	left:240px;
+	bottom:95px;
+}
+#RASENGAN2 {
+	left:240px;
+	bottom:95px;
+}
+#TEMP {
+	position: absolute;
+	width: 100%;
+	height:100%;
+	top:0;
+	left:0;
+}
+
+/*CSS OF NINJA*/
+
+#NINJAFRAME {
+	width: 1280px;
+	height: 1930px;
+}
+#NINJAHEAD {
+	background: white;
+	height: 600px;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	background-image: url(../images/HOME/HEADBG.png);
+	background-size: cover;	
+	
+}
+#NINJABODY {
+	top:-60px;
+	height: 1220.7px;
+	-webkit-clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 95%);
+	clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 95%);
+	background-image: url(../images/NINJA/contentbg.png);
+	background-size: cover;	
+	z-index: 80;
+	perspective: 500px;	
+}
+
+#NINJAFOOTER {
+	top:-115px;
+	height: 225.3px;
+	-webkit-clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 100%);
+	clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 100%);
+	background-image: url(../images/NINJA/footer.png);
+	background-size: cover;
+	
+}
+.FOOTERCHIBI{
+	position: absolute;
+	width: 310px;
+	height:245px;
+	margin-top:-200px;
+	margin-left: 10px;
+	z-index: 99;
+	background-image: url(../images/NINJA/chibi.png);	
+	background-size: cover;
+}
+.FOOTERCHIBI2{
+	position: absolute;
+	width: 310px;
+	height:323px;
+	margin-top:-250px;
+	margin-left: 10px;
+	z-index: 99;
+	background-image: url(../images/NINJA/chibisarada.png);	
+	background-size: cover;
+}
+.FOOTERCHIBI3{
+	position: absolute;
+	width: 310px;
+	height:245px;
+	margin-top:-200px;
+	margin-left: 10px;
+	z-index: 99;
+	background-image: url(../images/NINJA/chibimitsuki.png);	
+	background-size: cover;
+}
+.FOOTERCHIBI4{
+	position: absolute;
+	width: 310px;
+	height:323px;
+	margin-top:-250px;
+	margin-left: 10px;
+	z-index: 99;
+	background-image: url(../images/NINJA/chibinaruto.png);	
+	background-size: cover;
+}
+.FOOTERCHIBI5{
+	position: absolute;
+	width: 310px;
+	height:323px;
+	margin-top:-250px;
+	margin-left: 50px;
+	z-index: 99;
+	background-image: url(../images/NINJA/chibisasuke.png);	
+	background-size: cover;
+}
+.FOOTERCHIBI6{
+	position: absolute;
+	width: 310px;
+	height:245px;
+	margin-top:-200px;
+	margin-left: 50px;
+	z-index: 99;
+	background-image: url(../images/NINJA/chibisakura.png);	
+	background-size: cover;
+}
+.FOOTERCHIBI7{
+	position: absolute;
+	width: 310px;
+	height:323px;
+	margin-top:-250px;
+	margin-left: 50px;
+	z-index: 99;
+	background-image: url(../images/NINJA/chibigaara.png);	
+	background-size: cover;
+}
+.FOOTERCHIBI8{
+	position: absolute;
+	width: 310px;
+	height:323px;
+	margin-top:-250px;
+	margin-left: 30px;
+	z-index: 99;
+	background-image: url(../images/NINJA/chibikakashi.png);	
+	background-size: cover;
+}
+#borutoicon{
+	position: absolute;
+	height: 171px;
+	width:149px;
+	margin-left: 60px;
+	margin-top:154px;
+	background: transparent;
+	cursor: pointer;
+}
+.hexabig1{
+	position: absolute;
+	height: 171px;
+	width:149px;
+	margin-top: -8px;
+	background:#FFFFFF;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	z-index: 80;
+}
+.hexasmall1{
+	position: absolute;
+	height: 161px;
+	width:139px;
+	/*background:rgba(204,45,125,1);*/
+	background:#000000;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	margin-left:5px;
+	margin-top: 5px;
+}
+#hexaactive{
+	background:rgba(204,45,125,1);
+}
+#chaactive{
+	filter: saturate(1);
+}
+.borutohead{
+	position: absolute;
+	z-index: 99;
+	filter: saturate(0);
+	width: 120%;
+	margin-left:-17px;
+	margin-top: -32px;
+	
+}
+#saradaicon{
+	position: absolute;
+	height: 171px;
+	width:149px;
+	margin-left:238px;
+	margin-top:134px;
+	background: transparent;
+	cursor: pointer;
+}
+.hexabig2{
+	position: absolute;
+	height: 171px;
+	width:149px;
+	margin-top: -8px;
+	background:#FFFFFF;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	z-index: 80;
+}
+.hexasmall2{
+	position: absolute;
+	height: 161px;
+	width:139px;
+	background:#000000;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	margin-left:5px;
+	margin-top: 5px;
+}
+.saradahead{
+	position: absolute;
+	z-index: 99;
+	filter: saturate(0.3);
+	margin-top: -17px;
+	margin-left:4px;
+	
+}
+
+#mitsukiicon{
+	position: absolute;
+	height: 171px;
+	width:149px;
+	margin-left:413px;
+	margin-top:120px;
+	background: transparent;
+	cursor: pointer;
+}
+.hexabig3{
+	position: absolute;
+	height: 171px;
+	width:149px;
+	margin-top: -8px;
+	background:#FFFFFF;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	z-index: 80;
+}
+.hexasmall3{
+	position: absolute;
+	height: 161px;
+	width:139px;
+	background:#000000;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	margin-left:5px;
+	margin-top: 5px;
+}
+.mitsukihead{
+	position: absolute;
+	z-index: 99;
+	filter: saturate(0.3);
+	margin-top: -18px;
+	margin-left:10px;
+	
+}
+
+#narutoicon{
+	position: absolute;
+	height: 171px;
+	width:149px;
+	margin-left:590px;
+	margin-top:105px;
+	background: transparent;
+	cursor: pointer;
+}
+.hexabig4{
+	position: absolute;
+	height: 171px;
+	width:149px;
+	margin-top: -8px;
+	background:#FFFFFF;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	z-index: 80;
+}
+.hexasmall4{
+	position: absolute;
+	height: 161px;
+	width:139px;
+	background:#000000;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	margin-left:5px;
+	margin-top: 5px;
+}
+.narutohead{
+	position: absolute;
+	z-index: 99;
+	filter: saturate(0.3);
+	margin-top: -26px;
+	margin-left:1px;
+	
+}
+
+#sasukeicon{
+	position: absolute;
+	height: 171px;
+	width:149px;
+	margin-left: 60px;
+	margin-top:360px;
+	background: transparent;
+	cursor: pointer;
+}
+.hexabig5{
+	position: absolute;
+	height: 171px;
+	width:149px;
+	margin-top: -8px;
+	background:#FFFFFF;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	z-index: 80;
+}
+.hexasmall5{
+	position: absolute;
+	height: 161px;
+	width:139px;
+	background:#000000;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	margin-left:5px;
+	margin-top: 5px;
+}
+.sasukehead{
+	position: absolute;
+	z-index: 99;
+	filter: saturate(0.3);
+	width: 120%;
+	margin-left:7px;
+	margin-top: -22px;
+	
+}
+
+
+#sakuraicon{
+	position: absolute;
+	height: 171px;
+	width:149px;
+	margin-left:238px;
+	margin-top:340px;
+	background: transparent;
+	cursor: pointer;
+}
+.hexabig6{
+	position: absolute;
+	height: 171px;
+	width:149px;
+	margin-top: -8px;
+	background:#FFFFFF;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	z-index: 80;
+}
+.hexasmall6{
+	position: absolute;
+	height: 161px;
+	width:139px;
+	background:#000000;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	margin-left:5px;
+	margin-top: 5px;
+}
+.sakurahead{
+	position: absolute;
+	z-index: 99;
+	filter: saturate(0.3);
+	margin-top: -17px;
+	margin-left:7px;
+	
+}
+
+#gaaraicon{
+	position: absolute;
+	height: 171px;
+	width:149px;
+	margin-left:413px;
+	margin-top:320px;
+	background: transparent;
+	cursor: pointer;
+}
+.hexabig7{
+	position: absolute;
+	height: 171px;
+	width:149px;
+	margin-top: -8px;
+	background:#FFFFFF;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	z-index: 80;
+}
+.hexasmall7{
+	position: absolute;
+	height: 161px;
+	width:139px;
+	background:#000000;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	margin-left:5px;
+	margin-top: 5px;
+}
+.gaarahead{
+	position: absolute;
+	z-index: 99;
+	filter: saturate(0.3);
+	margin-top: -17px;
+	margin-left:4px;
+	
+}
+
+
+#kakashiicon{
+	position: absolute;
+	height: 171px;
+	width:149px;
+	margin-left:590px;
+	margin-top:305px;
+	background: transparent;
+	cursor: pointer;
+}
+.hexabig8{
+	position: absolute;
+	height: 171px;
+	width:149px;
+	margin-top: -8px;
+	background:#FFFFFF;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	z-index: 80;
+}
+.hexasmall8{
+	position: absolute;
+	height: 161px;
+	width:139px;
+	background:#000000;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	margin-left:5px;
+	margin-top: 5px;
+}
+.kakashihead{
+	position: absolute;
+	z-index: 99;
+	filter: saturate(0.3);
+	margin-top: -14px;
+	margin-left:0px;
+	width:120%;
+	
+}
+
+
+.personaltitle{	
+	position: absolute;
+	width: 270px;
+	height: 206px;
+	right: 170px;
+	top: 70px;
+	font-size: 70px;
+	font-family:MACHINE;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+	transform: skewX(-5deg);
+}
+.personalbrush{
+	background-image: url(../images/NINJA/brush3.png);	
+	width: 270px;
+	height:206px;
+	position: absolute;
+	right: 140px;
+	top:0px;
+}
+
+
+.abilitiescroll{
+	background-image: url(../images/NINJA/sroll.png);
+	width: 721px;
+	height: 548px;
+	position: absolute;
+	right:-241px;
+	top:640px;
+}
+
+#PERSONALCONT {
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:250px;
+	pointer-events: none;
+	z-index: 1000;
+	transform: rotate(-2.85deg);
+}
+#ABICONT {
+	position: absolute;
+	top:450px;
+	left:0px;
+	width:100%;
+	height:250px;
+	z-index: 1000;
+	transform: rotate(1.85deg);
+	pointer-events: none;
+}
+
+
+.abititle{	
+	position: absolute;
+	width: 270px;
+	height: 206px;
+	right: 172px;
+	top: 75px;
+	font-size: 70px;
+	font-family:MACHINE;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+	transform: skewX(2deg);
+}
+.abibrush{
+	background-image: url(../images/NINJA/brush4.png);	
+	width: 323px;
+	height:184px;
+	position: absolute;
+	right: 120px;
+	top:70px;
+}
+#personalcontent{
+	position: absolute;
+	right:50px;
+	top:200px;
+	width:385px;
+	height:300px;
+}
+.personalinfo,.personallabel{
+	position: absolute;
+	height:40%;
+}
+.personalinfo{
+	top:0px;
+	left:0px;
+	width: 100px;
+	
+}
+.personallabel{
+	top:0px;
+	right:20px;
+	width: 250px;
+	
+}
+.personalinfo li{
+	font-family: MACHINE;
+	font-size: 20px;
+	letter-spacing: 0.15em;
+	color: white;
+	list-style: none;
+	line-height: 35px;
+}
+.personallabel li{
+	font-family: S4;
+	font-size: 20px;
+	letter-spacing: 0.15em;
+	color: white;
+	list-style: none;
+	line-height: 35px;
+	padding-left: 60px;
+}
+.iconcover {
+	position: absolute;
+	height: 100%;
+	width:50px;
+	top:0px;
+	left:110px;
+}
+#gendericon{
+	background-image: url(../images/NINJA/maleicon.png);
+	width: 42px;
+	height:41px;
+	position: absolute;
+	top: -10px;
+	right: 0px;
+	font-family: MACHINE;
+	font-size: 20px;
+	letter-spacing: 0.15em;
+	color: white;
+	padding-left: -100px;
+}
+#fgendericon{
+	background-image: url(../images/NINJA/femaleicon.png);
+	width: 42px;
+	height:41px;
+	position: absolute;
+	top: -10px;
+	right: 0px;
+	font-family: MACHINE;
+	font-size: 20px;
+	letter-spacing: 0.15em;
+	color: white;
+	padding-left: -100px;
+}
+#clanicon{
+	background-image: url(../images/NINJA/uzumakiicon.png);
+	width: 42px;
+	height:41px;
+	position: absolute;
+	top: 31px;
+	right: 0px;
+	font-family: MACHINE;
+	font-size: 20px;
+	letter-spacing: 0.15em;
+	color: white;
+}
+#kclanicon{
+	background-image: url(../images/NINJA/hatakeicon.png);
+	width: 42px;
+	height:41px;
+	position: absolute;
+	top: 31px;
+	right: 0px;
+	font-family: MACHINE;
+	font-size: 20px;
+	letter-spacing: 0.15em;
+	color: white;
+}
+#uclanicon{
+	background-image: url(../images/NINJA/unknown.png);
+	width: 42px;
+	height:41px;
+	position: absolute;
+	top: 31px;
+	right: 0px;
+	font-family: MACHINE;
+	font-size: 20px;
+	letter-spacing: 0.15em;
+	color: white;
+}
+#uchihaclanicon{
+	background-image: url(../images/NINJA/uchihaicon.png);
+	width: 42px;
+	height:41px;
+	position: absolute;
+	top: 31px;
+	right: 0px;
+	font-family: MACHINE;
+	font-size: 20px;
+	letter-spacing: 0.15em;
+	color: white;
+}
+#harunoicon{
+	background-image: url(../images/NINJA/harunoicon.png);
+	width: 42px;
+	height:41px;
+	position: absolute;
+	top: 31px;
+	right: 0px;
+	font-family: MACHINE;
+	font-size: 20px;
+	letter-spacing: 0.15em;
+	color: white;
+}
+#villageicon{
+	background-image: url(../images/NINJA/hiddenleaficon.png);
+	width: 42px;
+	height:41px;
+	position: absolute;
+	top: 67px;
+	right: 0px;
+	font-family: MACHINE;
+	font-size: 20px;
+	letter-spacing: 0.15em;
+	color: white;
+}
+.personaltext{
+	position: absolute;
+	width:100%;
+	height:180px;
+	bottom: 0px;
+	left:0px;
+	font-family: S4;
+	color:white;
+	font-size:20px;
+	line-height: 30px;
+}
+.abivideoframe{
+	position: absolute;
+	width: 650px;
+	height: 450px;
+	left: 60px;
+	top:570px;
+	
+	-webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 92%);
+	clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 92%);
+	perspective: 500px;
+	
+}
+.abivid {
+	width:120%;
+	height: 120%;
+	position: absolute;
+	top:0px;
+	left:-50px;
+	transform:rotateY(-10deg);
+}
+#ABIVID {
+	width:100%;
+	position: absolute;
+	top:0;
+	left:0;
+}
+.abivideoframe1{
+	position: absolute;
+	width: 650px;
+	height: 450px;
+	background:rgba(204,45,125,0.72);
+	left: 45px;
+	top:555px;
+	-webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 92%);
+	clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 92%);
+	perspective: 500px;
+	
+}
+
+#ninjutsu{
+	
+	width: 282px;
+	height: 90px;
+	background-image: url(../images/NINJA/Ninjutsubig.png);
+	right: -205px;
+	margin-top:150px;
+	transform: scale(1);
+	opacity:1;
+}
+
+#jougan{
+	top:5px;
+	width: 282px;
+	height: 90px;
+	background-image: url(../images/NINJA/Jouganbig.png);
+	right: -205px;
+}
+
+#nature{
+	
+	width: 282px;
+	height: 90px;
+	background-image: url(../images/NINJA/Naturebig.png);
+	right: -205px;
+	top:5px;
+}
+#nature1{
+	
+	width: 282px;
+	height: 90px;
+	background-image: url(../images/NINJA/Naturebig.png);
+	right: -205px;
+	top:5px;
+}
+#sharingan{
+	top:0px;
+	width: 282px;
+	height: 90px;
+	background-image: url(../images/NINJA/Sharinganbig.png);
+	right: -205px;
+	
+	
+}
+#senjutsu{
+	top:0px;
+	width: 289px;
+	height: 90px;
+	background-image: url(../images/NINJA/Senjutsubig.png);
+	right: -205px;
+}
+#jinchuriki{
+	width: 282px;
+	height: 90px;
+	background-image: url(../images/NINJA/Jinchurikibig.png);
+	right: -205px;
+	top: 5px;
+}
+#rinnegan{
+	width: 282px;
+	height: 90px;
+	background-image: url(../images/NINJA/Rinneganbig.png);
+	right: -205px;
+	top: 5px;
+}
+#medical{
+	top:0px;
+	width: 282px;
+	height: 90px;
+	background-image: url(../images/NINJA/Medicalbig.png);
+	right: -205px;
+}
+#taijutsu{
+	
+	width: 282px;
+	height: 90px;
+	background-image: url(../images/NINJA/Taijutsubig.png);
+	right: -205px;
+	margin-top:150px;
+	transform: scale(1);
+	opacity:1;
+}
+
+.animationcover{
+	position: absolute;
+	background-image: url(../images/NINJA/Animation.png);
+	width: 420px;
+	height: 166px;
+	top: 1000px;
+	left: 345px;
+}
+.ninjutsucap{
+	transform: scale(0.7);
+	transform-origin: bottom right;
+	opacity:0.5;
+	position: relative;
+	margin-top:-25px;
+	margin-left: -40px;
+}
+.borutovid{
+	position: absolute;
+	width:100%;
+	height: 600px;
+}
+#NINJAVID{
+	width:1920px;
+	height:1080px;
+	position: absolute;
+	top: -140px;
+	right: 0px;
+}
+.headbrush1{
+	background-image: url(../images/NINJA/brush1.png);
+	position: absolute;
+	left:-145px;
+	top:-170px;
+	width:476px;
+	height: 406px;
+	transform:scale(1.1);
+}
+.headbrush2{
+	background-image: url(../images/NINJA/brush2.png);
+	position: absolute;
+	right:-5px;
+	top:405px;
+	width:488px;
+	height: 216px;
+}
+.charactername{
+	position: absolute;
+	height:110px;
+	width:120%;
+	bottom: 50px;
+	transform:rotate(-2.85deg);	
+}
+.charname {
+	position: absolute;
+	left:250px;
+	top:0px;
+	font-size:110px;
+	color:white;
+	letter-spacing: 0.1em;
+	font-family: MACHINE;
+	line-height: 110px;
+	text-shadow: -5px -5px 5px black,-5px -5px 5px black,-5px -5px 5px black,-5px -5px 5px black;
+	transform:skewX(-5deg);
+}
+.charname span {
+	color:rgba(255,85,154,1);
+}
+/* CSS OF STORY */
+
+#FOOTERStory {
+    top: -383.525px;
+-webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+    background-image: url(../images/STORY/Storyfooter.png);
+    background-size: cover;
+	width:1280px;
+	height:158px;
+}
+#BODYStory {
+    top: -162.9px;
+    height: 1481.4px;
+	background-image: url(../images/STORY/BodyStory.png);
+    background-size: cover;
+}
+
+#HEADStory {
+	height: 600px;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	background-image: url(../images/STORY/HeadStory.png);
+	background-size: cover; 
+	z-index: 1;
+}
+/*.Line {
+	height: 650px;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	z-index: 2;
+	background: red;
+	width: 100%;
+	position: absolute;
+}*/
+#CHARHEADStory {
+    background-image: url(../images/STORY/CHARACTERstory.png);
+    width: 540px;
+    background-size: cover;
+    height: 1284.1px;
+    position: absolute;
+    bottom: -743px;
+    left: 95.1px;
+}
+#TitleArc {
+   top: -10px;
+	position: absolute;  
+    left: 100px;
+	transform:skew(-10deg);
+	text-shadow: -5px -5px 5px black, -5px -5px 5px black, -5px -5px 5px black;
+	font-size: 70px;
+}
+
+#TitleArcCONT {
+    width: 100%;
+    position: absolute;
+	height: 150px;
+   	left: 0px;
+  	bottom:0px;
+	transform:rotate(-2.85deg)
+}
+#ArcName {
+	color: #ff559a;
+}
+#Name {
+	color: white;
+}
+#ArcNoCONT {
+    width: 100%;
+    position: absolute;
+	height: 150px;
+  	left: 0px;
+    top:200px;
+	transform:rotate(-3deg);
+	
+}
+#ArcNo {
+	position:absolute;
+	right:100px;
+	top:-50px;
+	font-size: 70px;
+}
+#NumberAcr {
+	
+		
+	font-family: S4;
+	color: white;
+}
+#Number {
+	color: #12c7f0;
+		
+	font-family: S4;
+	
+}
+#Chapter1pic1CONT {
+	 width: 100%;
+    position: absolute;
+	transform:rotate(-10.85deg);
+	
+	height: 250px;
+   left: 0px;
+   top:190px;
+}
+#Chapter1pic1 {
+    position: absolute;
+    background-size: cover;
+    background-image: url(../images/STORY/chap1.1%20.png);
+	top: 0;
+	right: 740px;
+	width: 413px;
+	height: 286px;
+}
+#Chapter1pic2CONT {
+	 width: 100%;
+    position: absolute;
+	transform:rotate(1.85deg);
+	
+	height: 250px;
+   left: 0px;
+   top:240px;
+}
+#Chapter1pic2 {
+    position: absolute;
+    background-size: cover;
+    background-image: url(../images/STORY/chap1.2.png);
+	top: 0;
+	right: 430px;
+	width: 361px;
+	height: 250px;
+	}
+#Chapter1textCONT {
+	 width: 100%;
+    position: absolute;
+	transform:rotate(-7deg);
+	
+	height: 100px;
+   left: 0px;
+   top:520px;
+}
+#Chapter1text {
+    position: absolute;
+    font-family: S4;
+    font-size: 22px;
+    color: white;
+    top: 0;
+   right: 540px;
+    width: 561px;
+    height: 250px;
+    text-align: left;
+	}
+#Brushdot1 {
+	background-image: url(../images/STORY/Brushdot.png);
+	background-size: cover;
+	width:222px;
+	height:258px;
+	position: absolute;
+	top:460px;
+	left: 77px;
+}
+#Brushdot2 {
+    width: 227px;
+    height: 276px;
+    position: absolute;
+    top: 910px;
+    left: 150px;
+    background-image: url(../images/STORY/Brushdot%202.png);
+	background-size: cover;
+}
+
+#Chapter2picCONT {
+	 width: 100%;
+    position: absolute;
+	transform:rotate(-4.85deg);
+	
+	height: 250px;
+   left: 0px;
+   top:630px;
+}
+#Chapter2pic {
+    position: absolute;
+    background-size: cover;
+    background-image: url(../images/STORY/Chapter2.png);
+	top: 0;
+	right: 580px;
+	width: 515px;
+	height: 358px;
+	}
+#Chapter2textCONT {
+	 width: 100%;
+    position: absolute;
+	transform:rotate(-4.85deg);
+	
+	height: 100px;
+   left: 0px;
+   top:1000px;
+}
+#Chapter2text {
+    position: absolute;
+    font-family: S4;
+    font-size: 22px;
+    color: white;
+    top: 0;
+   right: 580px;
+    width: 481px;
+    height: 150px;
+    text-align: left;
+	}
+#Chapter3pic1CONT {
+	 width: 100%;
+    position: absolute;
+	transform:rotate(7.85deg);
+	
+	height: 250px;
+   left: 0px;
+   top:820px;
+}
+#Chapter3pic1 {
+    position: absolute;
+    background-size: cover;
+    background-image: url(../images/STORY/Chapter3.1.png);
+	top: 0;
+	right: 90px;
+	width: 384px;
+	height: 267px;
+	}
+#Chapter3pic2CONT {
+	 width: 100%;
+    position: absolute;
+	transform:rotate(5.85deg);
+	
+	height: 250px;
+   left: 0px;
+   top:680px;
+}
+#Chapter3pic2 {
+    position: absolute;
+    background-size: cover;
+    background-image: url(../images/STORY/Chapter3.2.png);
+	top: 0;
+	right: 200px;
+	width: 268px;
+	height: 186px;
+	}
+#Brushdot3 {
+	  width: 242px;
+    height: 222px;
+    position: absolute;
+    top: 1040px;
+    left: 640px;
+    background-image: url(../images/STORY/Brushdot3.png);
+	background-size: cover;
+}
+#Chapter3textCONT {
+	 width: 100%;
+    position: absolute;
+	transform:rotate(7.85deg);
+	
+	height: 100px;
+   left: 0px;
+   top:1090px;
+}
+#Chapter3text {
+    position: absolute;
+    font-family: S4;
+    font-size: 22px;
+    color: white;
+    top: 0;
+   right: 125px;
+    width: 371px;
+    height: 150px;
+    text-align: left;
+	}
+#CharFoot {
+	background-image: url(../images/STORY/StoryBoruto.png);
+	background-size: cover;
+	width: 222px;
+	height: 333px;
+	position: absolute;
+	top: 1620px;
+	left: 100px;
+}
+#Arc1Active {
+	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    position: absolute;
+    height: 75px;
+    width: 65px;
+    top: 247px;
+    right: 157px;
+  
+	transform: rotate(12deg);
+	
+}
+
+#Arc1Hex {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    position: absolute;
+    height: 70px;
+    width: 60px;
+    background-color: black;
+    top: 250px;
+    right: 160px;
+
+	transform: rotate(12deg);
+	z-index: 1000;
+	
+}
+#Arc1Circle {
+    position: absolute;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background: white;
+    top: 12px;
+	right: 8px;
+	border: 13px solid #15C2EE;
+	
+}
+.line1 {
+	position: absolute;
+	 border-left: 7px solid black;
+    height: 45px;
+	right: 198px;
+	top: 310px;
+	transform: rotate(15deg)
+	}
+	#Arc2Hex {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    position: absolute;
+    height: 55px;
+    width: 45px;
+    background-color: black;
+    top: 350px;
+    right: 189px;
+  
+	transform: rotate(12deg);
+		z-index: 1000;
+	
+}
+#Arc2Active {
+	 clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    position: absolute;
+    height: 60px;
+    width: 50px;
+    top: 347px;
+    right: 186px;
+  
+	transform: rotate(12deg);
+		
+	
+}
+#Arc2Circle {
+    position: absolute;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background: white;
+    top: 11px;
+	right: 5px;
+	border: 10px solid #f01672;
+	
+}
+.line2 {
+	position: absolute;
+	 border-left: 7px solid black;
+    height: 45px;
+	right: 200px;
+	top: 398px;
+	transform: rotate(-30deg)
+	}
+#Arc3Active {
+	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    position: absolute;
+    height: 75px;
+    width: 65px;
+    top: 427px;
+    right: 152px;
+  
+	transform: rotate(12deg);
+}
+#Arc3Hex {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    position: absolute;
+    height: 70px;
+    width: 60px;
+    background-color: black;
+    top: 430px;
+    right: 155px;
+   
+	transform: rotate(12deg);
+	z-index: 1000;
+}
+#Arc3Circle {
+    position: absolute;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background: white;
+    top: 12px;
+	right: 8px;
+	border: 13px solid #15C2EE;
+	
+}
+.line3 {
+	position: absolute;
+	 border-left: 7px solid black;
+    height: 45px;
+	right: 196px;
+	top: 490px;
+	transform: rotate(25deg)
+	}
+	#Arc4Hex {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    position: absolute;
+    height: 55px;
+    width: 45px;
+    background-color: black;
+    top: 520px;
+    right: 188px;
+
+	transform: rotate(12deg);
+	z-index: 1000;
+}
+#Arc4Active {
+	 clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    position: absolute;
+    height: 60px;
+    width: 50px;
+    top: 517px;
+    right: 185px;
+ 
+	transform: rotate(12deg)
+}
+#Arc4Circle {
+    position: absolute;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background: white;
+    top: 11px;
+	right: 5px;
+	border: 10px solid #f01672;
+
+}
+.line4 {
+	position: absolute;
+	 border-left: 7px solid black;
+    height: 50px;
+	right: 204px;
+	top: 558px;
+	transform: rotate(-30deg)
+	}
+#Arc5Active {
+	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    position: absolute;
+    height: 75px;
+    width: 65px;
+    top: 587px;
+    right: 157px;
+   
+	transform: rotate(12deg);
+}
+#Arc5Hex {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    position: absolute;
+    height: 70px;
+    width: 60px;
+    background-color: black;
+    top: 590px;
+    right: 160px;
+   
+	transform: rotate(12deg);
+	z-index: 1000;
+}
+#Arc5Circle {
+    position: absolute;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background: white;
+    top: 12px;
+	right: 8px;
+	border: 13px solid #15C2EE;
+
+}
+#StoryFRAME {
+	height: 1854px;
+}
+#NAVISTORYCONT {
+	
+	width: 100%;
+	position: absolute;
+	height: 100px;
+	bottom:200px;	
+	transform:rotate(2.7deg);
+}
+#PREVARC {
+	background-image:url(../images/HOME/back2.png);
+	position: absolute;
+	width:300px;
+	height:133px;
+	top:-50px;
+	left:250px;
+	transform:scale(0.35);
+	opacity:0.5;
+}
+#NEXTARC {
+	background-image:url(../images/HOME/next2.png);
+	position: absolute;
+	width:300px;
+	height:133px;
+	top:-20px;
+	left:400px;
+	transform:scale(0.45);
+}
+
+/* CSS OF WORLD */
+
+#WORLDFRAME {
+	height: 2000px;
+	width:1280px;
+}
+#HEADWORLD {
+	height: 600px;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	background-image: url(../images/WORLD/images/HeadWorld_01.png);
+	background-size: cover; 
+	z-index: 1;
+}
+#CHARHEADWORLD {
+    background-image: url(../images/WORLD/images/charheadworld_05.png);
+    width: 428px;
+    background-size: cover;
+    height: 448px;
+    position: absolute;
+    top:152px;
+    left: 101px;
+}
+#WORLDNAMEZ {
+  	top: -10px;
+	position: absolute;  
+    left: 430px;
+	transform:skew(-10deg);
+	text-shadow: 5px 5px 5px black, 5px 5px 5px black, 5px 5px 5px black;
+	font-size: 80px;
+	font-family: MACHINE;
+	color: #76ab5f;
+	letter-spacing: 0.05em;
+	line-height: 100px;
+}
+#WORLDNAMEZ span {
+	color:white;
+	padding-left: 70px;
+}
+
+#WORLDNAMECONT {
+    width: 100%;
+    position: absolute;
+	height: 150px;
+   	left: 0px;
+  	bottom:150px;
+	transform:rotate(-2.85deg);
+}
+#HEADBODYWORLD {
+	height:980px;
+-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 97%);
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0 97%);
+	background: #1b1713;
+	z-index: 10;
+}
+#BODYWORLD {
+    top: -30px;
+    height: 789px;
+	background-image: url(../images/WORLD/images/9tails_02.png);
+    background-size: cover;
+	filter:contrast(1.2);
+}
+#NARUTOHOKAGE {
+	background-image: url(../images/WORLD/images/narutohokage_05.png);
+	width: 379px;
+	height: 489px;
+	position: absolute;
+	bottom:-10px;
+	right:193px;
+	z-index: 1;
+	filter:contrast(1.1);
+}
+#WORLDSYMBOL {
+	background-image: url(../images/HOME/leafsym.png);
+	width: 200px;
+	height:200px;
+	bottom:120px;
+	left:554px;
+	position: absolute;
+	transform:scale(1.95);
+	opacity:0.1;
+}
+#BODY1CONT {
+	position: absolute;
+	bottom:0px;
+	height:400px;
+	width: 100%;
+}
+#WORLDLABELCONT {
+	position: absolute;
+	top:50px;
+	width: 303px;
+	height: 100%;
+	left:0px;
+	text-align: right;
+	list-style: none;
+	font-family: S4;
+	font-size:25px;
+	letter-spacing: 0.1em;	
+	line-height: 50px;
+}
+#WORLDDATACONT {
+	position: absolute;
+	top:50px;
+	width: 400px;
+	height: 100%;
+	left:310px;
+	text-align: left;
+	list-style: none;
+	font-family: S4;
+	font-size:25px;
+	letter-spacing: 0.1em;	
+	line-height: 50px;
+	color:white;
+}
+#WORLDLABELCONT li span {
+	color:white;
+}
+.threetop {
+	color:#76af5c;
+}
+.threebot {
+	color:#f58152;
+}
+#POPDATACONT {
+	position: absolute;
+	width: 100%;
+	top:167px;
+	height: 20px;
+}
+#MILDATACONT {
+	position: absolute;
+	width: 100%;
+	top:217px;
+	height: 20px;
+}
+#ECODATACONT {
+	position: absolute;
+	width: 100%;
+	top:267px;
+	height: 20px;
+}
+.STATREC {
+	position: absolute;
+	left:10px;
+	width:40px;
+	height: 100%;
+	transform:skew(-15deg);
+	background: #b9b9b9;
+}
+#REC1,#REC6,#REC11 {
+	left:10px;
+}
+#REC2,#REC7,#REC12 {
+	left:65px;
+}
+#REC3,#REC8,#REC13 {
+	left:120px;
+}
+#REC4,#REC9,#REC14 {
+	left:175px;
+}
+#REC5,#REC10,#REC15 {
+	left:230px;
+}
+.wactive {
+	background:#75b458;
+}
+#FOOTERWORLD {
+    top:-95px;
+	-webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+	clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+    background-image: url(../images/WORLD/images/9tailsfoot_02.png);
+    background-size: cover;
+	width:1280px;
+	height:330px;
+	filter:contrast(1.1);
+}
+#WORLDSHADE {
+	background-image: url(../images/WORLD/images/worldshade_03.png);
+	width: 100%;
+	height: 161px;
+	position: absolute;
+	bottom:0px;
+}
+#WORLDCHARFOOT {
+	background-image: url(../images/WORLD/images/minato_05.png);
+	background-size: cover;
+	width: 299px;
+	height: 372px;
+	position: absolute;
+	bottom:0px;
+	left: 100px;
+}
+#HISTITLECONT {
+	position: absolute;
+	top:20px;
+	height: 100px;
+	width: 100%;
+	transform:rotate(1.3deg);
+}
+#HISCONTENT {
+	position: absolute;
+	top:150px;
+	height: 500px;
+	width: 645px;
+	left:100px;
+	color:rgba(200,200,200,1);
+	font-family: S4;
+	font-size:22px;
+	line-height: 40px;
+}
+#HISTITLE {
+	font-family: S4;
+	color:white;
+	font-size:50px;
+	position: absolute;
+	left:100px;
+}
+#HISDROP {
+	font-size:70px;
+}
+#HISTORY {
+	color:white;
+	font-family: MACHINE;
+	font-size:50px;
+	line-height: 70px;
+	opacity:0.5;
+	text-align: center;
+	width: 35px;
+	height:478px;
+	right:60px;
+	position: absolute;
+	top:130px;
+}
+#TIMELINECONT {
+	height: 70px;
+	width: 500px;
+	position: absolute;
+	right:20px;
+	top:20px;
+}
+#TLLINE {
+	position: absolute;
+	background: white;
+	height: 2px;
+	top:35px;
+	width:500px;
+	opacity: 0.5;
+}
+.HISSTAGE {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	left:70px;
+	top:23px;
+	background:rgba(0,0,0,1);
+	transform:rotate(45deg);
+	border: 3px inset white;
+}
+#STAGE2 {
+	left:130px;
+}
+#STAGE3 {
+	left:190px;
+}
+#STAGE4 {
+	left:250px;
+}
+#STAGE5 {
+	left:310px;
+}
+#STAGE6 {
+	left:370px;
+}
+#STAGE7 {
+	left:430px;
+}
+#WORLDLISTCONT {
+	position: absolute;
+	bottom:70px;
+	top:auto;
+	height: 130px;
+	width: 100%;
+	transform:rotate(-2deg);
+}
+.WORLDLIST {
+	height: 130px;
+	width: 130px;
+	position: absolute;
+	left:360px;
+	background-image: url(../images/WORLD/images/world.png);
+	background-size: cover;
+	transform: scale(0.9);
+}
+#LIST1 {
+	transform: scale(1);
+}
+#LIST2 {
+	left:520px;
+}
+#LIST3 {
+	left:690px;
+}
+#LIST4 {
+	left:860px;
+}
+#LIST5 {
+	left:1030px;
+}
+.WORLDSYM {
+	position: absolute;
+	width: 130px;
+	height: 130px;
+	background-size: cover;
+	left:10px;
+	top:10px;
+}
+#LEAFSYM {
+	background-image: url(../images/WORLD/images/leafsym.png);
+	opacity: 0.5;
+}
+#SANDSYM {
+	background-image: url(../images/WORLD/images/sandsym.png);
+	opacity: 0.5;
+}
+#ROCKSYM {
+	background-image: url(../images/WORLD/images/rocksym.png);
+	opacity: 0.5;
+}
+#CLOUDSYM {
+	background-image: url(../images/WORLD/images/cloudsym.png);
+	opacity: 0.5;
+}
+#MISTSYM {
+	background-image: url(../images/WORLD/images/mistsym.png);
+	opacity: 0.5;
+}
+
+/* CSS OF INTRO */
+
+#INTROFRAME {
+	height: 720px;
+	width:1280px;
+	
+}
+#NARUTOINTRO {
+	background-image: url(../images/INTRO/images/naruto_04.png);
+	width: 653px;
+	height: 617px;
+	position: absolute;
+	right:10px;
+	top:103px;
+}
+#UZUMAKI {
+	position: absolute;
+	background-image: url(../images/INTRO/images/uzumaki_05.png);
+	opacity: 0.5;
+	width: 530px;
+	height: 530px;
+	top:54px;
+	right: 53px;
+}
+.NAMECONT {
+	position: absolute;
+	height: 60px;
+	width:626px;
+	transform: rotate(-5deg);
+	
+}
+#NARUTON {
+	background: #f7941d;
+	-webkit-clip-path: polygon(0 0, 100% 0, 87% 100%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0, 87% 100%, 0% 100%);
+	bottom:100px;
+	left:0px;
+}
+
+.NINJAZFAME {
+	position: absolute;
+	color:black;
+	font-family: MACHINE;
+	font-size:30px;
+	letter-spacing: 0.1em;
+	left: 118px;
+	top:8px;
+}
+#NARUTOZNAME {
+	position: absolute;
+	background-image: url(../images/INTRO/images/narutoname_05.png);
+	width: 613px;
+	height: 243px;
+	top:181px;
+	left:214px;
+	
+}
+#NARUTOFAMECONT,#NARUTOFAMETEXT,#NARUTOFAMESHAD {
+	position: absolute;
+	width: 646px;
+	height: 168px;
+	left:-700px;
+	bottom:70px;
+}
+#NARUTOFAMECONT {
+	background-image: url(../images/INTRO/images/narutofamecont_03.png);
+}
+#NARUTOFAMETEXT {
+	background-image: url(../images/INTRO/images/narutofame_03.png);
+	opacity: 0;
+}
+#NARUTOFAMESHAD {
+	background-image: url(../images/INTRO/images/narutofameshad_03.png);
+}
+#NARUTOZVID,#SASUKEZVID,#BORUTOZVID {
+	position: absolute;
+	width:100%;
+	height: 100%;
+}
+#NARZVID,#SASZVID,#BORZVID,#NARZVIDEFFEX,#SASZVIDEFFEX,#BORZVIDEFFEX {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform: scale(1.2);
+	opacity: 0;
+}
+#NARZVIDEFFEX {
+	mix-blend-mode:overlay;
+}
+#SASZVIDEFFEX {
+	mix-blend-mode:overlay;
+}
+#BORZVIDEFFEX {
+	mix-blend-mode:overlay;
+}
+.INTROCHARFRAME {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	
+}
+#NARFRAME {
+	background-image: url(../images/INTRO/Bg.png);
+}
+#SASFRAME {
+	background-image: url(../images/INTRO/Bg2new.png);
+	opacity: 0;
+}
+#UCHIHA {
+	background-image: url(../images/INTRO/images/uchiha_05.png);
+	opacity: 0.5;
+	position: absolute;
+	width: 511px;
+	height: 670px;
+	bottom:-30px;
+	left:50px;
+}
+#SASUKEINTRO {
+	background-image: url(../images/INTRO/images/sasukeintro_05.png);
+	width: 543px;
+	height: 617px;
+	position: absolute;
+	left:96px;
+	top:103px;
+}
+#SASUKEFAMECONT,#SASUKEFAMETEXT,#SASUKEFAMESHAD {
+	position: absolute;
+	width: 642px;
+	height: 170px;
+	right:-700px;
+	bottom:68px;
+}
+#SASUKEFAMECONT {
+	background-image: url(../images/INTRO/images/sasukecont_043.png);
+}
+#SASUKEFAMETEXT {
+	background-image: url(../images/INTRO/images/sasukefame_04.png);
+	opacity: 1;
+}
+#SASUKEFAMESHAD {
+	background-image: url(../images/INTRO/images/sasukeshad_043.png);
+}
+#SASUKEZNAME {
+	position: absolute;
+	background-image: url(../images/INTRO/images/sasukename_05.png);
+	width:589px;
+	height: 279px;
+	top:185px;
+	right:276px;
+	
+}
+#BORFRAME {
+	background-image: url(../images/INTRO/Bg3.png);
+	opacity: 0;
+}
+#BORUTOINTRO {
+	background-image: url(../images/INTRO/images/boruto_05.png);
+	width: 290px;
+	height: 536px;
+	position: absolute;
+	right:194px;
+	top:184px;
+}
+#BORUTOZNAME {
+	position: absolute;
+	background-image: url(../images/INTRO/images/borutoname_05.png);
+	width: 605px;
+	height: 242px;
+	top:181px;
+	left:214px;
+	
+}
+#BORUTOFAMECONT,#BORUTOFAMETEXT,#BORUTOFAMESHAD {
+	position: absolute;
+	width: 646px;
+	height: 168px;
+	left:-700px;
+	bottom:70px;
+}
+#BORUTOFAMECONT {
+	background-image: url(../images/INTRO/images/borutocont_03.png);
+}
+#BORUTOFAMETEXT {
+	background-image: url(../images/INTRO/images/borutotext_03.png);
+	
+}
+#BORUTOFAMESHAD {
+	background-image: url(../images/INTRO/images/borutoshad_03.png);
+}
+#BOLT {
+	position: absolute;
+	background-image: url(../images/INTRO/images/bolt_05.png);
+	opacity: 0.5;
+	width: 302px;
+	height: 519px;
+	top:113px;
+	right: 191px;
+}
+#GOFRAME {
+	background:#dc0e5e;
+	opacity: 0;
+}
+#kawaki {
+	background-image: url(../images/INTRO/images/kawaki_01.png);
+	width: 657px;
+	height: 436px;
+	position: absolute;
+	left:0px;
+	top:0px;
+	opacity:0;
+	transform:translateY(50px);
+}
+#sasukez {
+	background-image: url(../images/INTRO/images/sasukez_05.png);
+	width: 608px;
+	height: 687px;
+	position: absolute;
+	left:127px;
+	top:33px;
+	transform: scale(0.5)rotate(-10deg);
+	opacity: 0;
+}
+#narutoz {
+	background-image: url(../images/INTRO/images/narutoz_05.png);
+	width: 371px;
+	height: 518px;
+	position: absolute;
+	bottom:0px;
+	left:36px;
+	transform: scale(0.5)rotate(10deg);
+	opacity: 0;
+}
+
+#borutoz {
+	background-image: url(../images/INTRO/images/borutoz_05.png);
+	width: 628px;
+	height: 476px;
+	position: absolute;
+	bottom:0px;
+	left:-433px;
+}
+#LOGOINTRO {
+	background-image: url(../images/INTRO/images/logointro_05.png);
+	width: 432px;
+	height: 122px;
+	position: absolute;
+	top:178px;
+	right:65px;
+	transform:translateX(500px);
+}
+
+#INTROLINE1 {
+	background: white;
+	position: absolute;
+	height: 17px;
+	width: 930px;
+	transform: rotate(-12deg)translateX(-1500px);
+	bottom: 80px;
+	right:519px;
+}
+#INTROLINE2 {
+	background: white;
+	position: absolute;
+	height: 17px;
+	width: 200px;
+	transform: rotate(-12deg)translateX(500px);
+	bottom: 295px;
+	right:-115px;
+}
+#EXPLOREZ {
+	font-family: MACHINE;
+	color: white;
+	font-size: 100px;
+	letter-spacing: 0.05em;
+	position: absolute;
+	transform: rotate(-12deg);
+	right:110px;
+	bottom:165px;
+	pointer-events: none;
+	z-index: 1000;
+}
+#EXP {
+	opacity: 0;
+	pointer-events: none;
+}
+#LORE {
+	opacity: 0;
+	pointer-events: none;
+}
+#TESTFRAME {
+	opacity: 0;
+}
+#KAKASHIFRAME {
+	opacity: 0;
+}
+
+#KAMUI {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	
+}
+#KAMUIS {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	mix-blend-mode:multiply;
+	opacity: 0.5;
+	transform:scale(1.5);
+	filter: grayscale(1);
+}
+.KAMUIFAKE {
+	background-image: url(../images/INTRO/images/vortex_02.png);
+	width: 883px;
+	height: 659px;
+	position: absolute;
+	top:-10px;
+	left:217px;
+	filter:saturate(0)blur(2px);
+	
+}
+#SHARINGAN {
+	background-image: url(../images/INTRO/vip.png);
+	width: 1280px;
+	background-size: cover;
+	height: 720px;
+	position: absolute;
+}
+#KAKASHIFRAME2 {
+	z-index: 999;
+	width: 1280px;
+	position: absolute;
+	height: 720px;
+	left:0px;
+	top:100px;
+	pointer-events: none;
+}
+/* CSS OF CLOUD */
+
+#CLOUDFRAME {
+	height: 2000px;
+	width:1280px;
+}
+#HEADCLOUD {
+	height: 600px;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	background-image:url(../images/CLOUD/Kumogakure.png);
+	background-size: cover; 
+	z-index: 1;
+}
+#CHARHEADCLOUD {
+    background-image: url(../images/CLOUD/CloudHeadChar_05.png);
+    width: 430px;
+    background-size: cover;
+    height: 404px;
+    position: absolute;
+    top:191px;
+    left: 50px;
+}
+#CLOUDNAMEZ {
+  	top: 15px;
+	position: absolute;  
+    left: 430px;
+	transform:skew(-10deg);
+	text-shadow: 5px 5px 5px black, 5px 5px 5px black, 5px 5px 5px black;
+	font-size: 80px;
+	font-family: MACHINE;
+	color: #b8b7b6;
+	letter-spacing: 0.05em;
+	line-height: 100px;
+}
+#CLOUDNAMEZ span {
+	color:white;
+	padding-left: 70px;
+}
+
+#CLOUDNAMECONT {
+    width: 100%;
+    position: absolute;
+	height: 150px;
+   	left: 0px;
+  	bottom:150px;
+	transform:rotate(-2.85deg);
+}
+#HEADBODYCLOUD {
+	height:980px;
+-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 97%);
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0 97%);
+	background: #1b1713;
+	z-index: 10;
+}
+#BODYCLOUD {
+    top: -30px;
+    height: 789px;
+	background-image: url(../images/CLOUD/A_vs_Eight-Tails.png);;
+    background-size: cover;
+	filter:contrast(1.1);
+}
+#CLOUDHOKAGE {
+	background-image: url(../images/CLOUD/Cloud_04Kage.png);
+	width: 399px;
+	height: 495px;
+	position: absolute;
+	bottom:-10px;
+	right:114px;
+	z-index: 1;
+	filter:contrast(1.1);
+}
+#CLOUDSYMBOL {
+	background-image: url(../images/CLOUD/cloudsym.png);
+	width: 200px;
+	height:200px;
+	bottom:120px;
+	left:594px;
+	position: absolute;
+	transform:scale(1.95);
+	opacity:0.1;
+}
+#BODY1CLOUDCONT {
+	position: absolute;
+	bottom:0px;
+	height:400px;
+	width: 100%;
+}
+#CLOUDLABELCONT {
+	position: absolute;
+	top:50px;
+	width: 303px;
+	height: 100%;
+	left:0px;
+	text-align: right;
+	list-style: none;
+	font-family: S4;
+	font-size:25px;
+	letter-spacing: 0.1em;	
+	line-height: 50px;
+}
+#CLOUDDATACONT {
+	position: absolute;
+	top:50px;
+	width: 400px;
+	height: 100%;
+	left:310px;
+	text-align: left;
+	list-style: none;
+	font-family: S4;
+	font-size:25px;
+	letter-spacing: 0.1em;	
+	line-height: 50px;
+	color:white;
+}
+#CLOUDLABELCONT li span {
+	color:white;
+}
+.threetopCLOUD {
+	color:#bdbcbb;
+}
+.threebotCLOUD {
+	color:#f6814e;
+}
+#POPDATACLOUDCONT {
+	position: absolute;
+	width: 100%;
+	top:167px;
+	height: 20px;
+}
+#MILDATACLOUDCONT {
+	position: absolute;
+	width: 100%;
+	top:217px;
+	height: 20px;
+}
+#ECODATACLOUDCONT {
+	position: absolute;
+	width: 100%;
+	top:267px;
+	height: 20px;
+}
+.STATRECCL {
+	position: absolute;
+	left:10px;
+	width:40px;
+	height: 100%;
+	transform:skew(-15deg);
+	background: #b9b9b9;
+}
+#REC1CL,#REC6CL,#REC11CL {
+	left:10px;
+}
+#REC2CL,#REC7CL,#REC12CL {
+	left:65px;
+}
+#REC3CL,#REC8CL,#REC13CL {
+	left:120px;
+}
+#REC4CL,#REC9CL,#REC14CL {
+	left:175px;
+}
+#REC5CL,#REC10CL,#REC15CL {
+	left:230px;
+}
+.wactiveCL {
+	background:#6b6969;
+}
+#FOOTERCLOUD {
+    top:-95px;
+	-webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+	clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+    background-image: url(../images/CLOUD/Cloud_02.png);
+    background-size: cover;
+	width:1280px;
+	height:330px;
+	filter:contrast(1.1);
+}
+
+#CLOUDCHARFOOT {
+	background-image: url(../images/CLOUD/Cloud_03.png);
+	background-size: cover;
+	width: 557px;
+	height: 422px;
+	position: absolute;
+	bottom:0px;
+	left: 20px;
+}
+#HISTITLECONT {
+	position: absolute;
+	top:20px;
+	height: 100px;
+	width: 100%;
+	transform:rotate(1.3deg);
+}
+#HISCLOUDCONTENT {
+	position: absolute;
+	top:150px;
+	height: 500px;
+	width: 645px;
+	left:100px;
+	color:rgba(200,200,200,1);
+	font-family: S4;
+	font-size:22px;
+	line-height: 40px;
+}
+#HISTITLE {
+	font-family: S4;
+	color:white;
+	font-size:50px;
+	position: absolute;
+	left:100px;
+}
+#HISDROP {
+	font-size:70px;
+}
+#HISTORYCLOUD {
+	color:white;
+	font-family: MACHINE;
+	font-size:50px;
+	line-height: 70px;
+	opacity:0.5;
+	text-align: center;
+	width: 35px;
+	height:478px;
+	right:60px;
+	position: absolute;
+	top:130px;
+}
+#TIMELINECONT {
+	height: 70px;
+	width: 500px;
+	position: absolute;
+	right:20px;
+	top:20px;
+}
+#TLLINE {
+	position: absolute;
+	background: white;
+	height: 2px;
+	top:35px;
+	width:500px;
+	opacity: 0.5;
+}
+.HISSTAGE {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	left:70px;
+	top:23px;
+	background:rgba(0,0,0,1);
+	transform:rotate(45deg);
+	border: 3px inset white;
+}
+#STAGE2 {
+	left:130px;
+}
+#STAGE3 {
+	left:190px;
+}
+#STAGE4 {
+	left:250px;
+}
+#STAGE5 {
+	left:310px;
+}
+#STAGE6 {
+	left:370px;
+}
+#STAGE7 {
+	left:430px;
+}
+#LIST1 {
+	
+}
+#LIST2 {
+	left:520px;
+}
+#LIST3 {
+	left:690px;
+}
+#LIST4 {
+	left:860px;
+}
+#LIST5 {
+	left:1030px;
+}
+
+
+
+/*CSS OF MIST*/
+#HEADMIST {
+	height: 600px;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	background-image:url(../images/MIST/MISTHEAD.png);
+	background-size: cover; 
+	z-index: 1;
+}
+#CHARHEADMIST {
+    background-image: url(../images/MIST/HEADCHARACTER.png);
+    width: 430px;
+    background-size: cover;
+    height: 460px;
+    position: absolute;
+    top:151px;
+    left: 50px;
+}
+#MISTNAMEZ {
+  	top: 15px;
+	position: absolute;  
+    left: 430px;
+	transform:skew(-10deg);
+	text-shadow: 5px 5px 5px black, 5px 5px 5px black, 5px 5px 5px black;
+	font-size: 80px;
+	font-family: MACHINE;
+	color:#91cbfa;
+	letter-spacing: 0.05em;
+	line-height: 100px;
+}
+#MISTNAMEZ span {
+	color:white;
+	padding-left: 70px;
+}
+#MISTHOKAGE {
+	background-image: url(../images/MIST/KAGE.png);
+	width: 399px;
+	height: 495px;
+	position: absolute;
+	bottom:-10px;
+	right:114px;
+	z-index: 1;
+	filter:contrast(1.1);
+}
+
+#MISTSYMBOL {
+	background-image: url(../images/MIST/MISTSYM.png);
+	width: 200px;
+	height:200px;
+	bottom:120px;
+	left:594px;
+	position: absolute;
+	transform:scale(1.95);
+	opacity:1;
+}
+.threetopMIST{
+		color:#91cbfa;
+}
+.wactiveMI {
+	background:#91cbfa;
+}
+#BODYMIST {
+    top: -30px;
+    height: 789px;
+	background-image: url(../images/MIST/BODY.png);
+    background-size: cover;
+	filter:contrast(1.2);
+}
+#FOOTERMIST {
+    top:-95px;
+	-webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+	clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+    background-image: url(../images/MIST/FOOTER.png);
+    background-size: cover;
+	width:1280px;
+	height:330px;
+	filter:contrast(1.1);
+}
+#MISTCHARFOOT {
+	background-image: url(../images/MIST/FOOTERCHARACTER.png);
+	background-size: cover;
+	width: 653px;
+	height: 1233px;
+	position: absolute;
+	bottom:-750px;
+	left: -50px;
+	transform: scale(.9);
+}
+/* CSS OF SAND */
+
+#HEADSAND {
+	height: 600px;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	background-image:url(../images/SAND/Kazekage_Residence.png);
+	background-size: cover; 
+	z-index: 1;
+}
+#CHARHEADSAND {
+    background-image: url(../images/SAND/Sand_05.png);
+    width: 420px;
+    background-size: cover;
+    height: 502px;
+    position: absolute;
+    top:103px;
+    left: 90px;
+}
+#SANDNAMEZ {
+  	top: 15px;
+	position: absolute;  
+    left: 420px;
+	transform:skew(-10deg);
+	text-shadow: 5px 5px 5px black, 5px 5px 5px black, 5px 5px 5px black;
+	font-size: 80px;
+	font-family: MACHINE;
+	color: #f0da51;
+	letter-spacing: 0.05em;
+	line-height: 100px;
+}
+#SANDNAMEZ span {
+	color:white;
+	padding-left: 70px;
+}
+
+#SANDNAMECONT {
+    width: 100%;
+    position: absolute;
+	height: 150px;
+   	left: 0px;
+  	bottom:150px;
+	transform:rotate(-2.85deg);
+}
+#HEADBODYSAND {
+	height:980px;
+-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 97%);
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0 97%);
+	background: #1b1713;
+	z-index: 10;
+}
+#BODYSAND {
+    top: -30px;
+    height: 789px;
+	background-image: url(../images/SAND/Gaara_lost_control.png);
+    background-size: cover;
+	filter:contrast(1.2);
+}
+#SANDHOKAGE {
+	background-image: url(../images/SAND/SandKage.png);
+	width: 365px;
+	height: 517px;
+	position: absolute;
+	bottom:-10px;
+	right:127px;
+	z-index: 1;
+	filter:contrast(1.1);
+}
+#SANDSYMBOL {
+	background-image: url(../images/SAND/sandsym.png);
+	width: 200px;
+	height:200px;
+	bottom:120px;
+	left:594px;
+	position: absolute;
+	transform:scale(1.95);
+	opacity:0.1;
+}
+
+.threetopSAND {
+	color:#eed655;
+}
+.threebotSAND {
+	color:#f6814e;
+}
+.wactiveSA {
+	background:#eed655;
+}
+#FOOTERSAND {
+    top:-95px;
+	-webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+	clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+    background-image: url(../images/SAND/Sand_02.png);
+    background-size: cover;
+	width:1280px;
+	height:330px;
+	filter:contrast(1.1);
+}
+
+#SANDCHARFOOT {
+	background-image: url(../images/SAND/SandFootChar_05.png);
+	background-size: cover;
+	width: 360px;
+	height: 408px;
+	position: absolute;
+	bottom:0px;
+	left: 20px;
+}
+
+#SANDSYMACTIVE {
+	background-image: url(../images/SAND/sandsymactive.png);
+}
+.STAGEACTIVE {
+	transform:scale(1.2)rotate(45deg);
+	background: white;
+}
+
+/* CSS OF SITEMAP */
+
+
+#SMFRAME {
+	position: relative;
+	height: 720px;
+	width: 1280px;
+	margin: 0px auto 0px auto;
+	overflow: hidden;
+	background-image: url(../images/SM/background.png)
+}
+#NARUTORUN {
+	position: absolute;
+	background-image: url(../images/SM/main.gif);
+	top:430px;
+	left:349px;
+	width: 900px;
+	height: 675px;
+	mix-blend-mode:multiply;
+	z-index: 2;
+	pointer-events: none;
+}
+#SITEMAPICON {
+	background-image: url(../images/SM/images/Sitemap_05.png);
+	position: absolute;
+	width:349px;
+	height: 205px;
+	background-size: cover;
+	right:43px;
+	bottom:118px;
+	transform: rotate(20deg);
+}
+#SMLINK {
+	background-image: url(../images/SM/images/SMLINK_05.png);
+	position: absolute;
+	width: 241px;
+	height: 52px;
+	bottom:60px;
+	right:155px;
+	transform: rotate(19deg);
+}
+
+.NARCIRCLE {
+	background-image: url(../images/SM/circle.gif);
+	mix-blend-mode:screen;
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	transform:rotateX(70deg);
+}
+#NARCIRCLE1 {
+	bottom:-250px;
+	right:200px;
+}
+#NARCIRCLE2 {
+	bottom:-200px;
+	left:-30px;
+	transform: rotateX(70deg)scale(0.7);
+	z-index: 3;
+
+}
+#NARCIRCLE3 {
+	transform:rotateX(70deg)scale(0.5);
+	bottom:20px;
+	right:350px;
+	z-index: 3;
+}
+#NARCIRCLE4 {
+	transform:rotateX(70deg)scale(0.45);
+	bottom:100px;
+	left:50px;
+	z-index: 3;
+}
+#NARCIRCLE5 {
+	transform:rotateX(70deg)scale(0.45);
+	bottom:250px;
+	right:200px;
+	z-index: 3;
+}
+#NINJAICON {
+	background-image: url(../images/SM/images/NJLINK_05.png);
+	position: absolute;
+	width: 294px;
+	height: 156px;
+	background-size: cover;
+	left:231px;
+	bottom:177px;
+	transform: rotate(-10deg);
+}
+#NJLINK {
+	background-image: url(../images/SM/images/NJTEXT_05.png);
+	position: absolute;
+	width: 162px;
+	height: 51px;
+	left:325px;
+	bottom:126px;
+	transform: rotate(-10deg);
+}
+.NAVIICON {
+	pointer-events: none;
+	z-index: 1;
+}
+.NAVITEXT {
+	pointer-events: none;
+	z-index: 1;
+}
+#WORLDICON {
+	background-image: url(../images/SM/images/WORLDICON_05.png);
+	background-size: cover;
+	position: absolute;
+	width:363px;
+	height: 232px;
+	top:257px;
+	right:151px;
+	transform: rotate(5deg);
+}
+#WOLINK {
+	background-image: url(../images/SM/images/WORLDTEXT_05.png);
+	position: absolute;
+	width: 157px;
+	height: 44px;
+	top:470px;
+	right:275px;
+	transform: rotate(5deg);
+}
+#STORYICON {
+	background-image: url(../images/SM/images/STORYLINK_05.png);
+	background-size: cover;
+	position: absolute;
+	width: 242px;
+	height: 132px;
+	top:200px;
+	left:354px;
+	transform: rotate(-10deg);
+}
+#STLINK {
+	background-image: url(../images/SM/images/STORYTEXT_05.png);
+	background-size: cover;
+	position: absolute;
+	width: 151px;
+	height: 45px;
+	top:342px;
+	left:394px;
+	transform: rotate(-10deg);
+}
+#HOMEICON {
+	background-image: url(../images/SM/images/HOMEICON_05.png);
+	background-size: cover;
+	position: absolute;
+	width: 178px;
+	height: 174px;
+	top:33px;
+	right:487px;
+	transform: rotate(5deg);
+}
+#HOLINK {
+	background-image: url(../images/SM/images/HOMETEXT_05.png);
+	position: absolute;
+	width: 124px;
+	height: 46px;
+	top:221px;
+	right: 516px;
+	transform: rotate(5deg);
+}
+.ROAD {
+	background-image: url(../images/SM/images/road_05.png);
+	position: absolute;
+	width: 854px;
+	height: 482px;
+	right:123px;
+	bottom:0px;
+	mix-blend-mode:overlay;
+}
+.ROAD2 {
+	background-image: url(../images/SM/images/road_05.png);
+	position: absolute;
+	width: 854px;
+	height: 482px;
+	right:123px;
+	bottom:0px;
+	mix-blend-mode:color-burn;
+	opacity:0.3;
+}
+.PUFF {
+	background-image: url(../images/SM/puff2.gif);
+	width: 243px;
+	height: 152px;
+	position: absolute;
+	left:35%;
+	top:10%;
+	transform: scale(1.5);
+	filter: brightness(10);
+	opacity: 0;
+}
+.PUMP {
+	animation: PUMP 0.7s infinite alternate ease-in-out;
+}
+@keyframes PUMP {
+	0%{transform:scale(1)rotate(5deg)}
+	80%{transform:scale(1.07)rotate(5deg)}
+}
+.PUMP2 {
+	animation: PUMP2 0.7s infinite alternate ease-in-out;
+}
+@keyframes PUMP2 {
+	0%{transform:scale(1)rotate(-10deg)}
+	80%{transform:scale(1.07)rotate(-10deg)}
+}
+.PUMP3 {
+	animation: PUMP3 0.7s infinite alternate ease-in-out;
+}
+@keyframes PUMP3 {
+	0%{transform:scale(1)rotate(20deg)}
+	80%{transform:scale(1.07)rotate(20deg)}
+}
+#CLICKTOGO {
+	display: none;
+}
+/* CSS OF STONE */
+
+#STONEFRAME {
+	height: 2000px;
+	width:1280px;
+}
+#HEADSTONE {
+	height: 600px;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	background-image:url(../images/Stone/2_01.png);
+	background-size: cover; 
+	z-index: 1;
+}
+#CHARHEADSTONE {
+    background-image: url(../images/Stone/Stone_05.png);
+    width: 340px;
+    background-size: cover;
+    height: 470px;
+    position: absolute;
+    top:140px;
+    left: 50px;
+}
+#STONENAMEZ {
+  	top: 15px;
+	position: absolute;  
+    left: 350px;
+	transform:skew(-10deg);
+	text-shadow: 5px 5px 5px black, 5px 5px 5px black, 5px 5px 5px black;
+	font-size: 80px;
+	font-family: MACHINE;
+	color: #CD6656;
+	letter-spacing: 0.05em;
+	line-height: 100px;
+}
+#STONENAMEZ span {
+	color:white;
+	padding-left: 70px;
+}
+
+#BODYSTONE {
+    top: -30px;
+    height: 789px;
+	background-image: url(../images/Stone/3_02.png);;
+    background-size: cover;
+	filter:contrast(1.2);
+}
+#STONEHOKAGE {
+	background-image: url(../images/Stone/6.png);
+	width: 380px;
+	height: 520px;
+	position: absolute;
+	bottom:-10px;
+	right:114px;
+	z-index: 1;
+	filter:contrast(1.1);
+}
+#STONESYMBOL {
+	background-image: url(../images/Stone/rocksym.png);
+	width: 200px;
+	height:200px;
+	bottom:120px;
+	left:594px;
+	position: absolute;
+	transform:scale(1.95);
+	opacity:0.1;
+}
+.threetopSTONE {
+	color:#d26352;
+}
+.threebotSTONE {
+	color:#f58152;
+}
+
+.wactiveST {
+	background:#cd6656;
+}
+#FOOTERSTONE {
+    top:-95px;
+	-webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+	clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+    background-image: url(../images/Stone/4_04.png);
+    background-size: cover;
+	width:1280px;
+	height:330px;
+	filter:contrast(1.1);
+}
+
+#STONECHARFOOT {
+	background-image: url(../images/Stone/5_07.png);
+	background-size: cover;
+	width: 450px;
+	height: 387px;
+	position: absolute;
+	bottom:0px;
+	left: 20px;
+}
+.SQUAREFLY {
+	position: absolute;
+	background: #e41281;
+	opacity:0;
+	
+}
+#SQUARE1 {
+	bottom:200px;
+	left:100px;
+	width: 50px;
+	height: 50px;
+}
+#SQUARE2 {
+	bottom:100px;
+	left:200px;
+	width: 100px;
+	height: 100px;
+}
+#SQUARE3 {
+	bottom:150px;
+	left:400px;
+	width: 70px;
+	height: 70px;
+}
+#SQUARE4 {
+	bottom:150px;
+	left:500px;
+	width: 20px;
+	height: 20px;
+}
+#SQUARE5 {
+	bottom:100px;
+	left:600px;
+	width: 40px;
+	height: 40px;
+}
+#SQUARE5 {
+	bottom:150px;
+	left:30px;
+	width: 40px;
+	height: 40px;
+}
+#SQUARE6 {
+	bottom:150px;
+	left:570px;
+	width: 40px;
+	height: 40px;
+}
+#SQUARE7 {
+	bottom:100px;
+	left:650px;
+	width: 70px;
+	height: 70px;
+}

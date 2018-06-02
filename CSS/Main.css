@@ -1,0 +1,3907 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* HOME ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@import url("../fonts/MACHINE/font.css");
+@import url("../fonts/NINJA/font.css");
+@import url("../fonts/S4/font.css");
+
+body {
+	margin: 0 auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	overflow-x:hidden;
+
+}
+#HFRAME {
+	position: relative;
+	height: 144.84375vw;
+	max-width: 1280px;
+	margin: 0px auto 0px auto;
+	overflow: hidden;
+}
+.SECTION {
+	position: relative;
+	top:0;
+	left:0;
+	width: 100%;
+}
+#HEAD {
+	height: 46.875vw;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	background-image: url(../images/HOME/HEADBG.png);
+	background-size: cover;	
+	z-index: 1;
+}
+#BODY1 {
+	top:-5.3125vw;
+	height: 46.875vw;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 95%);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 95%);
+/*	background-image: url(../images/HOME/BODY1BG.png);
+	background-size: cover;	*/
+}
+#BODY2 {
+	top:-7.734375vw;
+	height: 29.6875vw;
+	width: 110%;
+	left:-5%;
+	transform:rotate(1.15deg);
+	background:rgba(200,200,200,1);
+	z-index: 1;
+}
+#SLIDERCONT {
+	position: absolute;
+	top:0;
+	left:0;
+	width:163.28125vw;
+	height:100%;
+}
+.VILLAGE {
+	position: absolute;
+	top:0;
+	width:33.28125vw;
+	height:29.6875vw;
+	transform:skew(-10deg);
+	box-shadow:  0 0 0px 0.78125vw rgba(0,0,0,0.5) inset;
+	overflow: hidden;
+
+}
+#ROCK {
+	left:0;
+}
+#LEAF {
+	left:32.5vw;
+}
+.real {
+	position: absolute;
+	width: 120%;
+	height: 120%;
+	top:-3.90625vw;
+	left:-4.6875vw;
+	transform:skew(10deg);
+	filter:saturate(0.8)contrast(1.2)brightness(0.85);
+	background-size: cover;
+}
+.sym {
+	position: absolute;
+	width: 15.625vw;
+	height:15.625vw;
+	left:27%;
+	top:20%;
+	background-size: cover;
+	transform:skew(10deg)scale(0.8);
+	opacity: 0;
+}
+.vilname {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-size:3.125vw;
+	letter-spacing: 0.05em;
+	color:white;
+	font-family: S4;
+	bottom:4.6875vw;
+	transform:skew(10deg);
+	padding-left: 1.5625vw;
+	opacity: 0;
+}
+#rocksym {
+	background-image: url(../images/HOME/rocksym.png);
+}
+#leafsym {
+	background-image: url(../images/HOME/leafsym.png);
+}
+#cloudsym {
+	background-image: url(../images/HOME/cloudsym.png);
+}
+#rainsym {
+	background-image: url(../images/HOME/mistsym.png);
+}
+#sandsym {
+	background-image: url(../images/HOME/sandsym.png);
+}
+#rock {
+	background-image: url(../images/HOME/Rock.png);
+}
+#leaf {
+	background-image: url(../images/HOME/Leaf.png);
+}
+#cloud {
+	background-image: url(../images/HOME/Cloud.png);
+}
+#rain {
+	background-image: url(../images/HOME/Rain.png);
+}
+#sand {
+	background-image: url(../images/HOME/Sand.png);
+}
+.boxshadow {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	box-shadow:  0 0 0px 0.859375vw rgba(0,0,0,0.5) inset;
+}
+#CLOUD {
+	left:65vw;
+	
+}
+#RAIN {
+	left:97.5vw;
+	background: orange;
+}
+#SAND {
+	left:130vw;
+	background: blue;
+}
+#FOOTER {
+	top:-9.453125vw;
+	height:30.859375vw;
+	background-image: url(../images/HOME/FOOTERBG2.png);
+	background-size: cover;	
+	
+}
+
+#VIDEO {
+	width: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	height:600px;
+	overflow: hidden;
+}
+#VID {
+	width: 100%;
+	top:0;
+	left:0;
+	position: absolute;
+	mix-blend-mode:screen;		
+}
+#CHARHEAD {
+	background-image: url(../images/HOME/headchar.png);
+	width:27vw;
+	background-size: cover;
+	height: 36.1vw;
+	position: absolute;
+	bottom:1.2vw;
+	left:16.1vw;
+	
+}
+#RASENGAN {
+	width:5.5vw;
+	height:5.5vw;
+	position: absolute;
+	bottom:8.6vw;
+	left:28.9vw;
+	overflow: hidden;
+	border-radius: 50%;
+	transform:scale(1.4);
+	mix-blend-mode:screen;
+	transform-origin: center center;
+	
+}
+#RASENGAN2 {
+	width:5.5vw;
+	height:5.5vw;
+	position: absolute;
+	bottom:8.6vw;
+	left:28.9vw;
+	overflow: hidden;
+	border-radius: 50%;
+	transform:scale(1.2);
+	mix-blend-mode:screen;
+	opacity: 0.5;
+	transform-origin: center center;
+	
+}
+#RSG {
+	position: absolute;
+	top:0;
+	left:-1.95vw;
+	height:100%;
+	opacity: 0.8;
+	filter:contrast(1.2);	
+}
+#RSG2 {
+	position: absolute;
+	top:0;
+	left:-1.95vw;
+	height:100%;
+	opacity: 1;
+	filter:contrast(1.2);	
+}
+#LOGO {
+	background-image: url(../images/HOME/logo.png);
+	background-size: cover;
+	width:16.71875vw;
+	height:4.765625vw;
+	top:20px;
+	left:25px;
+	transform:scale(0.9);
+	transform-origin: top left;
+	position: absolute;
+	z-index: 99;
+}
+#MENU {
+	width: 31.9vw;
+	height: 28.8vw;
+	position: absolute;
+	top:75px;
+	right:13vw;
+	transform: scale(0.9);
+	display: block;
+}
+#MENUSMALL {
+	display: none;
+	z-index: 1000;
+}
+#CIRCLE {
+	background-image: url(../images/HOME/circle.png);
+	background-size: cover;
+	position: absolute;
+	width:27vw;
+	height:27vw;
+	top:0;
+	left:3.3vw;	
+}
+.HEX {
+	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	position: absolute;
+	height:9.5vw;
+	width: 8.3vw; 
+	transform-origin: center center;
+}
+	.GROUP {
+		position: absolute;
+		height:9.5vw;
+		width: 8.3vw;
+		transform-origin: center center;
+	}
+#CHARG {
+	bottom:1.3vw;
+	left:1.5vw;
+	height:5.6vw;
+	width:4.9vw;
+}
+#WORLDG {
+	height:5.6vw;
+	width:4.9vw;
+	bottom:-2.7vw;
+	left:11.1vw;
+}
+#STORYG {
+	bottom:1.3vw;
+	left:20.3vw;
+	height:5.6vw;
+	width:4.9vw;
+}
+#SMG {
+	bottom:10.8vw;
+	left:24.5vw;
+	height:5.6vw;
+	width:4.9vw;
+}
+#HOMEG {
+	bottom:10.8vw;
+	left:-2.3vw;
+	height:5.6vw;
+	width:4.9vw;
+}
+.HEXSHADOW {
+	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	position: absolute;
+	height:121px;
+	width: 106px;
+	background: black;
+	opacity: 0.5;
+}
+
+#WORLD,#STORY,#CHAR,#SITEMAP,#HOME {
+	height:5.6vw;
+	width:4.9vw;
+	background: rgba(100,100,100,1);
+	top:0;
+	right:0;
+}
+
+#WORLDNAME {
+	font-size:1.95vw;
+	top:34.5%;
+	left:-3.9vw;
+}
+
+#STORYNAME {
+	font-size:1.95vw;
+	top:34.5%;
+	left:-2.7vw;
+}
+#SMNAME {
+	font-size:1.95vw;
+	top:34.5%;
+	left:-2.3vw;
+	width:10.15625vw;
+	
+}
+#HOMENAME {
+	font-size:1.95vw;
+	top:34.5%;
+	left:-2.3vw;
+}
+
+#CHARNAME {
+	font-size:1.95vw;
+	top:34.5%;
+	left:-3.9vw;
+}
+#HOMES {
+	top:115px;
+	left:-2.2vw;
+}
+
+.MENUNAME {
+	position: absolute;
+	font-family: NINJA;
+	color:white;
+	letter-spacing: 0.1em;
+	text-shadow: 10px 15px 0px rgba(0,0,0,0.3);
+	transform-origin: bottom left;
+}
+#FOOTERTEXT {
+	position: absolute;
+	bottom:5px;
+	font-family: S4;
+	color:black;
+	letter-spacing: 0.05em;
+	font-size:12px;
+	text-align: center;
+	width: 500px;
+	line-height: 20px;
+	height:20px;
+	transform:translateX(-50%);
+	left:50%;
+	z-index: 11;
+}
+#BORUTOA {
+	position: absolute;
+	background-image: url(../images/HOME/borutoadult_04.png);
+	background-size:cover;
+	width:51.328125vw;
+	height:33.203125vw;
+	bottom:0px;
+	right:0px;
+	z-index: 2;
+	pointer-events: none;
+}
+#BORUTOKID {
+	position: absolute;
+	background-image: url(../images/HOME/borutokid_08.png);
+	background-size: cover;
+	width:15.859375vw;
+	height:29.6875vw;
+	bottom:-1.5625vw;
+	right:29.6875vw;
+	opacity:0.7;
+}
+#SHADOW {
+	background-image: url(../images/HOME/shadow.png);
+	width:1280px;
+	height:120px;
+	position: absolute;
+	bottom:0;
+	left:0;
+	transform:scaleX(1.5);
+	transform-origin: center center;
+	z-index: 3;
+	
+}
+#SLOGAN {
+	font-family: S4;
+	color:black;
+	letter-spacing: 0.05em;
+	text-align: right;
+	position: absolute;
+	top:5.8125vw;
+	left:10.46875vw;
+	z-index: 11;	
+}
+#slogan1 {
+	font-size: 2.34375vw;
+}
+#slogan2 {
+	font-size:3.90625vw;
+}
+.CHARSELECT {
+	background-size: cover;
+	position: absolute;
+}
+#SRDSEL {
+	background-image: url(../images/HOME/saradaselect.png);
+	width: 18.125vw;
+	height:32.421875vw;
+	bottom:2.34375vw;
+	left:25.3125vw;
+}
+#MSKSEL {
+	background-image: url(../images/HOME/mitsukiselect.png);
+	width:30.15625vw;
+	height:36.015625vw;
+	bottom:0vw;
+	right:20.390625vw;
+}
+.TICK {
+	border-radius: 50%;
+	position: absolute;
+	width:4.21875vw;
+	height:4.21875vw;
+	background: white;
+}
+.TICKSM {
+	border-radius: 50%;
+	position: relative;
+	margin: 0.546875vw auto;
+	width:3.125vw;
+	height:3.125vw;
+	transition: all 0.3s;
+
+}
+.TICK:hover .TICKSM{
+	transform:scale(0);
+}
+#SRDTICK {
+	left:17.96875vw;
+	bottom:15.625vw;
+}
+#MSKTICK {
+	right:17.96875vw;
+	bottom:14.84375vw;
+}
+#SRDSM {
+background: rgba(204,45,125,1);
+}
+#MSKSM {
+background: rgba(62,119,175,1);
+}
+
+.CHARNAMECONT {
+	width: 100%;
+	height: 6.25vw;
+	background:transparent;
+	position: absolute;
+	left:0vw;
+	bottom: 5.46875vw;
+	transform:rotate(1.15deg);
+}
+.CHARNAMELABLE {
+	position: absolute;
+	background-size: cover;
+	
+}
+#SRDLABEL {
+	background-image: url(../images/HOME/saradaname.png);
+	width: 23.828125vw;
+	height:5.625vw;
+	left:16.09375vw;
+	bottom:0vw;
+}
+#MSKLABEL {
+	background-image: url(../images/HOME/mitsukiname.png);
+	width: 24.921875vw;
+	height:5.546875vw;
+	right:18.359375vw;
+	bottom:0vw;
+}
+#VS {
+	background-image: url(../images/HOME/source2.gif);
+	background-size:180% 170%;
+	background-position:45%;
+	position: absolute;
+	width:29.375vw;
+	height:39.53125vw;
+	left:33.515625vw;
+	top:7.8125vw;
+	mix-blend-mode:normal;
+	transform:scale(0.6)translateX(0);
+	transform-origin: center center;
+	-webkit-mask-image: url(../images/HOME/VS.png);
+ 	 mask-image: url(../images/HOME/VS.png);
+	-webkit-mask-size: 100% 100%;
+}
+#INTRO {
+	position: absolute;
+	background-image: url(../images/HOME/intro.png);
+	width:38.28125vw;
+	height:3.671875vw;
+	background-size: cover;
+	top:0;
+	right:11.71875vw;
+	
+}
+#INTROCONT {
+	width: 100%;
+	height: 6.25vw;
+	position: absolute;
+	left:0vw;
+	top:4.6875vw;
+	transform: rotate(-2.85deg);
+}
+.SEAL {
+	position: absolute;
+	background-image: url(../images/HOME/seal.png);
+	background-size: cover;
+	width: 24.53125vw;
+	height: 25.3125vw;
+	mix-blend-mode:overlay;
+	opacity: 0;
+}
+#SRDSEAL {
+	left:18.671875vw;
+	bottom:10.15625vw;
+}
+#MSKSEAL {
+	right:19.21875vw;
+	bottom:11.71875vw;
+}
+.COMBATSTAGE {
+	width: 100%;
+	position: absolute;
+	top:0px;
+	left:0px;
+	height: 46.875vw;
+	-webkit-clip-path: polygon(0 11%, 100% 0, 100% 100%, 0% 95%);
+	clip-path: polygon(0 11%, 100% 0, 100% 100%, 0% 95%);
+}
+.SELECTSTAGE {
+	width: 100%;
+	position: absolute;
+	top:0px;
+	left:0px;
+	height: 46.875vw;
+	background: transparent;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 95%);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 95%);
+	background-image: url(../images/HOME/BODY1BG.png);
+	background-size: cover;
+}
+#SARADAVID,#SARADAVID2,#SARADAVID3,#SARADAVID4 {
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+}
+#SRDVID,#SRDVID2,#SRDVID3,#SRDVID4 {
+	position: absolute;
+	top:-10vw;
+	left:0px;
+	width: 100.78125vw;
+}
+#SKILLCONT {
+	position: absolute;
+	bottom:0px;
+	width: 100%;
+	height:23.4375vw;
+	transform:rotate(1.15deg);
+	background:transparent;
+}
+#NAMECONT {
+	position: absolute;
+	top:0px;
+	width: 100%;
+	height:15.625vw;
+	transform:rotate(-2.85deg);
+}
+
+#BRUSHLINE {
+	position: absolute;
+	background-image: url(../images/HOME/art.png);
+	width:38.984375vw;
+	height:1.328125vw;
+	background-size: cover;
+	right:-7.8125vw;
+	bottom:23.4375vw;
+	opacity: 0.9;
+}
+#SKILL {
+	background-image: url(../images/HOME/skill.png);
+	width:5.859375vw;
+	height:6.40625vw;
+	position: absolute;
+	right:22.1875vw;
+	bottom:5.46875vw;
+
+	background-size: cover;
+}
+#SKILL2 {
+	background-image: url(../images/HOME/skill.png);
+	width:5.859375vw;
+	height:6.40625vw;
+	position: absolute;
+	right:27.34375vw;
+	bottom:13.28125vw;
+
+	background-size: cover;
+}
+#SKILLNAME,#SKILLNAME2 {
+	position: absolute;
+	width: 23.4375vw;
+	left:2.34375vw;
+	font-family: S4;
+	color:black;
+	letter-spacing: 0.05em;
+	font-size:1.5625vw;
+	top:1.71875vw;
+	pointer-events: none;
+}
+#SKILLNAME2 {
+	width: 29.6875vw;
+}
+#ART {
+	position: absolute;
+	right:1.5625vw;
+	font-family: S4;
+	color:black;
+	letter-spacing: 0.05em;
+	font-size:3.90625vw;
+	bottom:25vw;
+	opacity: 0.6;
+}
+#CHARCOMBATNAME {
+	position: absolute;
+	left:3.90625vw;
+	top:3.90625vw;
+	font-family: S4;
+	color:black;
+	letter-spacing: 0.05em;
+	font-size:3.90625vw;
+	opacity: 0.6;
+}
+#LIGHTNING {
+	background-image: url(../images/HOME/LIGHTNING.gif);
+	width:8.59375vw;
+	height:8.59375vw;
+	position: absolute;
+	top:33.59375vw;
+	right:21.09375vw;
+	background-size: cover;
+	mix-blend-mode:screen;
+	pointer-events: none;
+}
+#FIRE {
+	background-image: url(../images/HOME/FIRE.gif);
+	width:9.375vw;
+	height:9.375vw;
+	position: absolute;
+	top:25vw;
+	right:25.78125vw;
+	background-size: cover;
+	mix-blend-mode:screen;
+	pointer-events: none;
+}
+#DROPCAP {
+	
+	font-size:5.46875vw;
+}
+#BACK {
+	position: absolute;
+	background-image: url(../images/HOME/back.png);
+	background-size: cover;
+	width:23.4375vw;
+	height:10.390625vw;
+	bottom:3.90625vw;
+	left:0vw;
+	transform:scale(0.5);
+
+}
+	.RC {
+		position: absolute;
+		background-color:transparent;
+		animation: CHAY 1s linear;
+		z-index: 1000;
+		pointer-events: none;
+		opacity: 0.7;
+		background-size: cover;
+	}
+
+	@keyframes CHAY {
+		100% {transform:scale(1.5);opacity:0}
+	}
+
+#READSTORY {
+	position: absolute;
+	top:17.1875vw;
+	left:31.25vw;
+	z-index: 11;
+	width: 15.625vw;
+	height:3.90625vw;
+}
+#BRUSHDOT {
+	background-image: url(../images/HOME/brushdot.png);
+	width:17.34375vw;
+	height:20.15625vw;
+	position: absolute;
+	top:-5.859375vw;
+	left:-3.90625vw;
+	transform:scale(0.65);
+	background-size: cover;
+}
+#STORYCONTENT {
+	position: absolute;
+	top:3.125vw;
+	left:2.734375vw;
+	height:3.90625vw;
+	line-height:  3.90625vw;
+	font-family: MACHINE;
+	font-size: 2.109375vw;
+	letter-spacing: 0.05em;
+	color:black;
+}
+#STORYCONTENT span {
+	color:white;
+}
+
+#HEADINTROCONT {
+	
+	width: 100%;
+	height:100px;
+	position: absolute;
+	top:26.34375vw;
+	left:28.90625vw;
+	transform:rotate(-2.85deg);
+}
+#HEADINTRO {
+	color:white;
+	font-family: S4;
+	font-size:3.125vw;
+	text-shadow:  0 0 5px black,0 0 5px black,0 0 5px black,0 0 5px black;
+}
+#SEQUEL{
+	
+}
+#NAR {
+	position: absolute;
+	font-family: MACHINE;
+	font-size:4.6875vw;
+	color:rgba(255,85,154,1);
+	left:-0.78125vw;
+	text-shadow:  0 0 5px black,0 0 5px black,0 0 5px black,0 0 5px black;
+}
+#THIRD {
+	position: absolute;
+	font-size:19px;
+	color:white;
+	left:-1.5625vw;
+	top:11.71875vw;
+	font-family: S4;	
+	text-shadow:  0 0 5px black,0 0 5px black,0 0 5px black,0 0 5px black;
+	
+}
+
+
+/*UPDATE*/
+
+#MENU {
+	top:2.734375vw;
+	right:7.8125vw;
+}
+#CHARHEAD {
+	left:5.9375vw;
+	bottom:0vw;
+}
+#RASENGAN {
+	left:18.75vw;
+	bottom:7.421875vw;
+}
+#RASENGAN2 {
+	left:18.75vw;
+	bottom:7.421875vw;
+}
+#TEMP {
+	position: absolute;
+	width: 100%;
+	height:100%;
+	top:0;
+	left:0;
+}
+
+/*CSS NINJA */
+#NINJAFRAME {
+	position: relative;
+	height: 150.78125vw;
+	width:100%;
+	margin: 0px auto 0px auto;
+	background: #000000;
+	overflow: hidden;
+}
+
+#NINJAHEAD {
+	background: white;
+	height: 46.875vw;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	background-image: url(../images/HOME/HEADBG.png);
+	background-size: cover;	
+	
+}
+#NINJABODY {
+	top:-4.6875vw;
+	height: 95.3125vw;
+	-webkit-clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 95%);
+	clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 95%);
+	background-image: url(../images/NINJA/contentbg.png);
+	background-size: cover;	
+	z-index: 80;
+	perspective: 500px;	
+}
+
+#NINJAFOOTER {
+	top:-8.984375vw;
+	height: 17.578125vw;
+	-webkit-clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 100%);
+	clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 100%);
+	background-image: url(../images/NINJA/footer.png);
+	background-size: cover;
+}
+.FOOTERCHIBI{
+	position: absolute;
+	margin-top: -15.625vw;
+	margin-left: 1.25vw;
+	width: 24.21875vw;
+	height:19.140625vw;
+	z-index: 99;
+	background-image: url(../images/NINJA/chibi.png);	
+	background-size: cover;
+	
+}
+.FOOTERCHIBI2{
+	position: absolute;
+	margin-top: -19.625vw;
+	margin-left: 1.25vw;
+	width: 24.21875vw;
+	height:25.234375vw;
+	z-index: 99;
+	background-image: url(../images/NINJA/chibisarada.png);	
+	background-size: cover;
+	
+}
+.FOOTERCHIBI3{
+	position: absolute;
+	margin-top: -15.625vw;
+	margin-left: 1.25vw;
+	width: 24.21875vw;
+	height:19.140625vw;
+	z-index: 99;
+	background-image: url(../images/NINJA/chibimitsuki.png);	
+	background-size: cover;
+	
+}
+.FOOTERCHIBI4{
+	position: absolute;
+	margin-top: -19.625vw;
+	margin-left: 1.25vw;
+	width: 24.21875vw;
+	height:25.234375vw;
+	z-index: 99;
+	background-image: url(../images/NINJA/chibinaruto.png);	
+	background-size: cover;
+	
+}
+.FOOTERCHIBI5{
+	position: absolute;
+	margin-top: -19.625vw;
+	margin-left: 3.25vw;
+	width: 24.21875vw;
+	height:25.234375vw;
+	z-index: 99;
+	background-image: url(../images/NINJA/chibisasuke.png);	
+	background-size: cover;
+	
+}
+.FOOTERCHIBI6{
+	position: absolute;
+	margin-top: -15.625vw;
+	margin-left: 3.25vw;
+	width: 24.21875vw;
+	height:19.140625vw;
+	z-index: 99;
+	background-image: url(../images/NINJA/chibisakura.png);	
+	background-size: cover;
+	
+}
+.FOOTERCHIBI7{
+	position: absolute;
+	margin-top: -19.625vw;
+	margin-left: 3.25vw;
+	width: 24.21875vw;
+	height:25.234375vw;
+	z-index: 99;
+	background-image: url(../images/NINJA/chibigaara.png);	
+	background-size: cover;
+	
+}
+.FOOTERCHIBI8{
+	position: absolute;
+	margin-top: -19.625vw;
+	margin-left: 1.25vw;
+	width: 24.21875vw;
+	height:25.234375vw;
+	z-index: 99;
+	background-image: url(../images/NINJA/chibikakashi.png);	
+	background-size: cover;
+	
+}
+#borutoicon{
+	position: absolute;
+	height: 13.359375vw;
+	width:11.640625vw;
+	margin-left: 4.6875vw;
+	margin-top:12.03125vw;
+	background: transparent;
+}
+.hexabig1{
+	position: absolute;
+	height: 13.359375vw;
+	width:11.640625vw;
+	margin-top: -0.625vw;
+	background:#FFFFFF;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	z-index: 80;
+}
+.hexasmall1{
+	position: absolute;
+	height: 12.578125vw;
+	width:10.859375vw;
+	background:#000000;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	margin-left:0.390625vw;
+	margin-top:0.390625vw;
+}
+#hexaactive{
+	background:rgba(204,45,125,1);
+}
+#chaactive{
+	filter: saturate(1);
+}
+.borutohead{
+	position: absolute;
+	z-index: 99;
+	filter: saturate(0);
+	width: 120%;
+	margin-left:-1.328125vw;
+	margin-top: -2.5vw;
+	
+}
+#saradaicon{
+	position: absolute;
+	height: 13.359375vw;
+	width:11.640625vw;
+	margin-left:18.59375vw;
+	margin-top:10.46875vw;
+	background: transparent;
+
+}
+.hexabig2{
+	position: absolute;
+	height: 13.359375vw;
+	width:11.640625vw;
+	margin-top: -0.625vw;
+	background:#FFFFFF;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	z-index: 80;
+}
+.hexasmall2{
+	position: absolute;
+	height: 12.578125vw;
+	width:10.859375vw;
+	background:#000000;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	margin-left:0.390625vw;
+	margin-top:0.390625vw;
+}
+.saradahead{
+	position: absolute;
+	z-index: 99;
+	filter: saturate(0.3);
+	margin-top: -1.328125vw;
+	margin-left: 0.3125vw;
+	
+}
+
+#mitsukiicon{
+	position: absolute;
+	height: 13.359375vw;
+	width:11.640625vw;
+	margin-left:32.265625vw;
+	margin-top:9.375vw;
+	background: transparent;
+}
+.hexabig3{
+	position: absolute;
+	height: 13.359375vw;
+	width:11.640625vw;
+	margin-top: -0.625vw;
+	background:#FFFFFF;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	z-index: 80;
+}
+.hexasmall3{
+	position: absolute;
+	height: 12.578125vw;
+	width:10.859375vw;
+	background:#000000;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	margin-left:0.390625vw;
+	margin-top: 0.390625vw;
+}
+.mitsukihead{
+	position: absolute;
+	z-index: 99;
+	filter: saturate(0.3);
+	margin-top: -1.40625vw;
+	margin-left:0.78125vw;
+	
+}
+
+#narutoicon{
+	position: absolute;
+	height: 13.359375vw;
+	width:11.640625vw;
+	margin-left:46.09375vw;
+	margin-top:8.203125vw;
+	background: transparent;
+}
+.hexabig4{
+	position: absolute;
+	height: 13.359375vw;
+	width:11.640625vw;
+	margin-top: -0.625vw;
+	background:#FFFFFF;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	z-index: 80;
+}
+.hexasmall4{
+	position: absolute;
+	height: 12.578125vw;
+	width:10.859375vw;
+	background:#000000;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	margin-left:0.390625vw;
+	margin-top:0.390625vw;
+}
+.narutohead{
+	position: absolute;
+	z-index: 99;
+	filter: saturate(0.3);
+	margin-top: -2.03125vw;
+	margin-left:0.078125vw;
+	
+}
+
+#sasukeicon{
+	position: absolute;
+	height: 13.359375vw;
+	width:11.640625vw;
+	margin-left:4.6875vw;
+	margin-top:28.125vw;
+	background: transparent;
+}
+.hexabig5{
+	position: absolute;
+	height: 13.359375vw;
+	width:11.640625vw;
+	margin-top: -0.625vw;
+	background:#FFFFFF;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	z-index: 80;
+}
+.hexasmall5{
+	position: absolute;
+	height:12.578125vw;
+	width:10.859375vw;
+	background:#000000;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	margin-left:0.390625vw;
+	margin-top:0.390625vw;
+}
+.sasukehead{
+	position: absolute;
+	z-index: 99;
+	filter: saturate(0.3);
+	width: 100%;
+	margin-left:0.450625vw;
+	margin-top:-1.75875vw;
+	
+}
+
+
+#sakuraicon{
+	position: absolute;
+	height: 13.359375vw;
+	width:11.640625vw;
+	margin-left:18.59375vw;
+	margin-top:26.5625vw;
+	background: transparent;
+}
+.hexabig6{
+	position: absolute;
+	height:13.359375vw;
+	width:11.640625vw;
+	margin-top:  -0.625vw;
+	background:#FFFFFF;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	z-index: 80;
+}
+.hexasmall6{
+	position: absolute;
+	height: 12.578125vw;
+	width:10.859375vw;
+	background:#000000;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	margin-left: 0.390625vw;
+	margin-top: 0.390625vw;
+}
+.sakurahead{
+	position: absolute;
+	z-index: 99;
+	filter: saturate(0.3);
+	margin-top: -1.328125vw;
+	margin-left:0.546875vw;
+	
+}
+
+#gaaraicon{
+	position: absolute;
+	height: 13.359375vw;
+	width:11.640625vw;
+	margin-left: 32.265625vw;
+	margin-top:25vw;
+	background: transparent;
+	 ;
+}
+.hexabig7{
+	position: absolute;
+	height: 13.359375vw;
+	width:11.640625vw;
+	margin-top: -0.625vw;
+	background:#FFFFFF;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	z-index: 80;
+}
+.hexasmall7{
+	position: absolute;
+	height: 12.578125vw;
+	width:10.859375vw;
+	background:#000000;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	margin-left:0.390625vw;
+	margin-top: 0.390625vw;
+}
+.gaarahead{
+	position: absolute;
+	z-index: 99;
+	filter: saturate(0.3);
+	margin-top: -1.328125vw;
+	margin-left:0.3125vw;
+	
+}
+
+
+#kakashiicon{
+	position: absolute;
+	height: 13.359375vw;
+	width:11.640625vw;
+	margin-left:46.09375vw;
+	margin-top:23.828125vw;
+	background: transparent;
+	 
+}
+.hexabig8{
+	position: absolute;
+	height: 13.359375vw;
+	width: 11.640625vw;
+	margin-top: -0.625vw;
+	background:#FFFFFF;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	z-index: 80;
+}
+.hexasmall8{
+	position: absolute;
+	height: 12.578125vw;
+	width:10.859375vw;
+	background:#000000;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	margin-left:0.390625vw;
+	margin-top: 0.390625vw;
+}
+.kakashihead{
+	position: absolute;
+	z-index: 99;
+	filter: saturate(0.3);
+	margin-top: -1.171875vw;
+	margin-left:-0.15625vw;
+	width:120%;
+	
+}
+
+
+.personaltitle{	
+	position: absolute;
+	width: 21.09375vw;
+	height: 16.09375vw;
+	right: 14vw;
+	top: 5.46875vw;
+	font-size: 5.46875vw;
+	font-family:MACHINE;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+	transform: skewX(-5deg);
+}
+.personalbrush{
+	background-image: url(../images/NINJA/brush3.png);	
+	width: 21.09375vw;
+	height:16.09375vw;
+	position: absolute;
+	right: 10.9375vw;
+	top:0px;
+	background-size: cover;
+}
+
+
+.abilitiescroll{
+	background-image: url(../images/NINJA/sroll.png);
+	width: 56.328125vw;
+	height: 42.8125vw;
+	position: absolute;
+	right:-14.921875vw;
+	top:50vw;
+	background-size: cover;
+	z-index: 1000;
+}
+
+#PERSONALCONT {
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:19.53125vw;
+	pointer-events: none;
+	z-index: 1000;
+	transform: rotate(-2.85deg);
+}
+#ABICONT {
+	position: absolute;
+	top:35.15625vw;
+	left:0px;
+	width:100%;
+	height:19.53125vw;
+	z-index: 1000;
+	transform: rotate(1.85deg);
+	pointer-events: none;
+}
+
+
+.abititle{	
+	position: absolute;
+	width: 21.09375vw;
+	height: 16.09375vw;
+	right: 13.4375vw;
+	top: 5.859375vw;
+	font-size: 5.46875vw;
+	font-family:MACHINE;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+	transform: skewX(2deg);
+}
+.abibrush{
+	background-image: url(../images/NINJA/brush4.png);	
+	width: 25.234375vw;
+	height:14.375vw;
+	position: absolute;
+	right: 9.375vw;
+	top: 5.46875vw;
+	background-size: cover;
+}
+#personalcontent{
+	position: absolute;
+	right:4.25vw;
+	top:15.625vw;
+	width:30.078125vw;
+	height:23.4375vw;
+}
+.personalinfo,.personallabel{
+	position: absolute;
+	height:40%;
+}
+.personalinfo{
+	top:0px;
+	left:0px;
+	width: 7.8125vw;
+	
+}
+.personallabel{
+	top:0px;
+	right:1.5625vw;
+	width: 19.53125vw;
+	
+}
+.personalinfo li{
+	font-family: MACHINE;
+	font-size: 1.5625vw;
+	letter-spacing: 0.15em;
+	color: white;
+	list-style: none;
+	line-height: 2.734375vw;
+}
+.personallabel li{
+	font-family: S4;
+	font-size: 1.5625vw;
+	letter-spacing: 0.15em;
+	color: white;
+	list-style: none;
+	line-height:  2.734375vw;
+	padding-left: 4.6875vw;
+}
+.iconcover {
+	position: absolute;
+	height: 100%;
+	width:3.90625vw;
+	top:0px;
+	left:8.59375vw;
+	
+}
+#gendericon{
+	background-image: url(../images/NINJA/maleicon.png);
+	width: 3.28125vw;
+	height:3.203125vw;
+	position: absolute;
+	top: -0.78125vw;
+	right: 0px;
+	font-family: MACHINE;
+	font-size: 1.5625vw;
+	letter-spacing: 0.15em;
+	color: white;
+	padding-left: -7.8125vw;
+	background-size: cover;
+}
+#fgendericon{
+	background-image: url(../images/NINJA/femaleicon.png);
+	width: 3.28125vw;
+	height:3.203125vw;
+	position: absolute;
+	top: -0.78125vw;
+	right: 0px;
+	font-family: MACHINE;
+	font-size: 1.5625vw;
+	letter-spacing: 0.15em;
+	color: white;
+	padding-left: -7.8125vw;
+	background-size: cover;
+}
+#clanicon{
+	background-image: url(../images/NINJA/uzumakiicon.png);
+	width:3.28125vw;
+	height:3.203125vw;
+	position: absolute;
+	top: 2.421875vw;
+	right: 0px;
+	font-family: MACHINE;
+	font-size: 1.5625vw;
+	letter-spacing: 0.15em;
+	color: white;
+	background-size: cover;
+}
+#kclanicon{
+	background-image: url(../images/NINJA/hatakeicon.png);
+	width:3.28125vw;
+	height:3.203125vw;
+	position: absolute;
+	top: 2.421875vw;
+	right: 0px;
+	font-family: MACHINE;
+	font-size: 1.5625vw;
+	letter-spacing: 0.15em;
+	color: white;
+	background-size: cover;
+}
+#uclanicon{
+	background-image: url(../images/NINJA/unknown.png);
+	width:3.28125vw;
+	height:3.203125vw;
+	position: absolute;
+	top: 2.421875vw;
+	right: 0px;
+	font-family: MACHINE;
+	font-size: 1.5625vw;
+	letter-spacing: 0.15em;
+	color: white;
+	background-size: cover;
+}
+#uchihaclanicon{
+	background-image: url(../images/NINJA/uchihaicon.png);
+	width:3.28125vw;
+	height:3.203125vw;
+	position: absolute;
+	top: 2.421875vw;
+	right: 0px;
+	font-family: MACHINE;
+	font-size: 1.5625vw;
+	letter-spacing: 0.15em;
+	color: white;
+	background-size: cover;
+}
+#harunoicon{
+	background-image: url(../images/NINJA/harunoicon.png);
+	width:3.28125vw;
+	height:3.203125vw;
+	position: absolute;
+	top: 2.421875vw;
+	right: 0px;
+	font-family: MACHINE;
+	font-size: 1.5625vw;
+	letter-spacing: 0.15em;
+	color: white;
+	background-size: cover;
+}
+#villageicon{
+	background-image: url(../images/NINJA/hiddenleaficon.png);
+	width: 3.28125vw;
+	height:3.203125vw;
+	position: absolute;
+	top: 5.234375vw;
+	right: 0px;
+	font-family: MACHINE;
+	font-size: 1.5625vw;
+	letter-spacing: 0.15em;
+	color: white;
+	background-size: cover;
+}
+.personaltext{
+	position: absolute;
+	width:100%;
+	height: 14.0625vw;
+	bottom: 0px;
+	left:0px;
+	font-family: S4;
+	letter-spacing: 0.05em;
+	color:white;
+	font-size:1.5625vw;
+}
+.abivideoframe{
+	position: absolute;
+	width: 50.78125vw;
+	height: 35.15625vw;
+	
+	left: 4.6875vw;
+	top: 44.53125vw;
+	-webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 92%);
+	clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 92%);
+	perspective: 39.0625vw;
+	
+}
+.abivid {
+	width:120%;
+	height: 120%;
+	position: absolute;
+	top:0px;
+	left: -3.90625vw;
+	transform:rotateY(-10deg);
+}
+#ABIVID {
+	width:100%;
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+.abivideoframe1{
+	position: absolute;
+	width: 50.78125vw;
+	height: 35.15625vw;
+	background:rgba(204,45,125,0.72);
+	left: 3.515625vw;
+	top:43.359375vw;
+	-webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 92%);
+	clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 92%);
+	perspective: 39.0625vw;
+	
+}
+
+#ninjutsu{
+	opacity:1;
+	width:22.03125vw;
+	height: 7.03125vw;
+	background-image: url(../images/NINJA/Ninjutsubig.png);
+	right: -16.015625vw;
+	margin-top:11.71875vw;
+	transform: scale(1);
+	background-size: cover;
+	
+}
+
+#jougan{
+	
+	width:22.03125vw;
+	height: 7.03125vw;
+	background-image: url(../images/NINJA/Jouganbig.png);
+	right: -16.015625vw;
+	background-size: cover;
+	top:0.390625vw;
+}
+#nature{
+	
+	width:22.03125vw;
+	height: 7.03125vw;
+	background-image: url(../images/NINJA/Naturebig.png);
+	right: -16.015625vw;
+	background-size: cover;
+	top:0.390625vw;
+}
+#nature1{
+	
+	width:22.03125vw;
+	height: 7.03125vw;
+	background-image: url(../images/NINJA/Naturebig.png);
+	right: -16.015625vw;
+	background-size: cover;
+	top:0.390625vw;
+}
+
+#sharingan{
+	top:0px;
+	width:22.03125vw;
+	height: 7.03125vw;
+	background-image: url(../images/NINJA/Sharinganbig.png);
+	right: -16.015625vw;
+	background-size: cover;
+	
+}
+#senjutsu{
+	top:0px;
+	width:22.03125vw;
+	height: 7.03125vw;
+	background-image: url(../images/NINJA/Senjutsubig.png);
+	right: -16.015625vw;
+	background-size: cover;
+}
+#jinchuriki{
+	width:22.03125vw;
+	height: 7.03125vw;
+	background-image: url(../images/NINJA/Jinchurikibig.png);
+	right: -16.015625vw;
+	top: 5px;
+	background-size: cover;
+}
+#rinnegan{
+	width:22.03125vw;
+	height: 7.03125vw;
+	background-image: url(../images/NINJA/Rinneganbig.png);
+	right: -16.015625vw;
+	top: 5px;
+	background-size: cover;
+}
+#medical{
+	top:0px;
+	width:22.03125vw;
+	height: 7.03125vw;
+	background-image: url(../images/NINJA/Medicalbig.png);
+	right: -16.015625vw;
+	background-size: cover;
+}
+#taijutsu{
+	opacity:1;
+	width:22.03125vw;
+	height: 7.03125vw;
+	background-image: url(../images/NINJA/Taijutsubig.png);
+	right: -16.015625vw;
+	margin-top:11.71875vw;
+	transform: scale(1);
+	background-size: cover;
+	
+}
+.charactername{
+	position: absolute;
+	height:8.59375vw;
+	width:120%;
+	bottom: 3.90625vw;
+	transform:rotate(-2.85deg);	
+}
+.charname {
+	position: absolute;
+	left:19.53125vw;
+	top:0px;
+	font-size:8.59375vw;
+	color:white;
+	letter-spacing: 0.1em;
+	font-family: MACHINE;
+	line-height: 8.59375vw;
+	text-shadow: -0.390625vw -0.390625vw 0.390625vw black,-0.390625vw -0.390625vw 0.390625vw black,-0.390625vw -0.390625vw 0.390625vw black,-0.390625vw -0.390625vw 0.390625vw black;
+	transform:skewX(-5deg);
+}
+.charname span {
+	color:rgba(255,85,154,1);
+}
+
+
+.animationcover{
+	position: absolute;
+	background-image: url(../images/NINJA/Animation.png);
+	width: 32.8125vw;
+	height: 12.96875vw;
+	top: 78.125vw;
+	left: 26.953125vw;
+	background-size: cover;
+}
+.ninjutsucap{
+	transform: scale(0.7);
+	transform-origin: bottom right;
+	position: relative;
+	margin-top:-1.953125vw;
+	opacity:0.5;
+}
+.borutovid{
+	position: absolute;
+	width:100%;
+	height: 600px;
+}
+#NINJAVID{
+	width:150vw;
+	height:84.375vw;
+	position: absolute;
+	top: -10.9375vw;
+	right: 0px;
+}
+.headbrush1{
+	background-image: url(../images/NINJA/brush1.png);
+	position: absolute;
+	left:-13.28125vw;
+	top:-13.28125vw;
+	width:37.1875vw;
+	height: 31.71875vw;
+	background-size: cover;
+	
+}
+.headbrush2{
+	background-image: url(../images/NINJA/brush2.png);
+	position: absolute;
+	right:-0.390625vw;
+	top:31.640625vw;
+	width:38.125vw;
+	height: 16.875vw;
+	background-size: cover;
+	
+}
+#FOOTERStory {
+    top: -29.921875vw;
+    height: 12.34375vw;
+    -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+    background-image: url(../images/STORY/Storyfooter.png);
+    background-size: cover;	
+	width:100%;
+}
+#BODYStory {
+  	top:-12.65625vw;
+    height: 115.703125vw;
+    background-image: url(../images/STORY/BodyStory.png);
+    background-size: cover;
+	background-position: center center;
+}
+
+#HEADStory {
+	background: white;
+	height: 46.875vw;
+-webkit-clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	background-image: url(../images/STORY/HeadStory.png);
+	background-size: cover;	
+	
+	z-index: 1;
+}
+#CHARHEADStory {
+    background-image: url(../images/STORY/CHARACTERstory.png);
+    width: 72vw;
+    background-size: cover;
+    height: 45.1vw;
+    position: absolute;
+    bottom: 0.2vw;
+    left: 8.1vw;
+	}
+#TitleArc {
+   font-family: MACHINE;
+	font-size: 5.46875vw;
+	letter-spacing: 0.025em;
+	position: absolute;  
+    left: 7.8125vw;
+	transform:skew(-10deg);
+	text-shadow: -5px -5px 5px black, -5px -5px 5px black, -5px -5px 5px black;
+}
+
+#TitleArcCONT {
+    width: 100%;
+    position: absolute;
+	height: 11.71875vw;
+  	left: 0px;
+  	bottom:0px;
+	transform:rotate(-2.85deg)
+}
+#ArcName {
+	color: #ff559a;
+}
+#Name {
+	color: white;
+}
+
+#ArcNoCONT {
+    width: 100%;
+    position: absolute;
+    height: 15.625vw;
+    left: 0px;
+    top: 11.71875vw;
+    transform: rotate(-3deg);
+}
+#ArcNo {
+	
+	font-size: 5.46875vw;	
+	font-family: S4;
+	position:absolute;
+	right:  7.8125vw;
+	top:0;
+}
+#NumberAcr {
+	
+		
+	font-family: S4;
+	color: white;
+}
+#Number {
+	color: #12c7f0;
+		
+	font-family: S4;
+	
+}
+#Chapter1pic1CONT {
+    width: 100%;
+    position: absolute;
+    transform: rotate(-10.85deg);
+    height: 23.148148148148145vw;
+    left: 0px;
+    top: 15.5926vw;
+}
+#Chapter1pic1 {
+    position: absolute;
+    background-size: cover;
+    background-image: url(../images/STORY/chap1.1%20.png);
+    top: 0;
+    right: 56.5185vw;
+    width: 32.265625vw;
+    height: 22.34375vw;
+}
+#Chapter1pic2CONT {
+    width: 100%;
+    position: absolute;
+    transform: rotate(1.85deg);
+    height: 23.148148148148145vw;
+    left: 0px;
+    top: 19.2963vw;
+}
+#Chapter1pic2 {
+    position: absolute;
+    background-size: cover;
+    background-image: url(../images/STORY/chap1.2.png);
+    top: 0;
+    right: 29.8148vw;
+    width: 28.203125vw;
+    height: 19.53125vw;
+	}
+#Chapter1textCONT {
+    width: 100%;
+    position: absolute;
+    transform: rotate(-7deg);
+    height: 9.25925925925926vw;
+    left: 0px;
+    top: 40.7481vw;
+}
+#Chapter1text {
+    position: absolute;
+    font-family: S4;
+    font-size: 1.71875vw;
+    color: white;
+    top: 0;
+    right: 40vw;
+    width: 43.828125vw;
+    height: 19.53125vw;
+    text-align: left;
+	}
+#Brushdot1 {
+    background-image: url(../images/STORY/Brushdot.png);
+    width: 17.5vw;
+    height: 21.171875vw;
+    position: absolute;
+    top: 35.5926vw;
+    left: 5.1296vw;
+    background-size: cover;
+	
+}
+#Brushdot2 {
+    width: 17.734375vw;
+    height: 21.5625vw;
+    position: absolute;
+    top: 72.2593vw;
+    left: 8.8889vw;
+    background-image: url(../images/STORY/Brushdot%202.png);
+    background-size: cover;
+}
+
+#Chapter2picCONT {
+    width: 100%;
+    position: absolute;
+    transform: rotate(-4.85deg);
+    height: 23.148148148148145vw;
+    left: 0px;
+    top: 49.3333vw;
+}
+#Chapter2pic {
+    position: absolute;
+    background-size: cover;
+    background-image: url(../images/STORY/Chapter2.png);
+    top: 0;
+    right: 45.7037vw;
+    width: 40.234375vw;
+    height: 27.96875vw;
+    left: auto;
+	}
+#Chapter2textCONT {
+    width: 100%;
+    position: absolute;
+    transform: rotate(-4.85deg);
+    height: 9.25925925925926vw;
+    left: 0px;
+    top: 78.3333vw;
+}
+#Chapter2text {
+    position: absolute;
+    font-family: S4;
+    font-size: 1.71875vw;
+    color: white;
+    top: 0;
+    right: 44.7037vw;
+    width: 37.578125vw;
+    height: 11.71875vw;
+    text-align: left;
+	}
+#Chapter3pic1CONT {
+    width: 100%;
+    position: absolute;
+    transform: rotate(7.85deg);
+    height: 250px;
+    left: 0px;
+    top: 65.9259vw;
+    right: auto;
+}
+#Chapter3pic1 {
+    position: absolute;
+    background-size: cover;
+    background-image: url(../images/STORY/Chapter3.1.png);
+    top: 0;
+    right: 6vw;
+    width: 30vw;
+    height: 20.859375vw;
+	}
+#Chapter3pic2CONT {
+    width: 100%;
+    position: absolute;
+    transform: rotate(5.85deg);
+    height: 250px;
+    left: 0px;
+    top: 54.963vw
+}
+#Chapter3pic2 {
+    position: absolute;
+    background-size: cover;
+    background-image: url(../images/STORY/Chapter3.2.png);
+    top: 0;
+    right: 15.5185vw;
+    width: 20.9375vw;
+    height: 14.53125vw;
+	}
+#Brushdot3 {
+    width: 19.0625vw;
+    height: 17.34375vw;
+    position: absolute;
+    top: 85.2963vw;
+    left: 53.2593vw;
+    background-image: url(../images/STORY/Brushdot3.png);
+	background-size: cover;
+}
+#Chapter3textCONT {
+    width: 100%;
+    position: absolute;
+    transform: rotate(7.85deg);
+    height: 100px;
+    left: 0px;
+    top: 88vw;
+    right: auto;
+}
+#Chapter3text {
+    position: absolute;
+    font-family: S4;
+    font-size: 1.71875vw;
+    color: white;
+    top: 0;
+    right: 8.5741vw;
+    width: 28.984375vw;
+    height: 11.71875vw;
+    text-align: left;
+	}
+#CharFoot {
+    background-image: url(../images/STORY/ea7d53de8e081f7a21e3e0b52cf603f4.png);
+	background-size: cover;
+    width: 10.2778vw;
+    height: 17.2222vw;
+    position: absolute;
+   	top: 126.5625vw;
+	left: 7.8125vw;
+	
+}
+#Arc1Active {
+	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    position: absolute;
+    height: 5.859375vw;
+    width: 5.078125vw;
+    top: 20.296875vw;
+    right: 12.265625vw;
+     
+	transform: rotate(12deg);
+	
+}
+
+#Arc1Hex {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    position: absolute;
+    height: 5.46875vw;
+    width: 4.6875vw;
+    background-color: black;
+    top: 20.53125vw;
+    right: 12.5vw;
+     
+	transform: rotate(12deg);
+	z-index: 1000;
+	
+}
+#Arc1Circle {
+    position: absolute;
+    border-radius: 50%;
+    width: 3.515625vw;
+    height: 3.515625vw;
+    background: white;
+    top: 0.9375vw;
+	right: 0.625vw;
+	border: 1.015625vw solid #15C2EE;
+	 
+}
+.line1 {
+	position: absolute;
+	 border-left: 0.546875vw solid black;
+    height: 3.515625vw;
+	right: 15.5vw;
+	top: 24.21875vw;
+	transform: rotate(15deg)
+	}
+#Arc2Active {
+	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    position: absolute;
+    height: 4.6875vw;
+    width: 3.90625vw;
+    top: 27.109375vw;
+    right: 14.53125vw;
+     
+	transform: rotate(12deg);
+		
+}
+	#Arc2Hex {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    position: absolute;
+    height: 4.296875vw;
+    width: 3.515625vw;
+    background-color: black;
+    top: 27.34375vw;
+    right: 14.765625vw;
+     
+	transform: rotate(12deg);
+		z-index: 1000;
+	
+}
+#Arc2Circle {
+    position: absolute;
+    border-radius: 50%;
+    width: 2.734375vw;
+    height: 2.734375vw;
+    background: white;
+    top: 0.859375vw;
+	right: 0.390625vw;
+	border: 0.78125vw solid #f01672;
+	 
+}
+.line2 {
+	position: absolute;
+	 border-left: 0.546875vw solid black;
+    height: 3.515625vw;
+	right: 15.625vw;
+	top: 31.09375vw;
+	transform: rotate(-30deg)
+	}
+#Arc3Active {
+	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    position: absolute;
+    height: 5.859375vw;
+    width: 5.078125vw;
+    top: 33.359375vw;
+    right: 11.875vw;
+     
+	transform: rotate(12deg);
+	
+}
+#Arc3Hex {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    position: absolute;
+    height: 5.46875vw;
+    width: 4.6875vw;
+    background-color: black;
+    top: 33.59375vw;
+    right: 12.109375vw;
+     
+	transform: rotate(12deg);
+	z-index: 1000;
+}
+#Arc3Circle {
+    position: absolute;
+    border-radius: 50%;
+    width: 3.515625vw;
+    height: 3.515625vw;
+    background: white;
+    top: 0.9375vw;
+	right: 0.625vw;
+	border: 1.015625vw solid #15C2EE;
+	 
+}
+.line3 {
+	position: absolute;
+	 border-left: 0.546875vw solid black;
+    height: 3.515625vw;
+	right: 15.3125vw;
+	top: 38.28125vw;
+	transform: rotate(25deg)
+	}
+#Arc4Active {
+	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    position: absolute;
+    height: 4.6875vw;
+    width: 3.90625vw;
+    top: 40.390625vw;
+    right: 14.453125vw;
+     
+	transform: rotate(12deg);
+		
+}
+	#Arc4Hex {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    position: absolute;
+    height: 4.296875vw;
+    width: 3.515625vw;
+    background-color: black;
+    top: 40.625vw;
+    right: 14.6875vw;
+     
+	transform: rotate(12deg);
+		z-index: 1000;
+	
+}
+#Arc4Circle {
+    position: absolute;
+    border-radius: 50%;
+    width: 2.734375vw;
+    height: 2.734375vw;
+    background: white;
+    top: 0.859375vw;
+	right: 0.390625vw;
+	border: 0.78125vw solid #f01672;
+	 
+}
+.line4 {
+	position: absolute;
+	 border-left: 0.546875vw solid black;
+    height: 3.90625vw;
+	right: 15.9375vw;
+	top: 43.59375vw;
+	transform: rotate(-30deg)
+	}
+#Arc5Active {
+		clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    position: absolute;
+    height: 5.859375vw;
+    width: 5.078125vw;
+    top: 45.859375vw;
+    right: 12.265625vw;   
+	transform: rotate(12deg);
+}
+#Arc5Hex {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    position: absolute;
+    height: 5.46875vw;
+    width: 4.6875vw;
+    background-color: black;
+    top: 46.09375vw;
+    right: 12.5vw;   
+	transform: rotate(12deg);
+	z-index: 1000;
+}
+#Arc5Circle {
+    position: absolute;
+    border-radius: 50%;
+    width: 3.515625vw;
+    height: 3.515625vw;
+    background: white;
+    top: 0.9375vw;
+	right: 0.625vw;
+	border: 1.015625vw solid #15C2EE;
+	 
+}
+#StoryFRAME {
+	position: relative;
+	height: 144.84375vw;
+	max-width: 1280px;
+	margin: 0px auto 0px auto;
+	background: #000000;
+	overflow: hidden;
+}
+#NAVISTORYCONT {
+	
+	width: 100%;
+	position: absolute;
+	height: 7.8125vw;
+	bottom:15.625vw;	
+	transform:rotate(2.7deg);
+
+}
+#PREVARC {
+	background-image:url(../images/HOME/back2.png);
+	position: absolute;
+	width:23.4375vw;
+	height:10.390625vw;
+	top:-3.90625vw;
+	left:19.53125vw;
+	transform:scale(0.35);
+	opacity:0.5;
+	background-size: cover;
+}
+#NEXTARC {
+	background-image:url(../images/HOME/next2.png);
+	position: absolute;
+	width:23.4375vw;
+	height:10.390625vw;
+	top:-1.5625vw;
+	left:31.25vw;
+	transform:scale(0.45);
+	background-size: cover;
+}
+
+.TONHO {
+	animation: AZ 0.5s infinite alternate;
+	background:rgba(254,215,120,0.90);
+}
+.TONHOHOVER {
+	animation: AZ 0.5s infinite alternate;
+	background:rgba(44,190,220,1.00);
+}
+@keyframes AZ {
+	from {
+		transform:scale(1)rotate(12deg);
+	}
+	to {
+		transform:scale(1.05)rotate(12deg);
+	}
+}
+/* CSS OF WORLD */
+
+#WORLDFRAME {
+	position: relative;
+	height: 144.84375vw;
+	max-width:1280px;
+	margin: 0px auto 0px auto;
+	background: #000000;
+	overflow: hidden;
+}
+#VIDEO2 {
+	width: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	height:600px;
+	overflow: hidden;
+}
+#VID2 {
+	width: 100%;
+	top:0;
+	left:0;
+	position: absolute;
+	mix-blend-mode:screen;
+}
+
+
+/* CSS OF WORLD */
+
+#WORLDFRAME {
+	height: 156.25vw;
+	max-width: 1280px;
+}
+#HEADWORLD {
+	height: 46.875vw;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	background-image: url(../images/WORLD/images/HeadWorld_01.png);
+	background-size: cover; 
+	background-position: center center;
+	z-index: 1;
+}
+#CHARHEADWORLD {
+    background-image: url(../images/WORLD/images/charheadworld_05.png);
+    width: 33.4375vw;
+    background-size: cover;
+    height: 35vw;
+    position: absolute;
+    top:11.875vw;
+    left:  7.890625vw;
+}
+#WORLDNAMEZ {
+  	top: -0.78125vw;
+	position: absolute;  
+    left: 33.59375vw;
+	transform:skew(-10deg);
+	text-shadow: 0.390625vw 0.390625vw 0.390625vw black, 0.390625vw 0.390625vw 0.390625vw black, 0.390625vw 0.390625vw 0.390625vw black;
+	font-size: 6.25vw;
+	font-family: MACHINE;
+	color: #76ab5f;
+	letter-spacing: 0.05em;
+	line-height: 7.8125vw;
+}
+#WORLDNAMEZ span {
+	color:white;
+	padding-left: 5.46875vw;
+}
+
+#WORLDNAMECONT {
+    width: 100%;
+    position: absolute;
+	height: 11.71875vw;
+   	left: 0px;
+  	bottom:11.71875vw;
+	transform:rotate(-2.85deg);
+}
+#HEADBODYWORLD {
+	height:76.5625vw;
+-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 97%);
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0 97%);
+	background: #1b1713;
+	z-index: 10;
+}
+#BODYWORLD {
+    top: -2.34375vw;
+    height: 61.640625vw;
+	background-image: url(../images/WORLD/images/9tails_02.png);
+    background-size: cover;
+	filter:contrast(1.2);
+	background-position: center center;
+}
+#NARUTOHOKAGE {
+	background-image: url(../images/WORLD/images/narutohokage_05.png);
+	width: 29.609375vw;
+	height: 38.203125vw;
+	position: absolute;
+	bottom:-0.78125vw;
+	right:15.078125vw;
+	z-index: 1;
+	filter:contrast(1.1);
+	background-size: cover;
+}
+#WORLDSYMBOL {
+	background-image: url(../images/HOME/leafsym.png);
+	width: 15.625vw;
+	height:15.625vw;
+	bottom:9.375vw;
+	left:43.28125vw;
+	position: absolute;
+	transform:scale(1.95);
+	opacity:0.1;
+	background-size: cover;
+}
+#BODY1CONT {
+	position: absolute;
+	bottom:0px;
+	height: 31.25vw;
+	width: 100%;
+}
+#WORLDLABELCONT {
+	position: absolute;
+	top:3.90625vw;
+	width:  23.671875vw;
+	height: 100%;
+	left:0px;
+	text-align: right;
+	list-style: none;
+	font-family: S4;
+	font-size:1.953125vw;
+	letter-spacing: 0.1em;	
+	line-height: 3.90625vw;
+}
+#WORLDDATACONT {
+	position: absolute;
+	top:3.90625vw;
+	width: 35.25vw;
+	height: 100%;
+	left:24.21875vw;
+	text-align: left;
+	list-style: none;
+	font-family: S4;
+	font-size:1.953125vw;
+	letter-spacing: 0.1em;	
+	line-height: 3.90625vw;
+	color:white;
+}
+#WORLDLABELCONT li span {
+	color:white;
+}
+.threetop {
+	color:#76af5c;
+}
+.threebot {
+	color:#f58152;
+}
+#POPDATACONT {
+	position: absolute;
+	width: 100%;
+	top:13.046875vw;
+	height: 1.5625vw;
+}
+#MILDATACONT {
+	position: absolute;
+	width: 100%;
+	top:16.953125vw;
+	height: 1.5625vw;
+}
+#ECODATACONT {
+	position: absolute;
+	width: 100%;
+	top:20.859375vw;
+	height: 1.5625vw;
+}
+.STATREC {
+	position: absolute;
+	left:0.78125vw;
+	width:3.125vw;
+	height: 100%;
+	transform:skew(-15deg);
+	background: #b9b9b9;
+}
+#REC1,#REC6,#REC11 {
+	left:0.78125vw;
+}
+#REC2,#REC7,#REC12 {
+	left: 5.078125vw;
+}
+#REC3,#REC8,#REC13 {
+	left:9.375vw;
+}
+#REC4,#REC9,#REC14 {
+	left:13.671875vw;
+}
+#REC5,#REC10,#REC15 {
+	left:17.96875vw;
+}
+.wactive {
+	background:#75b458;
+}
+#FOOTERWORLD {
+    top:-7.421875vw;
+	-webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+	clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+    background-image: url(../images/WORLD/images/9tailsfoot_02.png);
+    background-size: cover;
+	width:100vw;
+	height:25.78125vw;
+	filter:contrast(1.1);
+}
+#WORLDSHADE {
+	background-image: url(../images/WORLD/images/worldshade_03.png);
+	width: 100%;
+	height: 12.578125vw;
+	position: absolute;
+	bottom:0px;
+	background-size: cover;
+	z-index: 10;
+}
+#WORLDCHARFOOT {
+	background-image: url(../images/WORLD/images/minato_05.png);
+	background-size: cover;
+	width: 23.359375vw;
+	height: 29.0625vw;
+	position: absolute;
+	bottom:0px;
+	left: 7.8125vw;
+	pointer-events: none;
+}
+#HISTITLECONT {
+	position: absolute;
+	top:1.5625vw;
+	height: 7.8125vw;
+	width: 100%;
+	transform:rotate(1.3deg);
+}
+#HISCONTENT {
+	position: absolute;
+	top:11.71875vw;
+	height: 39.0625vw;
+	width: 50.390625vw;
+	left:7.8125vw;
+	color:rgba(200,200,200,1);
+	font-family: S4;
+	font-size: 1.71875vw;
+	line-height: 3.125vw;
+}
+#HISTITLE {
+	font-family: S4;
+	color:white;
+	font-size:3.90625vw;
+	position: absolute;
+	left:7.8125vw;
+}
+#HISDROP {
+	font-size:5.46875vw;
+}
+#HISTORY {
+	color:white;
+	font-family: MACHINE;
+	font-size:3.90625vw;
+	line-height: 5.46875vw;
+	opacity:0.5;
+	text-align: center;
+	width: 2.734375vw;
+	height:37.34375vw;
+	right:4.6875vw;
+	position: absolute;
+	top:10.15625vw;
+}
+#TIMELINECONT {
+	height: 5.46875vw;
+	width: 39.0625vw;
+	position: absolute;
+	right:1.5625vw;
+	top:1.5625vw;
+}
+#TLLINE {
+	position: absolute;
+	background: white;
+	height: 0.15625vw;
+	top:2.734375vw;
+	width:39.0625vw;
+	opacity: 0.5;
+}
+.HISSTAGE {
+	width: 1.953125vw;
+	height: 1.953125vw;
+	position: absolute;
+	left:5.46875vw;
+	top:1.796875vw;
+	background:rgba(0,0,0,1);
+	transform:rotate(45deg);
+	border: 0.234375vw inset white;
+}
+#STAGE2 {
+	left:10.15625vw;
+}
+#STAGE3 {
+	left:14.84375vw;
+}
+#STAGE4 {
+	left:19.53125vw;
+}
+#STAGE5 {
+	left:24.21875vw;
+}
+#STAGE6 {
+	left:28.90625vw;
+}
+#STAGE7 {
+	left:33.59375vw;
+}
+#WORLDLISTCONT {
+	position: absolute;
+	bottom:auto;
+    top: 45.3125vw;
+	height: 10.15625vw;
+	width: 100%;
+	transform:rotate(-2deg);
+}
+.WORLDLIST {
+	height: 10.15625vw;
+	width: 10.15625vw;
+	position: absolute;
+	left:28.125vw;
+	background-image: url(../images/WORLD/images/world.png);
+	background-size: cover;
+	transform: scale(0.9);
+}
+#LIST1 {
+	transform: scale(1);
+}
+#LIST2 {
+	left:40.625vw;
+}
+#LIST3 {
+	left:53.90625vw;
+}
+#LIST4 {
+	left:67.1875vw;
+}
+#LIST5 {
+	left:80.46875vw;
+}
+.WORLDSYM {
+	position: absolute;
+	width: 10.15625vw;
+	height: 10.15625vw;
+	background-size: cover;
+	left:0.78125vw;
+	top:0.78125vw;
+}
+#LEAFSYM {
+	background-image: url(../images/WORLD/images/leafsym.png);
+	background-size: cover;
+}
+#LEAFSYMACTIVE {
+	background-image: url(../images/WORLD/images/leafsymactive.png);
+	background-size: cover;
+}
+#SANDSYM {
+	background-image: url(../images/WORLD/images/sandsym.png);
+	background-size: cover;
+	opacity: 0.5;
+}
+#ROCKSYM {
+	background-image: url(../images/WORLD/images/rocksym.png);
+	background-size: cover;
+	opacity: 0.5;
+}
+#CLOUDSYM {
+	background-image: url(../images/WORLD/images/cloudsym.png);
+	background-size: cover;
+	opacity: 0.5;
+}
+#MISTSYM {
+	background-image: url(../images/WORLD/images/mistsym.png);
+	background-size: cover;
+	opacity: 0.5;
+}
+/* CSS OF INTRO*/
+
+#INTROFRAME {
+	position: relative;
+	height: 56.25vw;
+	width:100%;
+	margin: 0px auto 0px auto;
+	background: #000000;
+	overflow: hidden;
+}
+/* CSS OF INTRO */
+#NARUTOINTRO {
+	background-image: url(../images/INTRO/images/naruto_04.png);
+	background-size: cover;
+	width: 51.015625vw;
+	height: 48.203125vw;
+	position: absolute;
+	right:0.78125vw;
+	top:8.046875vw;
+}
+#UZUMAKI {
+	position: absolute;
+	background-image: url(../images/INTRO/images/uzumaki_05.png);
+	background-size: cover;
+	opacity: 0.5;
+	width: 41.40625vw;
+	height: 41.40625vw;
+	top:4.21875vw;
+	right: 4.21875vw;
+}
+.NAMECONT {
+	position: absolute;
+	height: 4.6875vw;
+	width:48.90625vw;
+	transform: rotate(-5deg);
+	
+}
+#NARUTON {
+	background: #f7941d;
+	-webkit-clip-path: polygon(0 0, 100% 0, 87% 100%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0, 87% 100%, 0% 100%);
+	bottom:7.8125vw;
+	left:0vw;
+}
+
+.NINJAZFAME {
+	position: absolute;
+	color:black;
+	font-family: MACHINE;
+	font-size:7.8125vw;
+	letter-spacing: 0.1em;
+	left: 9.21875vw;
+	top:0.625vw;
+}
+#NARUTOZNAME {
+	position: absolute;
+	background-image: url(../images/INTRO/images/narutoname_05.png);
+	background-size: cover;
+	width: 47.890625vw;
+	height: 18.984375vw;
+	top:14.140625vw;
+	left:16.71875vw;
+	
+}
+#NARUTOFAMECONT,#NARUTOFAMETEXT,#NARUTOFAMESHAD {
+	position: absolute;
+	width: 50.46875vw;
+	height: 13.125vw;
+	left:-54.6875vw;
+	bottom:5.46875vw;
+}
+#NARUTOFAMECONT {
+	background-image: url(../images/INTRO/images/narutofamecont_03.png);
+	background-size: cover;
+}
+#NARUTOFAMETEXT {
+	background-image: url(../images/INTRO/images/narutofame_03.png);
+	background-size: cover;
+	opacity: 0;
+}
+#NARUTOFAMESHAD {
+	background-image: url(../images/INTRO/images/narutofameshad_03.png);
+	background-size: cover;
+}
+#NARUTOZVID,#SASUKEZVID,#BORUTOZVID {
+	position: absolute;
+	width:100%;
+	height: 100%;
+}
+#NARZVID,#SASZVID,#BORZVID,#NARZVIDEFFEX,#SASZVIDEFFEX,#BORZVIDEFFEX {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform: scale(1.2);
+	opacity: 0;
+}
+#NARZVIDEFFEX {
+	mix-blend-mode:overlay;
+}
+#SASZVIDEFFEX {
+	mix-blend-mode:overlay;
+}
+#BORZVIDEFFEX {
+	mix-blend-mode:overlay;
+}
+.INTROCHARFRAME {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	
+}
+#NARFRAME {
+	background-image: url(../images/INTRO/Bg.png);
+	background-size: cover;
+}
+#SASFRAME {
+	background-image: url(../images/INTRO/Bg2new.png);
+	background-size: cover;
+	opacity: 0;
+}
+#UCHIHA {
+	background-image: url(../images/INTRO/images/uchiha_05.png);
+	background-size: cover;
+	opacity: 0.5;
+	position: absolute;
+	width: 39.921875vw;
+	height: 52.34375vw;
+	bottom:-2.34375vw;
+	left:3.90625vw;
+}
+#SASUKEINTRO {
+	background-image: url(../images/INTRO/images/sasukeintro_05.png);
+	background-size: cover;
+	width: 42.421875vw;
+	height: 48.203125vw;
+	position: absolute;
+	left:7.5vw;
+	top:8.046875vw;
+}
+#SASUKEFAMECONT,#SASUKEFAMETEXT,#SASUKEFAMESHAD {
+	position: absolute;
+	width: 50.15625vw;
+	height: 13.28125vw;
+	right:-54.6875vw;
+	bottom:5.3125vw;
+}
+#SASUKEFAMECONT {
+	background-image: url(../images/INTRO/images/sasukecont_043.png);
+	background-size: cover;
+}
+#SASUKEFAMETEXT {
+	background-image: url(../images/INTRO/images/sasukefame_04.png);
+	background-size: cover;
+	opacity: 1;
+}
+#SASUKEFAMESHAD {
+	background-image: url(../images/INTRO/images/sasukeshad_043.png);
+	background-size: cover;
+}
+#SASUKEZNAME {
+	position: absolute;
+	background-image: url(../images/INTRO/images/sasukename_05.png);
+	background-size: cover;
+	width:46.015625vw;
+	height: 21.796875vw;
+	top:14.453125vw;
+	right:21.5625vw;
+	
+}
+#BORFRAME {
+	background-image: url(../images/INTRO/Bg3.png);
+	background-size: cover;
+	opacity: 0;
+}
+#BORUTOINTRO {
+	background-image: url(../images/INTRO/images/boruto_05.png);
+	background-size: cover;
+	width: 22.65625vw;
+	height: 41.875vw;
+	position: absolute;
+	right:15.15625vw;
+	top:14.375vw;
+}
+#BORUTOZNAME {
+	position: absolute;
+	background-image: url(../images/INTRO/images/borutoname_05.png);
+	background-size: cover;
+	width: 47.265625vw;
+	height: 18.90625vw;
+	top:14.140625vw;
+	left:16.71875vw;
+	
+}
+#BORUTOFAMECONT,#BORUTOFAMETEXT,#BORUTOFAMESHAD {
+	position: absolute;
+	width: 50.46875vw;
+	height: 13.125vw;
+	left:-54.6875vw;
+	bottom:5.46875vw;
+}
+#BORUTOFAMECONT {
+	background-image: url(../images/INTRO/images/borutocont_03.png);
+	background-size: cover;
+}
+#BORUTOFAMETEXT {
+	background-image: url(../images/INTRO/images/borutotext_03.png);
+	background-size: cover;
+	
+}
+#BORUTOFAMESHAD {
+	background-image: url(../images/INTRO/images/borutoshad_03.png);
+	background-size: cover;
+}
+#BOLT {
+	position: absolute;
+	background-image: url(../images/INTRO/images/bolt_05.png);
+	background-size: cover;
+	opacity: 0.5;
+	width: 23.59375vw;
+	height: 40.546875vw;
+	top:8.828125vw;
+	right: 14.921875vw;
+}
+#GOFRAME {
+	background:#dc0e5e;
+	opacity: 0;
+}
+#kawaki {
+	background-image: url(../images/INTRO/images/kawaki_01.png);
+	background-size: cover;
+	width: 51.328125vw;
+	height: 34.0625vw;
+	position: absolute;
+	left:0px;
+	top:0px;
+	opacity:0;
+	transform:translateY(50px);
+}
+#sasukez {
+	background-image: url(../images/INTRO/images/sasukez_05.png);
+	background-size: cover;
+	width: 47.5vw;
+	height: 53.671875vw;
+	position: absolute;
+	left:9.921875vw;
+	top:2.578125vw;
+	transform: scale(0.5)rotate(-10deg);
+	opacity: 0;
+}
+#narutoz {
+	background-image: url(../images/INTRO/images/narutoz_05.png);
+	background-size: cover;
+	width: 28.984375vw;
+	height: 40.46875vw;
+	position: absolute;
+	bottom:0px;
+	left:2.8125vw;
+	transform: scale(0.5)rotate(10deg);
+	opacity: 0;
+}
+
+#borutoz {
+	background-image: url(../images/INTRO/images/borutoz_05.png);
+	background-size: cover;
+	width: 49.0625vw;
+	height: 37.1875vw;
+	position: absolute;
+	bottom:0px;
+	left:-33.828125vw;
+}
+#LOGOINTRO {
+	background-image: url(../images/INTRO/images/logointro_05.png);
+	background-size: cover;
+	width: 33.75vw;
+	height: 9.53125vw;
+	position: absolute;
+	top:13.90625vw;
+	right:5.078125vw;
+	transform:translateX(500px);
+}
+
+#INTROLINE1 {
+	background: white;
+	position: absolute;
+	height: 1.328125vw;
+	width: 72.65625vw;
+	transform: rotate(-12deg)translateX(-117.1875vw);
+	bottom: 6.25vw;
+	right:40.546875vw;
+}
+#INTROLINE2 {
+	background: white;
+	position: absolute;
+	height: 1.328125vw;
+	width: 15.625vw;
+	transform: rotate(-12deg)translateX(39.0625vw);
+	bottom: 23.046875vw;
+	right:-8.984375vw;
+}
+#EXPLOREZ {
+	font-family: MACHINE;
+	color: white;
+	font-size: 7.8125vw;
+	letter-spacing: 0.05em;
+	position: absolute;
+	transform: rotate(-12deg);
+	right:8.59375vw;
+	bottom:12.890625vw;
+	pointer-events: none;
+	z-index: 1000;
+}
+#EXP {
+	opacity: 0;
+	pointer-events: none;
+}
+#LORE {
+	opacity: 0;
+	pointer-events: none;
+}
+#TESTFRAME {
+	opacity: 0;
+}
+#KAKASHIFRAME {
+	opacity: 0;
+}
+
+#KAMUI {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	
+}
+#KAMUIS {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	mix-blend-mode:multiply;
+	opacity: 0.5;
+	transform:scale(1.5);
+	filter: grayscale(1);
+}
+.KAMUIFAKE {
+	background-image: url(../images/INTRO/images/vortex_02.png);
+	background-size: cover;
+	width: 68.984375vw;
+	height: 51.484375vw;
+	position: absolute;
+	top:-0.78125vw;
+	left:16.953125vw;
+	filter:saturate(0)blur(5px);
+	
+}
+#SHARINGAN {
+	background-image: url(../images/INTRO/vip.png);
+	width: 100vw;
+	background-size: cover;
+	height: 56.25vw;
+	position: absolute;
+}
+#KAKASHIFRAME2 {
+	z-index: 999;
+	width: 100vw;
+	position: absolute;
+	height: 56.25vw;
+	left:0px;
+	top:7.8125vw;
+	pointer-events: none;
+}
+/* CSS OF CLOUD */
+
+#CLOUDFRAME {
+	height: 156.25vw;
+	width:100vw;
+}
+#HEADCLOUD {
+	height: 46.875vw;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	background-image: url(../images/CLOUD/Kumogakure.png);
+	background-size: cover; 
+	background-position: center center;
+	z-index: 1;
+}
+#CHARHEADCLOUD {
+    background-image: url(../images/CLOUD/CloudHeadChar_05.png);
+    width: 33.4375vw;
+    background-size: cover;
+    height: 31.5625vw;
+    position: absolute;
+    top:14.921875vw;
+    left:  1.890625vw;
+}
+#CLOUDNAMEZ {
+  	top: -0.78125vw;
+	position: absolute;  
+    left: 33.59375vw;
+	transform:skew(-10deg);
+	text-shadow: 0.390625vw 0.390625vw 0.390625vw black, 0.390625vw 0.390625vw 0.390625vw black, 0.390625vw 0.390625vw 0.390625vw black;
+	font-size: 6.25vw;
+	font-family: MACHINE;
+	color: #b8b7b6;
+	letter-spacing: 0.05em;
+	line-height: 7.8125vw;
+}
+#CLOUDNAMEZ span {
+	color:white;
+	padding-left: 5.46875vw;
+}
+
+#HEADBODYCLOUD {
+	height:76.5625vw;
+-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 97%);
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0 97%);
+	background: #1b1713;
+	z-index: 10;
+}
+#BODYCLOUD {
+    top: -2.34375vw;
+    height: 61.640625vw;
+	background-image: url(../images/CLOUD/A_vs_Eight-Tails.png);
+    background-size: cover;
+	filter:contrast(1.1);
+	background-position: center center;
+}
+#CLOUDHOKAGE {
+	background-image: url(../images/CLOUD/Cloud_04Kage.png);
+	background-size: cover;
+	width: 31.171875vw;
+	height: 38.671875vw;
+	position: absolute;
+	bottom:-0.78125vw;
+	right:8.90625vw;
+	z-index: 1;
+	filter:contrast(1.1);
+}
+#CLOUDSYMBOL {
+	background-image: url(../images/CLOUD/cloudsym.png);
+	width: 15.625vw;
+	height:15.625vw;
+	bottom: 9.375vw;
+	left: 41.40625vw;
+	position: absolute;
+	transform:scale(1.95);
+	opacity:0.1;
+	background-size: cover;
+}
+#BODY1CLOUDCONT {
+	position: absolute;
+	bottom:0px;
+	height: 31.25vw;
+	width: 100%;
+}
+#CLOUDLABELCONT {
+	position: absolute;
+	top:3.90625vw;
+	width:  23.671875vw;
+	height: 100%;
+	left:0px;
+	text-align: right;
+	list-style: none;
+	font-family: S4;
+	font-size:1.953125vw;
+	letter-spacing: 0.1em;	
+	line-height: 3.90625vw;
+}
+#CLOUDDATACONT {
+	position: absolute;
+	top:3.90625vw;
+	width: 35.25vw;
+	height: 100%;
+	left:24.21875vw;
+	text-align: left;
+	list-style: none;
+	font-family: S4;
+	font-size:1.953125vw;
+	letter-spacing: 0.1em;	
+	line-height: 3.90625vw;
+	color:white;
+}
+#CLOUDLABELCONT li span {
+	color:white;
+}
+.threetopCLOUD {
+	color:#bdbcbb;
+}
+.threebotCLOUD {
+	color:#f6814e;
+}
+#POPDATACLOUDCONT {
+	position: absolute;
+	width: 100%;
+	top:13.046875vw;
+	height: 1.5625vw;
+}
+#MILDATACLOUDCONT {
+	position: absolute;
+	width: 100%;
+	top:16.953125vw;
+	height: 1.5625vw;
+}
+#ECODATACLOUDCONT {
+	position: absolute;
+	width: 100%;
+	top:20.859375vw;
+	height: 1.5625vw;
+}
+.STATRECCL {
+	position: absolute;
+	left:0.78125vw;
+	width:3.125vw;
+	height: 100%;
+	transform:skew(-15deg);
+	background: #b9b9b9;
+}
+#REC1CL,#REC6CL,#REC11CL {
+	left:0.78125vw;
+}
+#REC2CL,#REC7CL,#REC12CL {
+	left: 5.078125vw;
+}
+#REC3CL,#REC8CL,#REC13CL {
+	left:9.375vw;
+}
+#REC4CL,#REC9CL,#REC14CL {
+	left:13.671875vw;
+}
+#REC5CL,#REC10CL,#REC15CL {
+	left:17.96875vw;
+}
+.wactiveCL {
+	background:#6b6969;
+}
+#FOOTERCLOUD {
+    top:-7.421875vw;
+	-webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+	clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+    background-image: url(../images/CLOUD/Cloud_02.png);
+    background-size: cover;
+	background-position: center center;
+	width:100vw;
+	height:25.78125vw;
+	filter:contrast(1.1);
+}
+
+#CLOUDCHARFOOT {
+	background-image: url(../images/CLOUD/Cloud_03.png);
+	background-size: cover;
+	width: 43.515625vw;
+	height: 32.96875vw;
+	position: absolute;
+	bottom:0vw;
+	left: 1.5625vw;
+	pointer-events: none;
+}
+#HISTITLECONT {
+	position: absolute;
+	top:1.5625vw;
+	height: 7.8125vw;
+	width: 100%;
+	transform:rotate(1.3deg);
+}
+#HISCLOUDCONTENT {
+	position: absolute;
+	top:11.71875vw;
+	height: 39.0625vw;
+	width: 50.390625vw;
+	left:7.8125vw;
+	color:rgba(200,200,200,1);
+	font-family: S4;
+	font-size: 1.71875vw;
+	line-height: 3.125vw;
+}
+#HISTITLE {
+	font-family: S4;
+	color:white;
+	font-size:3.90625vw;
+	position: absolute;
+	left:7.8125vw;
+}
+#HISDROP {
+	font-size:5.46875vw;
+}
+#HISTORYCLOUD {
+	color:white;
+	font-family: MACHINE;
+	font-size:3.90625vw;
+	line-height: 5.46875vw;
+	opacity:0.5;
+	text-align: center;
+	width: 2.734375vw;
+	height:37.34375vw;
+	right:4.6875vw;
+	position: absolute;
+	top:10.15625vw;
+}
+#TIMELINECONT {
+	height: 5.46875vw;
+	width: 39.0625vw;
+	position: absolute;
+	right:1.5625vw;
+	top:1.5625vw;
+}
+#TLLINE {
+	position: absolute;
+	background: white;
+	height: 0.15625vw;
+	top:2.734375vw;
+	width:39.0625vw;
+	opacity: 0.5;
+}
+
+
+#STAGE2 {
+	left:10.15625vw;
+}
+#STAGE3 {
+	left:14.84375vw;
+}
+#STAGE4 {
+	left:19.53125vw;
+}
+#STAGE5 {
+	left:24.21875vw;
+}
+#STAGE6 {
+	left:28.90625vw;
+}
+#STAGE7 {
+	left:33.59375vw;
+}
+
+#LIST1 {
+	transform: scale(1);
+}
+#LIST2 {
+	left:40.625vw;
+}
+#LIST3 {
+	left:53.90625vw;
+}
+#LIST4 {
+	left:67.1875vw;
+}
+#LIST5 {
+	left:80.46875vw;
+}
+.WORLDSYM {
+	position: absolute;
+	width: 10.15625vw;
+	height: 10.15625vw;
+	background-size: cover;
+	left:0.78125vw;
+	top:0.78125vw;
+}
+#CLOUDSYMACTIVE {
+	background-image: url(../images/CLOUD/cloudsymactive.png);
+}
+
+/*CSS OF MIST*/
+#HEADMIST {
+	height: 46.875vw;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	background-image:url(../images/MIST/MISTHEAD.png);
+	background-size: cover; 
+	z-index: 1;
+}
+#CHARHEADMIST {
+    background-image: url(../images/MIST/HEADCHARACTER.png);
+    width: 33.59375vw;
+    background-size: cover;
+    height: 35.9375vw;
+    position: absolute;
+    top:11.796875vw;
+    left: 3.90625vw;
+}
+#MISTNAMEZ {
+  	top: 1.171875vw;
+	position: absolute;  
+    left: 33.59375vw;
+	transform:skew(-10deg);
+	text-shadow:  0.390625vw  0.390625vw  0.390625vw black,  0.390625vw  0.390625vw  0.390625vw black,  0.390625vw  0.390625vw  0.390625vw black;
+	font-size: 6.25vw;
+	font-family: MACHINE;
+	color:#91cbfa;
+	letter-spacing: 0.05em;
+	line-height: 7.8125vw;
+}
+#MISTNAMEZ span {
+	color:white;
+	padding-left: 5.46875vw;
+}
+#MISTHOKAGE {
+	background-image: url(../images/MIST/KAGE.png);
+	width: 31.171875vw;
+	height: 38.671875vw;
+	position: absolute;
+	bottom:-0.78125vw;
+	right:8.90625vw;
+	z-index: 1;
+	filter:contrast(1.1);
+	background-size: cover;
+}
+
+#MISTSYMBOL {
+	background-image: url(../images/MIST/MISTSYM.png);
+	width: 15.625vw;
+	height:15.625vw;
+	bottom:9.375vw;
+	left: 46.40625vw;
+	position: absolute;
+	transform:scale(1.95);
+	opacity:1;
+	background-size: cover;
+}
+.threetopMIST{
+		color:#91cbfa;
+}
+.wactiveMI {
+	background:#91cbfa;
+}
+#BODYMIST {
+    top: -2.34375vw;
+    height: 61.640625vw;
+	background-image: url(../images/MIST/BODY.png);
+    background-size: cover;
+	filter:contrast(1.2);
+}
+#FOOTERMIST {
+    top: -7.421875vw;
+	-webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+	clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+    background-image: url(../images/MIST/FOOTER.png);
+    background-size: cover;
+	width: 100vw;
+	height:25.78125vw;
+	filter:contrast(1.1);
+}
+#MISTCHARFOOT {
+	background-image: url(../images/MIST/FOOTERCHARACTER.png);
+	background-size: cover;
+	width: 51.015625vw;
+	height: 96.328125vw;
+	position: absolute;
+	bottom: -58.59375vw;
+	left: -3.90625vw;
+	transform: scale(.9);
+	pointer-events: none;
+}
+#MISTSYMACTIVE {
+	background-image: url(../images/WORLD/images/mistsymactive.png);
+}
+/* CSS OF SAND */
+#HEADSAND {
+	height: 46.875vw;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	background-image: url(../images/SAND/Kazekage_Residence.png);
+	background-size: cover; 
+	background-position: center center;
+	z-index: 1;
+}
+#CHARHEADSAND {
+    background-image: url(../images/SAND/Sand_05.png);
+    width: 32.8125vw;
+    background-size: cover;
+    height: 39.21875vw;
+    position: absolute;
+    top:8.475vw;
+    left:  6.890625vw;
+}
+#SANDNAMEZ {
+  	top: -0.78125vw;
+	position: absolute;  
+    left: 33.59375vw;
+	transform:skew(-10deg);
+	text-shadow: 0.390625vw 0.390625vw 0.390625vw black, 0.390625vw 0.390625vw 0.390625vw black, 0.390625vw 0.390625vw 0.390625vw black;
+	font-size: 6.25vw;
+	font-family: MACHINE;
+	color: #eed655;
+	letter-spacing: 0.05em;
+	line-height: 7.8125vw;
+}
+#SANDNAMEZ span {
+	color:white;
+	padding-left: 5.46875vw;
+}
+
+#BODYSAND {
+    top: -2.34375vw;
+    height: 61.640625vw;
+	background-image: url(../images/SAND/Gaara_lost_control.png);
+    background-size: cover;
+	filter:contrast(1.2);
+	background-position: center center;
+}
+#SANDHOKAGE {
+	background-image: url(../images/SAND/SandKage.png);
+	background-size: cover;
+	width: 28.515625vw;
+	height: 40.390625vw;
+	position: absolute;
+	bottom:-0.78125vw;
+	right:9.90625vw;
+	z-index: 1;
+	filter:contrast(1.1);
+}
+#SANDSYMBOL {
+	background-image: url(../images/SAND/sandsym.png);
+	width: 15.625vw;
+	height:15.625vw;
+	bottom: 9.375vw;
+	left: 45.40625vw;
+	position: absolute;
+	transform:scale(1.95);
+	opacity:0.1;
+	background-size: cover;
+}
+
+.threetopSAND {
+	color:#eed655;
+}
+.threebotSAND {
+	color:#f6814e;
+}
+
+.wactiveSA {
+	background:#eed655;
+}
+#FOOTERSAND {
+    top:-7.421875vw;
+	-webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+	clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+    background-image: url(../images/SAND/Sand_02.png);
+    background-size: cover;
+	background-position: center center;
+	width:100vw;
+	height:25.78125vw;
+	filter:contrast(1.1);
+}
+
+#SANDCHARFOOT {
+	background-image: url(../images/SAND/SandFootChar_05.png);
+	background-size: cover;
+	width: 28.125vw;
+	height: 31.875vw;
+	position: absolute;
+	bottom:0vw;
+	left: 4.5625vw;
+	pointer-events: none;
+}
+
+#SANDSYMACTIVE {
+	background-image: url(../images/SAND/sandsymactive.png);
+}
+
+
+/* CSS OF SITEMAP */
+
+
+#SMFRAME {
+	position: relative;
+	height: 56.25vw;
+	max-width: 1280px;
+	margin: 0px auto 0px auto;
+	overflow: hidden;
+	background-image: url(../images/SM/background.png);
+	background-size:cover;
+}
+#NARUTORUN {
+	position: absolute;
+	background-image: url(../images/SM/main.gif);
+	background-size: cover;
+	top:33.59375vw;
+	left:27.265625vw;
+	width: 70.3125vw;
+	height: 52.734375vw;
+	mix-blend-mode:multiply;
+	z-index: 2;
+	pointer-events: none;
+}
+#SITEMAPICON {
+	background-image: url(../images/SM/images/Sitemap_05.png);
+	position: absolute;
+	width:27.265625vw;
+	height: 16.015625vw;
+	background-size: cover;
+	right:3.359375vw;
+	bottom:9.21875vw;
+	transform: rotate(20deg);
+}
+#SMLINK {
+	background-image: url(../images/SM/images/SMLINK_05.png);
+	background-size: cover;
+	position: absolute;
+	width: 18.828125vw;
+	height: 4.0625vw;
+	bottom:4.6875vw;
+	right:12.109375vw;
+	transform: rotate(19deg);
+}
+
+.NARCIRCLE {
+	background-image: url(../images/SM/circle.gif);
+	background-size: cover;
+	mix-blend-mode:screen;
+	position: absolute;
+	width: 39.0625vw;
+	height: 39.0625vw;
+	transform:rotateX(70deg);
+}
+#NARCIRCLE1 {
+	bottom:-19.53125vw;
+	right:15.625vw;
+}
+#NARCIRCLE2 {
+	bottom:-15.625vw;
+	left:-2.34375vw;
+	transform: rotateX(70deg)scale(0.7);
+	z-index: 3;
+
+}
+#NARCIRCLE3 {
+	transform:rotateX(70deg)scale(0.5);
+	bottom:1.5625vw;
+	right:27.34375vw;
+	z-index: 3;
+}
+#NARCIRCLE4 {
+	transform:rotateX(70deg)scale(0.45);
+	bottom:7.8125vw;
+	left:3.90625vw;
+	z-index: 3;
+}
+#NARCIRCLE5 {
+	transform:rotateX(70deg)scale(0.45);
+	bottom:19.53125vw;
+	right:15.625vw;
+	z-index: 3;
+}
+#NINJAICON {
+	background-image: url(../images/SM/images/NJLINK_05.png);
+	position: absolute;
+	width: 22.96875vw;
+	height: 12.1875vw;
+	background-size: cover;
+	left:18.046875vw;
+	bottom:13.828125vw;
+	transform: rotate(-10deg);
+}
+#NJLINK {
+	background-image: url(../images/SM/images/NJTEXT_05.png);
+	position: absolute;
+	background-size: cover;
+	width: 12.65625vw;
+	height: 3.984375vw;
+	left:25.390625vw;
+	bottom:9.84375vw;
+	transform: rotate(-10deg);
+}
+.NAVIICON {
+	pointer-events: none;
+	z-index: 1;
+}
+.NAVITEXT {
+	pointer-events: none;
+	z-index: 1;
+}
+#WORLDICON {
+	background-image: url(../images/SM/images/WORLDICON_05.png);
+	background-size: cover;
+	position: absolute;
+	width:28.359375vw;
+	height: 18.125vw;
+	top:20.078125vw;
+	right:11.796875vw;
+	transform: rotate(5deg);
+}
+#WOLINK {
+	background-image: url(../images/SM/images/WORLDTEXT_05.png);
+	background-size: cover;
+	position: absolute;
+	width: 12.265625vw;
+	height: 3.4375vw;
+	top:36.71875vw;
+	right:21.484375vw;
+	transform: rotate(5deg);
+}
+#STORYICON {
+	background-image: url(../images/SM/images/STORYLINK_05.png);
+	background-size: cover;
+	position: absolute;
+	width: 18.90625vw;
+	height: 10.3125vw;
+	top:15.625vw;
+	left:27.65625vw;
+	transform: rotate(-10deg);
+}
+#STLINK {
+	background-image: url(../images/SM/images/STORYTEXT_05.png);
+	background-size: cover;
+	position: absolute;
+	width: 11.796875vw;
+	height: 3.515625vw;
+	top:26.71875vw;
+	left:30.78125vw;
+	transform: rotate(-10deg);
+}
+#HOMEICON {
+	background-image: url(../images/SM/images/HOMEICON_05.png);
+	background-size: cover;
+	position: absolute;
+	width: 13.90625vw;
+	height: 13.59375vw;
+	top:2.578125vw;
+	right:38.046875vw;
+	transform: rotate(5deg);
+}
+#HOLINK {
+	background-image: url(../images/SM/images/HOMETEXT_05.png);
+	background-size: cover;
+	position: absolute;
+	width: 9.6875vw;
+	height: 3.59375vw;
+	top:17.265625vw;
+	right: 40.3125vw;
+	transform: rotate(5deg);
+}
+.ROAD {
+	background-image: url(../images/SM/images/road_05.png);
+	background-size: cover;
+	position: absolute;
+	width: 66.71875vw;
+	height: 37.65625vw;
+	right:9.609375vw;
+	bottom:0px;
+	mix-blend-mode:overlay;
+}
+.ROAD2 {
+	background-image: url(../images/SM/images/road_05.png);
+	background-size: cover;
+	position: absolute;
+	width: 66.71875vw;
+	height: 37.65625vw;
+	right:9.609375vw;
+	bottom:0px;
+	mix-blend-mode:color-burn;
+	opacity:0.3;
+}
+.PUFF {
+	background-image: url(../images/SM/puff2.gif);
+	background-size: cover;
+	width: 18.984375vw;
+	height: 11.875vw;
+	position: absolute;
+	left:35%;
+	top:10%;
+	transform: scale(1.5);
+	filter: brightness(10);
+	opacity: 0;
+}
+.PUMP {
+	animation: PUMP 0.7s infinite alternate ease-in-out;
+}
+@keyframes PUMP {
+	0%{transform:scale(1)rotate(5deg)}
+	80%{transform:scale(1.07)rotate(5deg)}
+}
+
+.PUMP2 {
+	animation: PUMP2 0.7s infinite alternate ease-in-out;
+}
+@keyframes PUMP2 {
+	0%{transform:scale(1)rotate(-10deg)}
+	80%{transform:scale(1.07)rotate(-10deg)}
+}
+.PUMP3 {
+	animation: PUMP3 0.7s infinite alternate ease-in-out;
+}
+@keyframes PUMP3 {
+	0%{transform:scale(1)rotate(20deg)}
+	80%{transform:scale(1.07)rotate(20deg)}
+}
+
+
+.PUMPSMALL {
+	animation: PUMPZ 0.7s infinite alternate ease-in-out;
+}
+@keyframes PUMPZ {
+	0%{transform:scale(0.7)rotate(10deg)}
+	80%{transform:scale(0.77)rotate(10deg)}
+}
+.PUMPSMALL2 {
+	animation: PUMPZ2 0.7s infinite alternate ease-in-out;
+}
+@keyframes PUMPZ2 {
+	0%{transform:scale(0.6)rotate(10deg)}
+	80%{transform:scale(0.67)rotate(10deg)}
+}
+.PUMPSMALL3 {
+	animation: PUMPZ3 0.7s infinite alternate ease-in-out;
+}
+@keyframes PUMPZ3 {
+	0%{transform:scale(0.5)rotate(10deg)}
+	80%{transform:scale(0.57)rotate(10deg)}
+}
+.LINKSMALL {
+	display:none;
+}
+#CLICKTOGO {
+	display: none;
+}
+/* CSS OF STONE */
+#STONEHOKAGE {
+	background-image: url(../images/Stone/6.png);
+	background-size: cover;
+	width: 28.515625vw;
+	height: 40.390625vw;
+	position: absolute;
+	bottom:-0.78125vw;
+	right:9.90625vw;
+	z-index: 1;
+	filter:contrast(1.1);
+}
+#STONEFRAME {
+	height: 2000px;
+	width:1280px;
+}
+#HEADSTONE {
+	height: 46.875vw;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+	background-image:url(../images/Stone/2_01.png);
+	background-size: cover; 
+	z-index: 1;
+}
+#CHARHEADSTONE {
+    background-image: url(../images/Stone/Stone_05.png);
+    width: 26.5625vw;
+    background-size: cover;
+    height: 36.71875vw;
+    position: absolute;
+    top:10.9375vw;
+    left: 3.90625vw;
+}
+#STONENAMEZ {
+  	top: -0.78125vw;
+	position: absolute;  
+    left: 27.59375vw;
+	transform:skew(-10deg);
+	text-shadow: 0.390625vw 0.390625vw 0.390625vw black, 0.390625vw 0.390625vw 0.390625vw black, 0.390625vw 0.390625vw 0.390625vw black;
+	font-size: 6.25vw;
+	font-family: MACHINE;
+	color: #CD6656;
+	letter-spacing: 0.05em;
+	line-height: 7.8125vw;
+}
+#STONENAMEZ span {
+	color:white;
+	padding-left: 5.46875vw;
+}
+
+#BODYSTONE {
+    top: -2.34375vw;
+    height: 61.640625vw;
+	background-image: url(../images/Stone/3_02.png);
+    background-size: cover;
+	filter:contrast(1.2);
+	background-position: center center;
+}
+
+#STONEHOKAGE {
+	background-image: url(../images/Stone/6.png);
+	width: 29.6875vw;
+	height: 40.625vw;
+	position: absolute;
+	bottom:-0.78125vw;
+	right:8.90625vw;
+	z-index: 1;
+	filter:contrast(1.1);
+}
+#STONESYMBOL {
+	background-image: url(../images/Stone/rocksym.png);
+	width: 15.625vw;
+	height:15.625vw;
+	bottom: 9.375vw;
+	left: 45.40625vw;
+	position: absolute;
+	transform:scale(1.95);
+	opacity:0.1;
+	background-size: cover;
+}
+
+.threetopSTONE {
+	color:#d26352;
+}
+.threebotSTONE {
+	color:#f58152;
+}
+
+.wactiveST {
+	background:#cd6656;
+}
+#FOOTERSTONE {
+    top:-7.421875vw;
+	-webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+	clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+    background-image: url(../images/Stone/4_04.png);
+    background-size: cover;
+	background-position: center center;
+	width:100vw;
+	height:25.78125vw;
+	filter:contrast(1.1);
+}
+#STONECHARFOOT {
+	background-image: url(../images/Stone/5_07.png);
+	background-size: cover;
+	width: 35.15625vw;
+	height: 30.234375vw;
+	position: absolute;
+	bottom:0px;
+	left: 1.5625vw;
+	pointer-events: none;
+}
+
+#STONESYMACTIVE {
+	background-image: url(../images/Stone/AC.png);
+}
+.STAGEACTIVE {
+	transform:scale(1.2)rotate(45deg);
+	background: white;
+}
+
+.SQUAREFLY {
+	position: absolute;
+	background: #e41281;
+	opacity:0;
+	
+}
+#SQUARE1 {
+	bottom:15.625vw;
+	left:7.8125vw;
+	width: 3.90625vw;
+	height: 3.90625vw;
+}
+#SQUARE2 {
+	bottom:7.8125vw;
+	left:15.625vw;
+	width: 7.8125vw;
+	height: 7.8125vw;
+}
+#SQUARE3 {
+	bottom:11.71875vw;
+	left:31.25vw;
+	width: 5.46875vw;
+	height: 5.46875vw;
+}
+#SQUARE4 {
+	bottom:11.1875vw;
+	left:39.0625vw;
+	width: 1.5625vw;
+	height:1.5625vw;
+}
+#SQUARE5 {
+	bottom:7.8125vw;
+	left:46.875vw;
+	width: 3.125vw;
+	height: 3.125vw;
+}
+#SQUARE5 {
+	bottom:11.71875vw;
+	left:2.34375vw;
+	width: 3.125vw;
+	height: 3.125vw;
+}
+#SQUARE6 {
+	bottom:11.71875vw;
+	left:44.53125vw;
+	width: 3.125vw;
+	height: 3.125vw;
+}
+#SQUARE7 {
+	bottom:7.8125vw;
+	left:50.78125vw;
+	width: 5.46875vw;
+	height: 5.46875vw;
+}
